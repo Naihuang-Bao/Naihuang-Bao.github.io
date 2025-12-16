@@ -1,3 +1,81 @@
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-# Naihuang-Bao.github.io
-homepage
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Dr. Shijie Bao | Mathematician</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <style>
+    body {
+      font-family: 'TeX Gyre Termes', 'Times New Roman', serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 800px;
+      margin: 4rem auto;
+      padding: 0 2rem;
+    }
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      border-bottom: 1px solid #eaecef;
+      padding-bottom: 1rem;
+    }
+    .cta-button {
+      display: block;
+      width: fit-content;
+      margin: 2rem auto;
+      padding: 0.8rem 2rem;
+      background: #e74c3c;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      text-align: center;
+      transition: all 0.3s;
+    }
+    .cta-button:hover {
+      background: #c0392b;
+      transform: translateY(-2px);
+    }
+    .last-updated {
+      text-align: center;
+      color: #7f8c8d;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px dashed #eaecef;
+    }
+  </style>
+</head>
+<body>
+  <h1>Dr. Shijie Bao</h1>
+  
+  <p style="text-align: center; font-size: 1.1rem; color: #e74c3c;">
+    Researcher in Several Complex Variables & Algebraic Geometry
+  </p>
+  
+  <p>
+    Welcome to my academic homepage. I am a postdoctoral fellow at the Academy of Mathematics and Systems Science, Chinese Academy of Sciences, working under the supervision of Prof. Xiangyu Zhou.
+  </p>
+  
+  <p>
+    My research focuses on multiplier ideal sheaves, L² extension problems, and Bergman kernel theory. I completed Jonsson-Mustat&agrave;'s conjecture approach to the strong openness conjecture of multiplier ideal sheaves (Math. Ann. 2025).
+  </p>
+  
+  <a href="/resume/" class="cta-button">
+    View Academic Resume
+  </a>
+  
+  <div class="last-updated">
+    Last updated: <span id="update-date"></span>
+    <script>
+      // 自动生成更新日期（绕过workplace缓存）
+      const now = new Date();
+      document.getElementById('update-date').textContent = 
+        now.getFullYear() + '-' + 
+        String(now.getMonth()+1).padStart(2, '0') + '-' + 
+        String(now.getDate()).padStart(2, '0');
+    </script>
+  </div>
+</body>
+</html>
