@@ -155,7 +155,6 @@ permalink: /resume/
   <div class="last-updated">
     Last updated: <time datetime="2024-06-15">June 15, 2024</time>
   </div>
-</div>
 
 <!-- 专业数学简历样式 -->
 <style>
