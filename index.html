@@ -14,6 +14,37 @@
       margin: 4rem auto;
       padding: 0 2rem;
     }
+    
+    /* =============== 新增导航栏样式 =============== */
+    .navbar {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #eaecef;
+    }
+    
+    .navbar a {
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: all 0.3s;
+    }
+    
+    .navbar a:hover {
+      background: #f8f9fa;
+      color: #e74c3c;
+    }
+    
+    .navbar a.active {
+      background: #2c3e50;
+      color: white;
+    }
+    /* =============== 导航栏结束 =============== */
+    
     h1 {
       color: #2c3e50;
       text-align: center;
@@ -48,6 +79,15 @@
   </style>
 </head>
 <body>
+  <!-- =============== 新增导航栏 =============== -->
+  <nav class="navbar">
+    <a href="/" class="active">Home</a>
+    <a href="/resume/">Resume</a>
+    <a href="/publications/">Publications</a>
+    <a href="/preprints/">Preprints</a>
+  </nav>
+  <!-- =============== 导航栏结束 =============== -->
+  
   <h1>Shijie Bao</h1>
   
   <p style="text-align: center; font-size: 1.1rem; color: #e74c3c;">
