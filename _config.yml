@@ -1,13 +1,19 @@
-# 添加简历导航链接
-header_pages:
-  - resume.md   # 确保这个文件名匹配
+# 基础设置 (解决连字符用户名问题)
+url: "https://naihuang-bao.github.io"
+baseurl: ""
 
-# 或使用更专业的导航
-navigation:
-  - title: Home
-    url: /
-  - title: Resume
-    url: /resume/
-  - title: Research
-    url: /research/
+# 首页配置 (强制index.md为首页)
+permalink: /index.html
+include:
+  - index.md
+
+# 导航配置 (简洁版)
+header_pages:
+  - resume.md
+
+# 数学公式支持 (仅需3行)
+markdown: kramdown
+kramdown:
+  math_engine: mathjax3
+
 
