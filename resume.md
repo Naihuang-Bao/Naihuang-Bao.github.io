@@ -11,7 +11,7 @@ permalink: /resume/
     <div class="contact-info">
       <p>✉️ <a href="mailto:bsjie@amss.ac.cn">bsjie@amss.ac.cn</a> | <a href="mailto:baoshijie96@gmail.com">baoshijie96@gmail.com</a></p>
       <p>📍 411 Room, Siyuan Building, No.55 Zhongguancun East Road, Beijing, China</p>
-      <p>📱 +86-19520012716 | 🌐 <a href="https://orcid.org/0000-0000-0000-0000">ORCID</a> | 🔬 <a href="https://scholar.google.com/citations?user=YOUR_ID">Google Scholar</a></p>
+      <p>📱 +86-19520012716 | 🌐 <a href="https://orcid.org/0000-0002-6781-2316">ORCID</a> | 🔬 <a href="https://scholar.google.com/citations?user=FKbOyUAAAAAJ">Google Scholar</a></p>
     </div>
     
     <!-- 专业附件区 - 数学工作者必备 -->

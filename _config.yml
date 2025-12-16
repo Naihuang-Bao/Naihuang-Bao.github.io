@@ -1,1 +1,13 @@
+# 添加简历导航链接
+header_pages:
+  - resume.md   # 确保这个文件名匹配
+
+# 或使用更专业的导航
+navigation:
+  - title: Home
+    url: /
+  - title: Resume
+    url: /resume/
+  - title: Research
+    url: /research/
 
