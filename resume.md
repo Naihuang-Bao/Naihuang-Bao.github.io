@@ -16,7 +16,7 @@ permalink: /resume/
     
     <!-- 专业附件区 - 数学工作者必备 -->
     <div class="attachments">
-      <a href="/assets/resume/CV_Bao_Shijie.pdf" class="btn" download>
+      <a href="/assets/resume/CV_Shijie_Bao.pdf" class="btn" download>
         📥 Download Full CV (PDF)
       </a>
       <a href="/assets/resume/Publication_List_Bao.pdf" class="btn" target="_blank">
