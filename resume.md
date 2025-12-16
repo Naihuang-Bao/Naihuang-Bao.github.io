@@ -34,7 +34,6 @@ permalink: /resume/
       <li>L² extension problems and Suita's conjecture</li>
       <li>Concavity properties of minimal L² integrals</li>
       <li>Fiberwise Bergman kernels and log-plurisubharmonicity</li>
-  </section>
 
   <!-- 当前职位 - 博士后研究员 -->
   <section class="current-position">
