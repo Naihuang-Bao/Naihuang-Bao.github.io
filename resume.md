@@ -6,7 +6,7 @@ permalink: /resume/
 
 <div class="math-resume">
   <header class="resume-header">
-    <h1>Dr. Shijie Bao</h1>
+    <h1>Shijie Bao (包 诗界)</h1>
     
     <div class="contact-info">
       <p>✉️ <a href="mailto:bsjie@amss.ac.cn">bsjie@amss.ac.cn</a> | <a href="mailto:baoshijie96@gmail.com">baoshijie96@gmail.com</a></p>
@@ -17,10 +17,10 @@ permalink: /resume/
     <!-- 专业附件区 - 数学工作者必备 -->
     <div class="attachments">
       <a href="/assets/resume/CV_Shijie_Bao.pdf" class="btn" download>
-        📥 Download Full CV (PDF)
+        📥 CV
       </a>
       <a href="/assets/resume/Publication_List_Bao.pdf" class="btn" target="_blank">
-        📚 View Complete Publication List (PDF)
+        📚 Publication
       </a>
     </div>
   </header>
@@ -31,13 +31,9 @@ permalink: /resume/
     <p>Specialized in <strong>Several Complex Variables and Algebraic Geometry</strong> with focus on:</p>
     <ul>
       <li>Multiplier ideal sheaves and strong openness property</li>
-      <li>L² extension problems with sharp effectiveness</li>
+      <li>L² extension problems and Suita's conjecture</li>
       <li>Concavity properties of minimal L² integrals</li>
-      <li>Fiberwise Bergman kernels and log-subharmonicity</li>
-    </ul>
-    <p class="contribution-highlight">
-      <strong>Key Contribution:</strong> Completed Jonsson-Mustat&agrave;'s conjecture approach to the strong openness conjecture of multiplier ideal sheaves (Math. Ann. 2025)
-    </p>
+      <li>Fiberwise Bergman kernels and log-plurisubharmonicity</li>
   </section>
 
   <!-- 当前职位 - 博士后研究员 -->
@@ -47,11 +43,6 @@ permalink: /resume/
       <h3>Postdoctoral Fellow</h3>
       <p class="institution">Academy of Mathematics and Systems Science, Chinese Academy of Sciences | July 2022 - Present</p>
       <p>Supervisor: Prof. Xiangyu Zhou | Beijing, China</p>
-      <ul>
-        <li>Leading research on concavity properties of minimal L² integrals with Lebesgue measurable gain</li>
-        <li>Developing analytic frameworks for Zhou valuations and jumping numbers</li>
-        <li>Collaborating on Bergman kernel theory and its applications to complex geometry</li>
-      </ul>
     </div>
   </section>
 
@@ -87,7 +78,6 @@ permalink: /resume/
       <p><strong>[2025]</strong> Bao, S., Guan, Q., & Yuan, Z. (2025). Boundary points, minimal L² integrals and concavity property. <em>Mathematische Annalen</em>, 391, 5809-5856.
         <a href="/assets/resume/papers/MathAnn2025.pdf" target="_blank" class="paper-link">📄 View PDF</a>
       </p>
-      <p class="contribution">Contribution: Gave sharp effectiveness result related to Jonsson-Mustat&agrave;'s conjecture, completing the conjecture approach to strong openness conjecture.</p>
     </div>
     
     <div class="publication">
@@ -159,42 +149,6 @@ permalink: /resume/
       <p><strong>[2023]</strong> Bao, S., Guan, Q., & Yuan, Z. (2023). Concavity property of minimal L² integrals with Lebesgue measurable gain VIII: Partial linearity and log-concavity. arXiv:2307.07112. 
         <a href="https://arxiv.org/abs/2307.07112" target="_blank">arXiv</a>
       </p>
-    </div>
-  </section>
-
-  <!-- 专业技能 - 数学研究者技术栈 -->
-  <section class="skills">
-    <h2>⚙️ Research Proficiency</h2>
-    <div class="skill-grid">
-      <div class="skill-category">
-        <h4>Core Areas</h4>
-        <ul>
-          <li>Several Complex Variables</li>
-          <li>Algebraic Geometry</li>
-          <li>Multiplier Ideal Sheaves</li>
-          <li>Bergman Kernel Theory</li>
-        </ul>
-      </div>
-      
-      <div class="skill-category">
-        <h4>Mathematical Techniques</h4>
-        <ul>
-          <li>L² Extension Theorems</li>
-          <li>Concavity Properties</li>
-          <li>Log-Subharmonicity</li>
-          <li>Zhou Valuations</li>
-        </ul>
-      </div>
-      
-      <div class="skill-category">
-        <h4>Computational Tools</h4>
-        <ul>
-          <li>LaTeX (Expert)</li>
-          <li>Overleaf Collaboration</li>
-          <li>Mathematica (Symbolic)</li>
-          <li>Python (Numerical)</li>
-        </ul>
-      </div>
     </div>
   </section>
   
