@@ -6,7 +6,7 @@ permalink: /resume/
 
 <div class="math-resume">
   <header class="resume-header">
-    <h1>Shijie Bao (包 诗界)</h1>
+    <h1>Bao Shijie (包 诗界)</h1>
     
     <div class="contact-info">
       <p>✉️ <a href="mailto:bsjie@amss.ac.cn">bsjie@amss.ac.cn</a> | <a href="mailto:baoshijie96@gmail.com">baoshijie96@gmail.com</a></p>
