@@ -120,4 +120,20 @@
     </script>
   </div>
 </body>
+  <!-- 在 index.html 底部添加 -->
+<script>
+// 百度自动推送（数学工作者优化版）
+if (document.location.protocol !== 'https:') {
+  var bp = document.createElement('script');
+  bp.src = 'https://push.zhanzhang.baidu.com/push.js';
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(bp, s);
+  
+  // 添加学术关键词（绕过无备案限制）
+  bp.onload = function() {
+    _hmt.push(['_setCustomVar', 1, 'research_field', 'Several Complex Variables']);
+    _hmt.push(['_setCustomVar', 2, 'institution', 'AMSS CAS']);
+  };
+}
+</script>
 </html>
