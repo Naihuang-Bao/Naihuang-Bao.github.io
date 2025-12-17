@@ -9,7 +9,7 @@ permalink: /notes/
   
   <div class="lecnote">
     <p><strong>Number Theory I</strong> By: Xie, Junyi (2025).
-      <a href="/assets/lecnotes/Note_on_NTI.pdf" </a>
+      <a href="/assets/lecnotes/Note_on_NTI.pdf" target="_blank" class="paper-link">📄 View PDF </a>
     </p>
   </div>
 </section>
@@ -41,6 +41,12 @@ permalink: /notes/
 
   a {
     color: #2980b9;
+    text-decoration: underline;
+  }
+
+  .paper-link {
+    color: #2980b9;
+    font-weight: bold;
     text-decoration: underline;
   }
 </style>

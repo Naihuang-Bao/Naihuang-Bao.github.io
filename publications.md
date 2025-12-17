@@ -22,7 +22,14 @@ permalink: /publications/
   
   <div class="publication">
     <p><strong>[2025]</strong> Bao, S., Guan, Q., & Yuan, Z. (2025). Concavity property of minimal L² integrals with Lebesgue measurable gain VI: Fibrations over products of open Riemann surfaces. <em>Science China Mathematics</em>. Online. 
-      <a href="https://doi.org/10.1007/s11425-024-2390-2" target="_blank">DOI</a>
+      <a href="/assets/resume/papers/SCM2025.pdf" target="_blank" class="paper-link">📄 View PDF</a>
+      <span class="doi">| <a href="https://doi.org/10.1007/s11425-024-2390-2" target="_blank">DOI</a></span>
+    </p>
+  </div>
+
+  <div class="publication">
+    <p><strong>[2025]</strong> Bao, S., Guan, Q., & Yuan, Z. (2025). A note on ξ-Bergman kernels. <em>Frontiers of Mathematics</em>, 3(20), 481-506.
+      <a href="/assets/resume/papers/FM2025.pdf" target="_blank" class="paper-link">📄 View PDF</a>
     </p>
   </div>
   
@@ -93,9 +100,14 @@ permalink: /publications/
     font-size: 0.9rem;
   }
 
+  .doi {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+  }
+
   /* 数学符号特殊处理 */
   sup {
     vertical-align: super;
-    font-size: 0.8em;
+    font-size: 0.6em;
   }
 </style>
