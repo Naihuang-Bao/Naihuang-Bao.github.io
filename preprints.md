@@ -8,19 +8,19 @@ permalink: /preprints/
   <h1>📄 Preprints</h1>
 
   <div class="publication">
-    <p><strong>[2025]</strong> Bao, S., Guan, Q, Mi, Z. & Yuan, Z. (2025). The existence of valuative interpolation. arXiv:2510.22244.
+    <p><strong>[2025]</strong> Bao, S., Guan, Q., Mi, Z., & Yuan, Z. (2025). The existence of valuative interpolation. arXiv:2510.22244.
       <a href="https://arxiv.org/abs/2510.22244" target="_blank">arXiv</a>
     </p>
   </div>
 
   <div class="publication">
-    <p><strong>[2025]</strong> Bao, S., Guan, Q, & Sun, X. (2025). On the p-Bergman kernel with respect to a functional ξ. arXiv:2510.13144v2.
+    <p><strong>[2025]</strong> Bao, S., Guan, Q., & Sun, X. (2025). On the p-Bergman kernel with respect to a functional ξ. arXiv:2510.13144v2.
       <a href="https://arxiv.org/abs/2505.19451v3" target="_blank">arXiv</a>
     </p>
   </div>
 
   <div class="publication">
-    <p><strong>[2025]</strong> Bao, S., Guan, Q, & Zhou, L. (2025). Algebraic Zhou valuations. arXiv:2505.19451v3. 
+    <p><strong>[2025]</strong> Bao, S., Guan, Q., & Zhou, L. (2025). Algebraic Zhou valuations. arXiv:2505.19451v3. 
       <a href="https://arxiv.org/abs/2510.13144v2" target="_blank">arXiv</a>
     </p>
   </div>
