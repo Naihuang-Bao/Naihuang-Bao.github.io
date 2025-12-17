@@ -4,6 +4,17 @@ title: "Academic Resume"
 permalink: /resume/
 ---
 
+  <!-- =============== 新增导航栏 =============== -->
+  <nav class="navbar">
+    <a href="/" class="active">Home</a>
+    <a href="/resume/">Resume</a>
+    <a href="/publications/">Publications</a>
+    <a href="/preprints/">Preprints</a>
+    <a href="/courses/">Courses</a>
+    <a href="/notes/">Notes</a>
+  </nav>
+  <!-- =============== 导航栏结束 =============== -->
+
 <div class="math-resume">
   <header class="resume-header">
     <h1>Bao Shijie (包 诗界)</h1>
