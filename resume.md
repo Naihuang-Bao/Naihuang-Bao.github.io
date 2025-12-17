@@ -71,36 +71,7 @@ permalink: /resume/
       <p>Thesis: "Hörmander's L² Theorem for Dirac Operator in Complex Clifford Analysis"</p>
     </div>
   </section>
-
-  /* =============== 新增导航栏样式 =============== */
-    .navbar {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      margin-bottom: 2rem;
-      padding-bottom: 0.5rem;
-      border-bottom: 1px solid #eaecef;
-    }
-    
-    .navbar a {
-      text-decoration: none;
-      color: #2c3e50;
-      font-weight: bold;
-      padding: 0.5rem 1rem;
-      border-radius: 4px;
-      transition: all 0.3s;
-    }
-    
-    .navbar a:hover {
-      background: #f8f9fa;
-      color: #e74c3c;
-    }
-    
-    .navbar a.active {
-      background: #2c3e50;
-      color: white;
-    }
-    /* =============== 导航栏结束 =============== */
+  
   
 <!-- 更新时间戳 - 学术界惯例 -->
   <div class="last-updated">
