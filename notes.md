@@ -35,7 +35,6 @@ permalink: /notes/
       <a href="/assets/seminar/Nagata.pdf" target="_blank" class="paper-link">📄 View PDF </a>
     </p>
   </div>
-</section>
 
 <div class="lecnote">
     <p><strong>Mini-course: Basic complex analytic methods.</strong> at CQU (2025, May).
