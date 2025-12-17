@@ -6,6 +6,24 @@ permalink: /preprints/
 
 <section class="preprints">
   <h1>📄 Preprints</h1>
+
+  <div class="publication">
+    <p><strong>[2025]</strong> Bao, S., Guan, Q, Mi, Z. & Yuan, Z. (2025). The existence of valuative interpolation. arXiv:2510.22244.
+      <a href="https://arxiv.org/abs/2510.22244" target="_blank">arXiv</a>
+    </p>
+  </div>
+
+  <div class="publication">
+    <p><strong>[2025]</strong> Bao, S., Guan, Q, & Sun, X. (2025). On the p-Bergman kernel with respect to a functional ξ. arXiv:2510.13144v2.
+      <a href="https://arxiv.org/abs/2505.19451v3" target="_blank">arXiv</a>
+    </p>
+  </div>
+
+  <div class="publication">
+    <p><strong>[2025]</strong> Bao, S., Guan, Q, & Zhou, L. (2025). Algebraic Zhou valuations. arXiv:2505.19451v3. 
+      <a href="https://arxiv.org/abs/2510.13144v2" target="_blank">arXiv</a>
+    </p>
+  </div>
   
   <div class="publication">
     <p><strong>[2025]</strong> Bao, S., & Guan, Q. (2025). Demailly's approximation of general weights. arXiv:2503.24109. 
@@ -34,6 +52,12 @@ permalink: /preprints/
   <div class="publication">
     <p><strong>[2023]</strong> Bao, S., Guan, Q., & Yuan, Z. (2023). Concavity property of minimal L² integrals with Lebesgue measurable gain VIII: Partial linearity and log-concavity. arXiv:2307.07112. 
       <a href="https://arxiv.org/abs/2307.07112" target="_blank">arXiv</a>
+    </p>
+  </div>
+
+  <div class="publication">
+    <p><strong>[2023]</strong> Bao, S., Guan, Q., & Yuan, Z. (2023). The log-plurisubharmonicity of fiberwise ξ-Bergman kernels for variant functionals. arXiv:2303.16525. 
+      <a href="https://arxiv.org/abs/2303.16525" target="_blank">arXiv</a>
     </p>
   </div>
 </section>
