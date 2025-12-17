@@ -15,13 +15,13 @@ permalink: /preprints/
 
   <div class="publication">
     <p><strong>[2025]</strong> Bao, S., Guan, Q., & Sun, X. (2025). On the p-Bergman kernel with respect to a functional ξ. arXiv:2510.13144v2.
-      <a href="https://arxiv.org/abs/2505.19451v3" target="_blank">arXiv</a>
+      <a href="https://arxiv.org/abs/2510.13144v2" target="_blank">arXiv</a>
     </p>
   </div>
 
   <div class="publication">
     <p><strong>[2025]</strong> Bao, S., Guan, Q., & Zhou, L. (2025). Algebraic Zhou valuations. arXiv:2505.19451v3. 
-      <a href="https://arxiv.org/abs/2510.13144v2" target="_blank">arXiv</a>
+      <a href="https://arxiv.org/abs/2505.19451v3" target="_blank">arXiv</a>
     </p>
   </div>
   
@@ -39,7 +39,7 @@ permalink: /preprints/
   
   <div class="publication">
     <p><strong>[2023]</strong> Bao, S., Guan, Q., & Yuan, Z. (2023). Zhou valuations and jumping numbers. arXiv:2311.06565v2. 
-      <a href="https://arxiv.org/abs/2311.06565" target="_blank">arXiv</a>
+      <a href="https://arxiv.org/abs/2311.06565v2" target="_blank">arXiv</a>
     </p>
   </div>
   
