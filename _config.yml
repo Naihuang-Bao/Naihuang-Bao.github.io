@@ -1,0 +1,15 @@
+title: "Dr. Shijie Bao | Mathematician"
+url: "https://naihuang-bao.github.io"
+baseurl: ""
+permalink: /:title/
+
+# 数学符号关键修复
+kramdown:
+  parse_block_html: true
+  entity_output: as_char
+
+# 防止README覆盖
+include:
+  - index.md
+exclude:
+  - README.md

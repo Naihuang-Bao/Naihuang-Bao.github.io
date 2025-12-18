@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.title }} | {{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <style>
+    body {
+      font-family: 'TeX Gyre Termes', 'Times New Roman', serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 800px;
+      margin: 4rem auto;
+      padding: 0 2rem;
+    }
+    
+    /* 导航栏样式（统一定义） */
+    .navbar {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #eaecef;
+    }
+    
+    .navbar a {
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: all 0.3s;
+    }
+    
+    .navbar a:hover {
+      background: #f8f9fa;
+      color: #e74c3c;
+    }
+    
+    .navbar a.active {
+      background: #2c3e50;
+      color: white;
+    }
+    
+    /* 按钮样式 */
+    .cta-button {
+      display: block;
+      width: fit-content;
+      margin: 2rem auto;
+      padding: 0.8rem 2rem;
+      background: #87cefa;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      text-align: center;
+      transition: all 0.3s;
+    }
+    .cta-button:hover {
+      background: #c0392b;
+      transform: translateY(-2px);
+    }
+    
+    .last-updated {
+      text-align: center;
+      color: #7f8c8d;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px dashed #eaecef;
+    }
+  </style>
+</head>
+<body>
+  <!-- 导航栏（自动高亮当前页面） -->
+  <nav class="navbar">
+    <a href="/" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+    <a href="/resume/" {% if page.url == '/resume/' %}class="active"{% endif %}>Resume</a>
+    <a href="/publications/" {% if page.url == '/publications/' %}class="active"{% endif %}>Publications</a>
+    <a href="/preprints/" {% if page.url == '/preprints/' %}class="active"{% endif %}>Preprints</a>
+    <a href="/courses/" {% if page.url == '/courses/' %}class="active"{% endif %}>Courses</a>
+    <a href="/notes/" {% if page.url == '/notes/' %}class="active"{% endif %}>Notes</a>
+  </nav>
+  
+  <!-- 页面内容 -->
+  {{ content }}
+  
+  <!-- 百度推送脚本 -->
+  <script>
+  if (document.location.protocol !== 'https:') {
+    var bp = document.createElement('script');
+    bp.src = 'https://push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+    
+    bp.onload = function() {
+      _hmt.push(['_setCustomVar', 1, 'research_field', 'Several Complex Variables']);
+      _hmt.push(['_setCustomVar', 2, 'institution', 'AMSS CAS']);
+    };
+  }
+  </script>
+</body>
+</html>
