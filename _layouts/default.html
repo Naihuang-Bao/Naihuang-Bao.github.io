@@ -59,11 +59,13 @@
     }
     
     /* ========== 4. 通用页面样式 ========== */
-    .page-content > section {
+    /* 修复1: 只对非 Resume 内容应用间距 */
+    .page-content > *:not(.math-resume) {
       margin-bottom: 2rem;
     }
     
-    .page-content h1 {
+    /* 修复2: 保护 Resume 内部标题 */
+    .page-content > h1 {
       color: #2c3e50;
       text-align: center;
       border-bottom: 1px solid #eaecef;
@@ -71,44 +73,44 @@
       margin-bottom: 1.5rem;
     }
     
-  /* ========== 5. 出版物页面关键修复 ========== */
-  /* 5.1 修复段落格式（核心！） */
-  .publications p,
-  .preprints p,
-  .notes p {
-    margin: 0 0 0.8rem 0;
-    line-height: 1.6;
-  }
-  
-  .publications h1,
-  .preprints h1,
-  .notes h1 {
-    margin-top: 0;
-    padding-top: 0;
-  }
+    /* ========== 5. 出版物页面关键修复 ========== */
+    /* 5.1 修复段落格式（核心！） */
+    .publications p,
+    .preprints p,
+    .notes p {
+      margin: 0 0 0.8rem 0;
+      line-height: 1.6;
+    }
+    
+    .publications h1,
+    .preprints h1,
+    .notes h1 {
+      margin-top: 0;
+      padding-top: 0;
+    }
 
-  /* 5.2 修复出版物条目结构 */
-  .publications > .publication,
-  .preprints > .publication {
-    background: #f8f9fa;
-    padding: 1.1rem;
-    border-radius: 6px;
-    margin-bottom: 1.2rem;
-    border-left: 3px solid #3498db;
-    position: relative;
-  }
-  
-  .publications > .publication:last-child,
-  .preprints > .publication:last-child {
-    margin-bottom: 0;
-  }
+    /* 5.2 修复出版物条目结构 */
+    .publications > .publication,
+    .preprints > .publication {
+      background: #f8f9fa;
+      padding: 1.1rem;
+      border-radius: 6px;
+      margin-bottom: 1.2rem;
+      border-left: 3px solid #3498db;
+      position: relative;
+    }
+    
+    .publications > .publication:last-child,
+    .preprints > .publication:last-child {
+      margin-bottom: 0;
+    }
 
-  /* 5.3 修复交替行背景 */
-  .publications > .publication:nth-of-type(odd),
-  .preprints > .publication:nth-of-type(odd) {
-    background: #fcfdff;
-    border-left-color: #2c3e50;
-  }
+    /* 5.3 修复交替行背景 */
+    .publications > .publication:nth-of-type(odd),
+    .preprints > .publication:nth-of-type(odd) {
+      background: #fcfdff;
+      border-left-color: #2c3e50;
+    }
     
     /* 5.4 修复链接样式 */
     .page-content .publications a,
@@ -132,26 +134,43 @@
     }
     
     /* ========== 6. Resume 页面样式 ========== */
-    .page-content .math-resume {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 20px;
+    /* 修复3: 强制重置 Resume 结构间距 */
+    .page-content > .math-resume {
+      margin: 0;
+      padding: 0;
+    }
+    .page-content > .math-resume > * {
+      margin-bottom: 1.5rem;
+    }
+    .page-content > .math-resume > *:last-child {
+      margin-bottom: 0;
     }
     
-    .page-content .resume-header {
+    /* 恢复 Resume 专属样式 */
+    .page-content > .math-resume .research-focus,
+    .page-content > .math-resume .current-position,
+    .page-content > .math-resume .education {
+      background: #f8f9fa;
+      padding: 1.2rem;
+      border-radius: 8px;
+      border-left: 3px solid #e74c3c;
+      margin-bottom: 1.5rem;
+    }
+    
+    .page-content > .math-resume .resume-header {
       text-align: center;
       padding: 2rem 0;
       border-bottom: 1px solid #eaecef;
       margin-bottom: 2rem;
     }
     
-    .page-content .contact-info {
+    .page-content > .math-resume .contact-info {
       font-size: 0.95rem;
       margin: 1.2rem 0;
       line-height: 1.4;
     }
     
-    .page-content .attachments {
+    .page-content > .math-resume .attachments {
       display: flex;
       justify-content: center;
       gap: 15px;
@@ -159,7 +178,7 @@
       flex-wrap: wrap;
     }
     
-    .page-content .btn {
+    .page-content > .math-resume .btn {
       display: inline-block;
       padding: 0.6rem 1.2rem;
       background: #2c3e50;
@@ -172,20 +191,20 @@
       text-align: center;
     }
     
-    .page-content .btn:hover {
+    .page-content > .math-resume .btn:hover {
       background: #3498db;
       transform: translateY(-2px);
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
     
-    .page-content .timeline-item {
+    .page-content > .math-resume .timeline-item {
       margin-bottom: 1.8rem;
       padding-left: 1.8rem;
       border-left: 2px solid #3498db;
       position: relative;
     }
     
-    .page-content .timeline-item:before {
+    .page-content > .math-resume .timeline-item:before {
       content: "";
       position: absolute;
       left: -6px;
@@ -197,7 +216,7 @@
       border: 2px solid #c0392b;
     }
     
-    .page-content .research-focus {
+    .page-content > .math-resume .research-focus {
       background: #f8f9fa;
       padding: 1.2rem;
       border-radius: 8px;
@@ -205,13 +224,28 @@
       margin-bottom: 2rem;
     }
     
-    .page-content .last-updated {
+    .page-content > .math-resume .last-updated {
       text-align: center;
       margin-top: 2.5rem;
       padding-top: 1rem;
       border-top: 1px dashed #eaecef;
       color: #7f8c8d;
       font-size: 0.9rem;
+    }
+    
+    /* Resume 标题特殊处理 */
+    .page-content > .math-resume h1 {
+      text-align: left;
+      border-bottom: none;
+      margin-bottom: 1rem;
+      color: #2c3e50;
+    }
+    
+    .page-content > .math-resume h2 {
+      color: #2c3e50;
+      margin-bottom: 1rem;
+      padding-left: 0.5rem;
+      border-left: 3px solid #3498db;
     }
     
     /* 数学符号特殊处理 */
@@ -257,16 +291,16 @@
         padding: 1rem;
       }
       
-      .page-content .resume-header h1 {
+      .page-content > .math-resume .resume-header h1 {
         font-size: 1.8rem;
       }
       
-      .page-content .btn {
+      .page-content > .math-resume .btn {
         width: 100%;
         margin-bottom: 8px;
       }
       
-      .page-content .timeline-item {
+      .page-content > .math-resume .timeline-item {
         padding-left: 1.2rem;
       }
     }
