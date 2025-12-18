@@ -63,6 +63,6 @@ permalink: /resume/
   
   <!-- 更新时间戳 -->
   <div class="last-updated">
-    Last updated: <time datetime="2024-06-15">June 15, 2024</time>
+    Last updated: <time datetime="2025-12-19">December 19, 2025</time>
   </div>
 </div>
