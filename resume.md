@@ -2,6 +2,8 @@
 layout: page
 title: "Academic Resume"
 permalink: /resume/
+kramdown:
+  parse_block_html: true  # 关键修复
 ---
 
 {% include navbar.html %}
