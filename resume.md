@@ -11,7 +11,7 @@ permalink: /resume/
     <div class="contact-info">
       <p>✉️ <a href="mailto:bsjie@amss.ac.cn">bsjie@amss.ac.cn</a> | <a href="mailto:baoshijie96@gmail.com">baoshijie96@gmail.com</a></p>
       <p>📍 411 Room, Siyuan Building, No.55 Zhongguancun East Road, Beijing, China</p>
-      <p>🌐 <a href="https://orcid.org/0000-0002-6781-2316">ORCID</a> | 🔬 <a href="https://scholar.google.com/citations?user=FKbOyUAAAAAJ">Google Scholar</a> | 💼 <a href="https://www.researchgate.net/profile/Shijie-Bao-3">ResearchGate</a> | 📚 <a href="https://mathscinet.ams.org/mathscinet/author?authorId=1534515">MathSci</a></p>
+      <p><a href="https://orcid.org/0000-0002-6781-2316">ORCID</a> | <a href="https://scholar.google.com/citations?user=FKbOyUAAAAAJ">Google Scholar</a> | <a href="https://www.researchgate.net/profile/Shijie-Bao-3">ResearchGate</a> | <a href="https://mathscinet.ams.org/mathscinet/author?authorId=1534515">MathSciNet</a></p>
     </div>
     
     <!-- 专业附件区 -->

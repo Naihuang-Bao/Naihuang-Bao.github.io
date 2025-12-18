@@ -6,7 +6,7 @@ kramdown:
   parse_block_html: true  # 关键修复
 ---
 
-<section class="preprints">
+<section class="publications">
   <h1>📄 Preprints</h1>
 
   <div class="publication">
