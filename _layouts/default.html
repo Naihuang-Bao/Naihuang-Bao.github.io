@@ -58,7 +58,7 @@
       /* 所有页面内容都包裹在这个容器内 */
     }
     
-    /* ========== 4. 通用页面样式（关键！） ========== */
+    /* ========== 4. 通用页面样式 ========== */
     .page-content > section {
       margin-bottom: 2rem;
     }
@@ -71,26 +71,18 @@
       margin-bottom: 1.5rem;
     }
     
-    .page-content a {
-      color: #2980b9;
-      text-decoration: underline;
+    /* ========== 5. 出版物页面关键修复 ========== */
+    /* 5.1 修复段落格式（核心！） */
+    .page-content .publications p,
+    .page-content .preprints p,
+    .page-content .notes p {
+      margin: 0;
+      line-height: 1.6;
     }
     
-    .page-content .paper-link {
-      color: #2980b9;
-      font-weight: bold;
-    }
-    
-    .page-content .mathscinet,
-    .page-content .doi {
-      color: #7f8c8d;
-      font-size: 0.9rem;
-    }
-    
-    /* ========== 5. 页面特定样式（统一组织） ========== */
-    /* 5.1 通用列表项样式 */
-    .page-content .publication,
-    .page-content .lecnote {
+    /* 5.2 修复出版物条目结构 */
+    .page-content .publications > .publication,
+    .page-content .preprints > .publication {
       background: #f8f9fa;
       padding: 1.1rem;
       border-radius: 6px;
@@ -99,28 +91,35 @@
       position: relative;
     }
     
-    .page-content .publication:nth-child(odd),
-    .page-content .lecnote:nth-child(odd) {
+    /* 5.3 修复交替行背景（关键！） */
+    .page-content .publications > .publication:nth-of-type(odd),
+    .page-content .preprints > .publication:nth-of-type(odd) {
       background: #fcfdff;
       border-left-color: #2c3e50;
     }
     
-    /* 5.2 Notes 页面 */
-    .page-content .notes {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 20px;
+    /* 5.4 修复链接样式 */
+    .page-content .publications a,
+    .page-content .preprints a {
+      color: #2980b9;
+      text-decoration: underline;
     }
     
-    /* 5.3 Publications/Preprints 页面 */
-    .page-content .publications,
-    .page-content .preprints {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 20px;
+    .page-content .publications .paper-link,
+    .page-content .preprints .paper-link {
+      color: #2980b9;
+      font-weight: bold;
     }
     
-    /* 5.4 Resume 页面 */
+    .page-content .publications .mathscinet,
+    .page-content .publications .doi,
+    .page-content .preprints .mathscinet,
+    .page-content .preprints .doi {
+      color: #7f8c8d;
+      font-size: 0.9rem;
+    }
+    
+    /* ========== 6. Resume 页面样式 ========== */
     .page-content .math-resume {
       max-width: 900px;
       margin: 0 auto;
@@ -209,7 +208,7 @@
       font-size: 0.8em;
     }
     
-    /* ========== 6. 首页特定样式 ========== */
+    /* ========== 7. 首页特定样式 ========== */
     .cta-button {
       display: block;
       width: fit-content;
@@ -229,7 +228,7 @@
       transform: translateY(-2px);
     }
     
-    /* ========== 7. 响应式设计 ========== */
+    /* ========== 8. 响应式设计 ========== */
     @media (max-width: 768px) {
       body {
         margin: 2rem auto;
@@ -241,11 +240,9 @@
         gap: 0.5rem;
       }
       
-      .page-content .notes,
-      .page-content .publications,
-      .page-content .preprints,
-      .page-content .math-resume {
-        padding: 15px;
+      .page-content .publications > .publication,
+      .page-content .preprints > .publication {
+        padding: 1rem;
       }
       
       .page-content .resume-header h1 {
@@ -262,7 +259,7 @@
       }
     }
     
-    /* ========== 8. 数学符号安全区 ========== */
+    /* ========== 9. 数学符号安全区 ========== */
     .math-container {
       background: #fff8e6;
       padding: 1rem;
