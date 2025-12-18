@@ -1,15 +1,18 @@
 title: "Dr. Shijie Bao | Mathematician"
 url: "https://naihuang-bao.github.io"
 baseurl: ""
-permalink: /:title/
+markdown: kramdown       # 必须指定 Markdown 解析器
+highlighter: rouge       # 代码高亮
+permalink: /:title/      # URL 格式
 
-# 数学符号关键修复
-kramdown:
-  parse_block_html: true
-  entity_output: as_char
-
-# 防止README覆盖
-include:
-  - index.md
+# 确保没有排除 .md 文件
 exclude:
-  - README.md
+  - "*.log"
+  - "Gemfile*"
+  # ❌ 禁止包含: - "*.md"
+
+# 添加必要 gem（如果使用 GitHub Pages）
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
