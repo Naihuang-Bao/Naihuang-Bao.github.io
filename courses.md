@@ -1,10 +1,8 @@
 ---
-layout: page
+layout: default
 title: "Courses"
 permalink: /courses/
 ---
-
-{% include navbar.html %}
 
 <section class="notes">
   <h1>📄 Problem Lectures</h1>
@@ -41,11 +39,6 @@ permalink: /courses/
   .lecnote:nth-child(odd) {
     background: #fcfdff;
     border-left-color: #2c3e50;
-  }
-
-  a {
-    color: #2980b9;
-    text-decoration: underline;
   }
 
   .paper-link {

@@ -1,10 +1,8 @@
 ---
-layout: page
+layout: default
 title: "Publications"
 permalink: /publications/
 ---
-
-{% include navbar.html %}
 
 <section class="publications">
   <h1>📚 Publications</h1>

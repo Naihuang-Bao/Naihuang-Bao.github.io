@@ -1,12 +1,10 @@
 ---
-layout: page
+layout: default
 title: "Preprints"
 permalink: /preprints/
 kramdown:
   parse_block_html: true  # 关键修复
 ---
-
-{% include navbar.html %}
 
 <section class="preprints">
   <h1>📄 Preprints</h1>
@@ -91,8 +89,4 @@ kramdown:
     border-left-color: #2c3e50;
   }
 
-  a {
-    color: #2980b9;
-    text-decoration: underline;
-  }
 </style>
