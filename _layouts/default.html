@@ -71,32 +71,44 @@
       margin-bottom: 1.5rem;
     }
     
-    /* ========== 5. 出版物页面关键修复 ========== */
-    /* 5.1 修复段落格式（核心！） */
-    .page-content .publications p,
-    .page-content .preprints p,
-    .page-content .notes p {
-      margin: 0;
-      line-height: 1.6;
-    }
-    
-    /* 5.2 修复出版物条目结构 */
-    .page-content .publications > .publication,
-    .page-content .preprints > .publication {
-      background: #f8f9fa;
-      padding: 1.1rem;
-      border-radius: 6px;
-      margin-bottom: 1.2rem;
-      border-left: 3px solid #3498db;
-      position: relative;
-    }
-    
-    /* 5.3 修复交替行背景（关键！） */
-    .page-content .publications > .publication:nth-of-type(odd),
-    .page-content .preprints > .publication:nth-of-type(odd) {
-      background: #fcfdff;
-      border-left-color: #2c3e50;
-    }
+  /* ========== 5. 出版物页面关键修复 ========== */
+  /* 5.1 修复段落格式（核心！） */
+  .publications p,
+  .preprints p,
+  .notes p {
+    margin: 0 0 0.8rem 0;
+    line-height: 1.6;
+  }
+  
+  .publications h1,
+  .preprints h1,
+  .notes h1 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  /* 5.2 修复出版物条目结构 */
+  .publications > .publication,
+  .preprints > .publication {
+    background: #f8f9fa;
+    padding: 1.1rem;
+    border-radius: 6px;
+    margin-bottom: 1.2rem;
+    border-left: 3px solid #3498db;
+    position: relative;
+  }
+  
+  .publications > .publication:last-child,
+  .preprints > .publication:last-child {
+    margin-bottom: 0;
+  }
+
+  /* 5.3 修复交替行背景 */
+  .publications > .publication:nth-of-type(odd),
+  .preprints > .publication:nth-of-type(odd) {
+    background: #fcfdff;
+    border-left-color: #2c3e50;
+  }
     
     /* 5.4 修复链接样式 */
     .page-content .publications a,
