@@ -59,12 +59,11 @@
     }
     
     /* ========== 4. 通用页面样式 ========== */
-    /* 修复1: 只对非 Resume 内容应用间距 */
-    .page-content > *:not(.math-resume) {
+    .page-content > *:not(.math-resume):not(.publications):not(.preprints):not(.notes) {
       margin-bottom: 2rem;
     }
     
-    /* 修复2: 保护 Resume 内部标题 */
+    /* 修复标题居中问题 - 关键修复 */
     .page-content > h1 {
       color: #2c3e50;
       text-align: center;
@@ -87,6 +86,10 @@
     .notes h1 {
       margin-top: 0;
       padding-top: 0;
+      text-align: center; /* 确保出版物标题也居中 */
+      border-bottom: 1px solid #eaecef;
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
     }
 
     /* 5.2 修复出版物条目结构 */
@@ -134,27 +137,19 @@
     }
     
     /* ========== 6. Resume 页面样式 ========== */
-    /* 修复3: 强制重置 Resume 结构间距 */
+    /* 修复Resume间距问题 - 不影响标题居中 */
     .page-content > .math-resume {
-      margin: 0;
+      max-width: 900px;
+      margin: 0 auto;
       padding: 0;
     }
+    
     .page-content > .math-resume > * {
       margin-bottom: 1.5rem;
     }
+    
     .page-content > .math-resume > *:last-child {
       margin-bottom: 0;
-    }
-    
-    /* 恢复 Resume 专属样式 */
-    .page-content > .math-resume .research-focus,
-    .page-content > .math-resume .current-position,
-    .page-content > .math-resume .education {
-      background: #f8f9fa;
-      padding: 1.2rem;
-      border-radius: 8px;
-      border-left: 3px solid #e74c3c;
-      margin-bottom: 1.5rem;
     }
     
     .page-content > .math-resume .resume-header {
@@ -162,6 +157,24 @@
       padding: 2rem 0;
       border-bottom: 1px solid #eaecef;
       margin-bottom: 2rem;
+    }
+    
+    /* 修复Resume标题 - 保持居中但特殊处理 */
+    .page-content > .math-resume h1 {
+      color: #2c3e50;
+      text-align: center; /* 保持居中！ */
+      border-bottom: none;
+      margin-bottom: 1rem;
+      font-size: 2.2rem;
+    }
+    
+    .page-content > .math-resume h2 {
+      color: #2c3e50;
+      text-align: center; /* 保持居中 */
+      margin-bottom: 1rem;
+      padding: 0 0.5rem;
+      border-bottom: 1px solid #eaecef;
+      padding-bottom: 0.8rem;
     }
     
     .page-content > .math-resume .contact-info {
@@ -233,27 +246,6 @@
       font-size: 0.9rem;
     }
     
-    /* Resume 标题特殊处理 */
-    .page-content > .math-resume h1 {
-      text-align: left;
-      border-bottom: none;
-      margin-bottom: 1rem;
-      color: #2c3e50;
-    }
-    
-    .page-content > .math-resume h2 {
-      color: #2c3e50;
-      margin-bottom: 1rem;
-      padding-left: 0.5rem;
-      border-left: 3px solid #3498db;
-    }
-    
-    /* 数学符号特殊处理 */
-    .page-content sup {
-      vertical-align: super;
-      font-size: 0.8em;
-    }
-    
     /* ========== 7. 首页特定样式 ========== */
     .cta-button {
       display: block;
@@ -303,6 +295,16 @@
       .page-content > .math-resume .timeline-item {
         padding-left: 1.2rem;
       }
+      
+      /* 确保小屏幕下标题仍然居中 */
+      .page-content > h1,
+      .publications h1,
+      .preprints h1,
+      .notes h1,
+      .page-content > .math-resume h1,
+      .page-content > .math-resume h2 {
+        text-align: center;
+      }
     }
     
     /* ========== 9. 数学符号安全区 ========== */
@@ -316,7 +318,7 @@
   </style>
   
   <!-- MathJax 配置（数学工作者必备） -->
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chhtml.js"></script>
   <script>
     MathJax = {
       tex: {
@@ -359,4 +361,3 @@
   </script>
 </body>
 </html>
-
