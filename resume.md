@@ -165,6 +165,17 @@ kramdown:
   font-size: 0.9rem;
 }
 
+
+a {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+.paper-link {
+    color: #2980b9;
+    font-weight: bold;
+}
+
 /* 数学符号特殊处理 */
 sup {
   vertical-align: super;

@@ -64,6 +64,11 @@ permalink: /notes/
     border-left-color: #2c3e50;
   }
 
+  a {
+    color: #2980b9;
+    text-decoration: underline;
+  }
+
   .paper-link {
     color: #2980b9;
     font-weight: bold;
