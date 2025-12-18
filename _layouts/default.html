@@ -5,17 +5,26 @@
   <title>{{ site.title }} | {{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  
   <style>
+    /* ========== 1. 基础重置（关键修复） ========== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
     body {
       font-family: 'TeX Gyre Termes', 'Times New Roman', serif;
       line-height: 1.6;
       color: #333;
+      background: #fff;
       max-width: 800px;
       margin: 4rem auto;
       padding: 0 2rem;
     }
     
-    /* 导航栏样式（统一定义） */
+    /* ========== 2. 导航栏样式（保持原样） ========== */
     .navbar {
       display: flex;
       justify-content: center;
@@ -44,7 +53,80 @@
       color: white;
     }
     
-    /* 按钮样式 */
+    /* ========== 3. 内容容器（核心修复！） ========== */
+    .page-content {
+      /* 所有页面内容都包裹在这个容器内 */
+    }
+    
+    /* ========== 4. 页面特定样式（关键！） ========== */
+    /* 4.1 通用页面结构 */
+    .page-content > section {
+      margin-bottom: 2rem;
+    }
+    
+    .page-content h1 {
+      color: #2c3e50;
+      text-align: center;
+      border-bottom: 1px solid #eaecef;
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    /* 4.2 Notes 页面样式 */
+    .page-content .notes {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .page-content .lecnote {
+      background: #f8f9fa;
+      padding: 1.1rem;
+      border-radius: 6px;
+      margin-bottom: 1.2rem;
+      border-left: 3px solid #3498db;
+      position: relative;
+    }
+    
+    .page-content .lecnote:nth-child(odd) {
+      background: #fcfdff;
+      border-left-color: #2c3e50;
+    }
+    
+    /* 4.3 Publications/Preprints 页面样式 */
+    .page-content .publications,
+    .page-content .preprints {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .page-content .publication {
+      background: #f8f9fa;
+      padding: 1.1rem;
+      border-radius: 6px;
+      margin-bottom: 1.2rem;
+      border-left: 3px solid #3498db;
+      position: relative;
+    }
+    
+    .page-content .publication:nth-child(odd) {
+      background: #fcfdff;
+      border-left-color: #2c3e50;
+    }
+    
+    /* 4.4 通用链接样式 */
+    .page-content a {
+      color: #2980b9;
+      text-decoration: underline;
+    }
+    
+    .page-content .paper-link {
+      color: #2980b9;
+      font-weight: bold;
+    }
+    
+    /* 4.5 按钮样式（Resume按钮等） */
     .cta-button {
       display: block;
       width: fit-content;
@@ -71,10 +153,50 @@
       padding-top: 1rem;
       border-top: 1px dashed #eaecef;
     }
+    
+    /* ========== 5. 响应式设计 ========== */
+    @media (max-width: 768px) {
+      body {
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      
+      .navbar {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      
+      .page-content .notes,
+      .page-content .publications,
+      .page-content .preprints {
+        padding: 15px;
+      }
+    }
+    
+    /* ========== 6. 数学符号安全区 ========== */
+    .math-container {
+      background: #fff8e6;
+      padding: 1rem;
+      border-radius: 4px;
+      margin: 1.5rem 0;
+      border-left: 3px solid #ffc107;
+    }
   </style>
+  
+  <!-- MathJax 配置（数学工作者必备） -->
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      }
+    };
+  </script>
 </head>
 <body>
-  <!-- 导航栏（自动高亮当前页面） -->
+  <!-- 导航栏（保持原样） -->
   <nav class="navbar">
     <a href="/" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
     <a href="/resume/" {% if page.url == '/resume/' %}class="active"{% endif %}>Resume</a>
@@ -84,10 +206,12 @@
     <a href="/notes/" {% if page.url == '/notes/' %}class="active"{% endif %}>Notes</a>
   </nav>
   
-  <!-- 页面内容 -->
-  {{ content }}
+  <!-- ========== 核心修复：内容容器 ========== -->
+  <main class="page-content">
+    {{ content }}
+  </main>
   
-  <!-- 百度推送脚本 -->
+  <!-- 百度推送脚本（保持原样） -->
   <script>
   if (document.location.protocol !== 'https:') {
     var bp = document.createElement('script');
