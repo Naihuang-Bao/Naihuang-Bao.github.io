@@ -5,90 +5,10 @@
   <title>Dr. Shijie Bao | Mathematician</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <style>
-    body {
-      font-family: 'TeX Gyre Termes', 'Times New Roman', serif;
-      line-height: 1.6;
-      color: #333;
-      max-width: 800px;
-      margin: 4rem auto;
-      padding: 0 2rem;
-    }
-    
-    /* =============== 新增导航栏样式 =============== */
-    .navbar {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      margin-bottom: 2rem;
-      padding-bottom: 0.5rem;
-      border-bottom: 1px solid #eaecef;
-    }
-    
-    .navbar a {
-      text-decoration: none;
-      color: #2c3e50;
-      font-weight: bold;
-      padding: 0.5rem 1rem;
-      border-radius: 4px;
-      transition: all 0.3s;
-    }
-    
-    .navbar a:hover {
-      background: #f8f9fa;
-      color: #e74c3c;
-    }
-    
-    .navbar a.active {
-      background: #2c3e50;
-      color: white;
-    }
-    /* =============== 导航栏结束 =============== */
-    
-    h1 {
-      color: #2c3e50;
-      text-align: center;
-      border-bottom: 1px solid #eaecef;
-      padding-bottom: 1rem;
-    }
-    .cta-button {
-      display: block;
-      width: fit-content;
-      margin: 2rem auto;
-      padding: 0.8rem 2rem;
-      background: #87cefa;
-      color: white;
-      text-decoration: none;
-      border-radius: 4px;
-      font-weight: bold;
-      text-align: center;
-      transition: all 0.3s;
-    }
-    .cta-button:hover {
-      background: #c0392b;
-      transform: translateY(-2px);
-    }
-    .last-updated {
-      text-align: center;
-      color: #7f8c8d;
-      font-size: 0.9rem;
-      margin-top: 3rem;
-      padding-top: 1rem;
-      border-top: 1px dashed #eaecef;
-    }
-  </style>
+  <!-- 移除原有的导航栏样式（已在navbar.html中定义） -->
 </head>
 <body>
-  <!-- =============== 新增导航栏 =============== -->
-  <nav class="navbar">
-    <a href="/" class="active">Home</a>
-    <a href="/resume/">Resume</a>
-    <a href="/publications/">Publications</a>
-    <a href="/preprints/">Preprints</a>
-    <a href="/courses/">Courses</a>
-    <a href="/notes/">Notes</a>
-  </nav>
-  <!-- =============== 导航栏结束 =============== -->
+  {% include navbar.html %}
   
   <h1>Shijie Bao</h1>
   

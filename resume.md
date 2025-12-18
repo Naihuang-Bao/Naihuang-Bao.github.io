@@ -4,6 +4,8 @@ title: "Academic Resume"
 permalink: /resume/
 ---
 
+{% include navbar.html %}
+
 <div class="math-resume">
   <header class="resume-header">
     <h1>Bao Shijie (包 诗界)</h1>

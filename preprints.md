@@ -4,6 +4,8 @@ title: "Preprints"
 permalink: /preprints/
 ---
 
+{% include navbar.html %}
+
 <section class="preprints">
   <h1>📄 Preprints</h1>
 

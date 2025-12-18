@@ -4,6 +4,8 @@ title: "Notes"
 permalink: /notes/
 ---
 
+{% include navbar.html %}
+
 <section class="notes">
   <h1>📄 Lecture Notes</h1>
   
