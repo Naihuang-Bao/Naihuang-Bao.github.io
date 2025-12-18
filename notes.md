@@ -41,3 +41,13 @@ permalink: /notes/
     </p>
   </div>
 </section>
+
+<section class="publications">
+  <h1>📄 High School Math Notes</h1>
+  
+  <div class="publication">
+    <p>自编高考模拟卷.
+      <a href="/assets/highschoolnotes/gaokao_moni.pdf" target="_blank" class="paper-link">试题</a> | <a href="/assets/highschoolnotes/gaokao_moni(answer).pdf" target="_blank" class="paper-link">解答</a>
+    </p>
+  </div>
+</section>
