@@ -125,6 +125,172 @@
       color: #2980b9;
       font-weight: bold;
     }
+
+/* ========== 4.5 Resume 页面样式（关键！） ========== */
+.page-content .math-resume {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page-content .resume-header {
+  text-align: center;
+  padding: 2rem 0;
+  border-bottom: 1px solid #eaecef;
+  margin-bottom: 2rem;
+}
+
+.page-content .contact-info {
+  font-size: 0.95rem;
+  margin: 1.2rem 0;
+  line-height: 1.4;
+}
+
+.page-content .attachments {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.page-content .btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #2c3e50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: all 0.3s;
+  min-width: 220px;
+  text-align: center;
+}
+
+.page-content .btn:hover {
+  background: #3498db;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.page-content .timeline-item {
+  margin-bottom: 1.8rem;
+  padding-left: 1.8rem;
+  border-left: 2px solid #3498db;
+  position: relative;
+}
+
+.page-content .timeline-item:before {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 8px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #e74c3c;
+  border: 2px solid #c0392b;
+}
+
+.page-content .research-focus {
+  background: #f8f9fa;
+  padding: 1.2rem;
+  border-radius: 8px;
+  border-left: 3px solid #e74c3c;
+  margin-bottom: 2rem;
+}
+
+.page-content .last-updated {
+  text-align: center;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px dashed #eaecef;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+/* 数学符号特殊处理 */
+.page-content sup {
+  vertical-align: super;
+  font-size: 0.8em;
+}
+
+  .notes {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'TeX Gyre Termes', 'Times New Roman', serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+  }
+
+  .lecnote {
+    background: #f8f9fa;
+    padding: 1.1rem;
+    border-radius: 6px;
+    margin-bottom: 1.2rem;
+    border-left: 3px solid #3498db;
+    position: relative;
+  }
+
+  .lecnote:nth-child(odd) {
+    background: #fcfdff;
+    border-left-color: #2c3e50;
+  }
+
+  a {
+    color: #2980b9;
+    text-decoration: underline;
+  }
+
+  .paper-link {
+    color: #2980b9;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .preprints {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'TeX Gyre Termes', 'Times New Roman', serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+  }
+
+  .publications {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'TeX Gyre Termes', 'Times New Roman', serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+  }
+
+  .publication {
+    background: #f8f9fa;
+    padding: 1.1rem;
+    border-radius: 6px;
+    margin-bottom: 1.2rem;
+    border-left: 3px solid #3498db;
+    position: relative;
+  }
+
+  .publication:nth-child(odd) {
+    background: #fcfdff;
+    border-left-color: #2c3e50;
+  }
+
+
+  .mathscinet {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+  }
+
+  .doi {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+  }
     
     /* 4.5 按钮样式（Resume按钮等） */
     .cta-button {

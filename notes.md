@@ -41,36 +41,3 @@ permalink: /notes/
     </p>
   </div>
 </section>
-
-<style>
-  /* 仅保留页面特定样式 */
-  .notes {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-
-  .lecnote {
-    background: #f8f9fa;
-    padding: 1.1rem;
-    border-radius: 6px;
-    margin-bottom: 1.2rem;
-    border-left: 3px solid #3498db;
-    position: relative;
-  }
-
-  .lecnote:nth-child(odd) {
-    background: #fcfdff;
-    border-left-color: #2c3e50;
-  }
-
-  a {
-    color: #2980b9;
-    text-decoration: underline;
-  }
-
-  .paper-link {
-    color: #2980b9;
-    font-weight: bold;
-  }
-</style>
