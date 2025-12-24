@@ -8,7 +8,7 @@ permalink: /notes/
   <h1>📄 Lecture Notes</h1>
   
   <div class="publication">
-    <p><strong>Number Theory I.</strong> Xie, Junyi (2025-2026, Fall). (更新中)
+    <p><strong>Number Theory I.</strong> Xie, Junyi (2025-2026, Fall).
       <a href="/assets/lecnotes/Note_on_NTI.pdf" target="_blank" class="paper-link">📄 View PDF</a>
     </p>
   </div>
