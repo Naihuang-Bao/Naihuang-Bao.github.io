@@ -30,7 +30,7 @@ permalink: /resume/
       <li>Multiplier ideal sheaves and strong openness property</li>
       <li>L² extension problems and Suita's conjecture</li>
       <li>Concavity properties of minimal L² integrals</li>
-      <li>Fiberwise Bergman kernels and log-plurisubharmonicity</li>
+      <li>Valuation theory</li>
     </ul>
   </section>
 
