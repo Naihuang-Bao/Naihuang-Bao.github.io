@@ -51,3 +51,13 @@ permalink: /notes/
     </p>
   </div>
 </section>
+
+<section class="publications">
+  <h1>📄 Markdown Notes</h1>
+  
+  <div class="publication">
+    <p><strong>An Introduction to Valuative Tree Theory (in Chinese).</strong>
+      <a href="/assets/mdnotes/valtree-summary.md" target="_blank" </a>
+    </p>
+  </div>
+</section>
