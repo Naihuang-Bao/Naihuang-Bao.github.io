@@ -29,7 +29,11 @@ permalink: /resume/
     <ul>
       <li>Multiplier ideal sheaves and strong openness property</li>
       <li>L² extension problems and Suita's conjecture</li>
+<<<<<<< HEAD
       <li>Concavity properties of minimal L² integrals</li>
+=======
+      <li>Bergman kernels and minimal L² integrals</li>
+>>>>>>> 9a6bc1fca56eccc9edd034ba812afd7ad36b6800
       <li>Valuation theory</li>
     </ul>
   </section>
@@ -63,6 +67,6 @@ permalink: /resume/
   
   <!-- 更新时间戳 -->
   <div class="last-updated">
-    Last updated: <time datetime="2025-12-19">December 19, 2025</time>
+    Last updated: <time datetime="2026-05-05">May 05, 2026</time>
   </div>
 </div>
