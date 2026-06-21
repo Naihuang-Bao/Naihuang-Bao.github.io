@@ -7,7 +7,7 @@ kramdown:
 ---
 
 <section class="preprints">
-  <h1>📄 Preprints</h1>
+  <h1>Preprints</h1>
 
   <div class="publication">
     <p><strong>[2025]</strong> Bao, S., Guan, Q., Mi, Z., & Yuan, Z. (2025). The existence of valuative interpolation. arXiv:2510.22244.

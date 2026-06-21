@@ -36,7 +36,7 @@ permalink: /resume/
 
   <!-- 当前职位 -->
   <section class="current-position">
-    <h2> Current Position</h2>
+    <h2>Current Position</h2>
     <div class="timeline-item">
       <h3>Postdoctoral Fellow</h3>
       <p class="institution">Academy of Mathematics and Systems Science, Chinese Academy of Sciences | July 2022 - Present</p>
@@ -46,7 +46,7 @@ permalink: /resume/
 
   <!-- 教育背景 -->
   <section class="education">
-    <h2> Education</h2>
+    <h2>Education</h2>
     
     <div class="timeline-item">
       <h3>Ph.D. in Mathematics</h3>

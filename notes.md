@@ -5,7 +5,7 @@ permalink: /notes/
 ---
 
 <section class="publications">
-  <h1>📄 Lecture Notes</h1>
+  <h1>Lecture Notes</h1>
   
   <div class="publication">
     <p><strong>Number Theory I.</strong> Xie, Junyi (2025-2026, Fall).
@@ -27,7 +27,7 @@ permalink: /notes/
 </section>
 
 <section class="publications">
-  <h1>📄 Seminar Notes</h1>
+  <h1>Seminar Notes</h1>
   
   <div class="publication">
     <p><strong>Seminar: Nagata Conjecture.</strong> at AMSS (2025, March).
@@ -43,7 +43,7 @@ permalink: /notes/
 </section>
 
 <section class="publications">
-  <h1>📄 High School Math Notes</h1>
+  <h1>High School Math Notes</h1>
   
   <div class="publication">
     <p>自编高考模拟卷.
@@ -53,7 +53,7 @@ permalink: /notes/
 </section>
 
 <section class="publications">
-  <h1>📄 Markdown Notes</h1>
+  <h1>Markdown Notes</h1>
   
   <div class="publication">
     <p><strong>An Introduction to Valuative Tree Theory (in Chinese).</strong>

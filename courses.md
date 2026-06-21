@@ -5,7 +5,7 @@ permalink: /courses/
 ---
 
 <section class="publications">
-  <h1>📄 Problem Lectures</h1>
+  <h1>Problem Lectures</h1>
   
   <div class="publication">
     <p><strong>数学分析习题集 (I).</strong> 单变量函数的连续性、微分与积分 (更新中)
