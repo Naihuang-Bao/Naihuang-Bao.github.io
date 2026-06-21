@@ -57,7 +57,7 @@ permalink: /notes/
   
   <div class="publication">
     <p><strong>An Introduction to Valuative Tree Theory (in Chinese).</strong>
-      <a href="/assets/mdnotes/valtree-summary.md" target="_blank"> </a>
+      <a href="/assets/mdnotes/valtree-summary.md" target="_blank" class="paper-link"> 01 </a>
     </p>
   </div>
 </section>
