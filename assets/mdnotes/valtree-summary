@@ -3,10 +3,11 @@ permalink: /valtree-summary/
 ---
 
 <section class="publications">
-  <h1>📄 An Introduction to Valuative Tree Theory (in Chinese)</h1>
+  <h1>An Introduction to Valuative Tree Theory (in Chinese)</h1>
   
   <div class="publication">
-    <p><strong>An Introduction to Valuative Tree Theory 01</strong>
-      <a href="/assets/mdnotes/valtree/valtree01.md" target="_blank"</a>
+  <p>
+      <a href="/assets/mdnotes/valtree/valtree01.md" target="_blank" class="paper-link">01 </a>
     </p>
   </div>
+</section>
