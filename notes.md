@@ -56,8 +56,8 @@ permalink: /notes/
   <h1>Markdown Notes</h1>
   
   <div class="publication">
-    <p> An Introduction to Valuative Tree Theory (in Chinese).
-      <a href="/valtree-summary/" target="_blank" class="paper-link"><strong>Website</strong></a>
+    <p><strong>An Introduction to Valuative Tree Theory (in Chinese).</strong>
+      <a href="/valtree-summary/" target="_blank" class="paper-link">Website</a>
     </p>
   </div>
 </section>
