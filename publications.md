@@ -6,7 +6,14 @@ permalink: /publications/
 
 <section class="publications">
   <h1>Publications</h1>
-  
+
+  <div class="publication">
+    <p><strong>[2026]</strong> Bao, S., Guan, Q., & Yuan, Z. (2026). Concavity property of minimal L² integrals with Lebesgue measurable gain VI: Fibrations over products of open Riemann surfaces. <em>Science China Mathematics</em>. 69, 615–666. 
+      <a href="/assets/papers/SCM2025.pdf" target="_blank" class="paper-link">View PDF</a>
+      <span class="doi">| <a href="https://doi.org/10.1007/s11425-024-2390-2" target="_blank">DOI</a></span>
+    </p>
+  </div>
+
   <div class="publication">
     <p><strong>[2025]</strong> Bao, S., Guan, Q., Mi, Z., & Yuan, Z. (2025). Tame maximal weights, relative types and valuations. <em>Advances in Mathematics</em>, 477, 110364. 
       <a href="/assets/papers/AdvMath2025.pdf" target="_blank" class="paper-link">View PDF</a>
@@ -18,13 +25,6 @@ permalink: /publications/
     <p><strong>[2025]</strong> Bao, S., Guan, Q., & Yuan, Z. (2025). Boundary points, minimal L² integrals and concavity property. <em>Mathematische Annalen</em>, 391, 5809-5856.
       <a href="/assets/papers/MathAnn2025.pdf" target="_blank" class="paper-link">View PDF</a>
       <span class="doi">| <a href="https://doi.org/10.1007/s00208-024-03056-8" target="_blank">DOI</a></span>
-    </p>
-  </div>
-  
-  <div class="publication">
-    <p><strong>[2025]</strong> Bao, S., Guan, Q., & Yuan, Z. (2025). Concavity property of minimal L² integrals with Lebesgue measurable gain VI: Fibrations over products of open Riemann surfaces. <em>Science China Mathematics</em>. Online. 
-      <a href="/assets/papers/SCM2025.pdf" target="_blank" class="paper-link">View PDF</a>
-      <span class="doi">| <a href="https://doi.org/10.1007/s11425-024-2390-2" target="_blank">DOI</a></span>
     </p>
   </div>
 

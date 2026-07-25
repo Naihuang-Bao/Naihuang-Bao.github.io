@@ -10,6 +10,18 @@ kramdown:
   <h1>Preprints</h1>
 
   <div class="publication">
+    <p><strong>[2026]</strong> Bao, S., Guan, Q., Mi, Z., & Yuan, Z. (2026). An algebraic approach to the existence of valuative interpolation. arXiv:2602.03179.
+      <a href="https://arxiv.org/abs/2602.03179" target="_blank">arXiv</a>
+    </p>
+  </div>
+
+  <div class="publication">
+    <p><strong>[2026]</strong> Bao, S., Guan, Q., Mi, Z., & Yuan, Z. (2026). The existence of valuative interpolation at a singular point. arXiv:2601.01396.
+      <a href="https://arxiv.org/abs/2601.01396" target="_blank">arXiv</a>
+    </p>
+  </div>
+
+  <div class="publication">
     <p><strong>[2025]</strong> Bao, S., Guan, Q., Mi, Z., & Yuan, Z. (2025). The existence of valuative interpolation. arXiv:2510.22244.
       <a href="https://arxiv.org/abs/2510.22244" target="_blank">arXiv</a>
     </p>
