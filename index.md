@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 
-<h1>Shijie Bao</h1>
+<h1>Shijie Bao (包 诗界)</h1>
 
 <p style="text-align: center; font-size: 1.1rem; color: #87cefa;">
   Researcher in Several Complex Variables & Algebraic Geometry
