@@ -14,7 +14,7 @@ title: "Home"
 </p>
 
 <p>
-  My research focuses on multiplier ideal sheaves, L² extension problems, and Bergman kernel theory.
+  My research focuses on multiplier ideal sheaves, $L^{2}$ extension problems, and Bergman kernel theory.
 </p>
 
 <a href="/resume/" class="cta-button">

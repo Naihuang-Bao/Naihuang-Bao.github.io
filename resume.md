@@ -28,8 +28,8 @@ permalink: /resume/
     <p>Specialized in <strong>Several Complex Variables and Algebraic Geometry</strong> with focus on:</p>
     <ul>
       <li>Multiplier ideal sheaves and strong openness property</li>
-      <li>L² extension problems and Suita's conjecture</li>
-      <li>Concavity properties of minimal L² integrals</li>
+      <li>$L^{2}$ extension problems and Suita's conjecture</li>
+      <li>Concavity properties of minimal $L^{2}$ integrals</li>
       <li>Valuation theory</li>
     </ul>
   </section>
@@ -51,13 +51,13 @@ permalink: /resume/
     <div class="timeline-item">
       <h3>Ph.D. in Mathematics</h3>
       <p class="institution">Peking University, School of Mathematical Sciences | Sep 2017 - Jun 2022</p>
-      <p>Advisor: Prof. Qi'an Guan | Thesis: "L² Extension and Effectiveness of Strong Openness Property"</p>
+      <p>Advisor: Prof. Qi'an Guan | Thesis: "$L^{2}$ Extension and Effectiveness of Strong Openness Property"</p>
     </div>
     
     <div class="timeline-item">
       <h3>B.Sc. in Mathematics</h3>
       <p class="institution">University of Science and Technology of China | Sep 2013 - Jun 2017</p>
-      <p>Thesis: "Hörmander's L² Theorem for Dirac Operator in Complex Clifford Analysis"</p>
+      <p>Thesis: "Hörmander's $L^{2}$ Theorem for Dirac Operator in Complex Clifford Analysis"</p>
     </div>
   </section>
   
