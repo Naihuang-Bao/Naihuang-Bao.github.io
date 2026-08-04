@@ -11,6 +11,10 @@ math: true
   Researcher in Several Complex Variables & Algebraic Geometry
 </p>
 
+<p style="text-align: center;">
+  <img src="{{ site.baseurl }}/assets/photo/faceu_1671519200337.jpg" alt="Shijie Bao" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);">
+</p>
+
 <p>
   Welcome to my academic homepage. I am a postdoctoral fellow at the Academy of Mathematics and Systems Science, Chinese Academy of Sciences.
 </p>
