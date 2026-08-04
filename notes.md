@@ -37,15 +37,7 @@ permalink: /notes/
   </div>
   
   <div class="publication">
-    <p>自编高考模拟卷.
-      <a href="{{ site.baseurl }}/assets/highschoolnotes/gaokao_moni.pdf" target="_blank" rel="noopener" class="paper-link">试题</a> | <a href="{{ site.baseurl }}/assets/highschoolnotes/gaokao_moni(answer).pdf" target="_blank" rel="noopener" class="paper-link">解答</a>
-    </p>
-  </div>
-  
-  <h1>An Introduction to Valuative Tree Theory (in Chinese)</h1>
-  
-  <div class="publication">
-    <p>
+    <p>An Introduction to Valuative Tree Theory (in Chinese).
       <a href="{{ site.baseurl }}/valtree01/" target="_blank" rel="noopener" class="paper-link">01</a> |
       <a href="{{ site.baseurl }}/valtree02/" target="_blank" rel="noopener" class="paper-link">02</a> |
       <a href="{{ site.baseurl }}/valtree03/" target="_blank" rel="noopener" class="paper-link">03</a> |
@@ -60,6 +52,12 @@ permalink: /notes/
       <a href="{{ site.baseurl }}/valtree12/" target="_blank" rel="noopener" class="paper-link">12</a> |
       <a href="{{ site.baseurl }}/valtree13/" target="_blank" rel="noopener" class="paper-link">13</a> |
       <a href="{{ site.baseurl }}/valtree14/" target="_blank" rel="noopener" class="paper-link">14</a>
+    </p>
+  </div>
+
+  <div class="publication">
+    <p>自编高考模拟卷.
+      <a href="{{ site.baseurl }}/assets/highschoolnotes/gaokao_moni.pdf" target="_blank" rel="noopener" class="paper-link">试题</a> | <a href="{{ site.baseurl }}/assets/highschoolnotes/gaokao_moni(answer).pdf" target="_blank" rel="noopener" class="paper-link">解答</a>
     </p>
   </div>
 </section>
