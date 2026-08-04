@@ -5,14 +5,13 @@ last_updated: 2026-08-04
 math: true
 ---
 
-<h1>Shijie Bao (包 诗界)</h1>
+<div style="display: flex; align-items: center; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+  <h1 style="color: #2c3e50; text-align: center; border-bottom: 1px solid #eaecef; padding-bottom: 1rem; margin: 0;">Shijie Bao (包 诗界)</h1>
+  <img src="{{ site.baseurl }}/assets/photo/faceu_1671519200337.jpg" alt="Shijie Bao" width="150" style="border-radius: 10px; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);">
+</div>
 
 <p style="text-align: center; font-size: 1.1rem; color: #2c3e50;">
   Researcher in Several Complex Variables & Algebraic Geometry
-</p>
-
-<p style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/photo/faceu_1671519200337.jpg" alt="Shijie Bao" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);">
 </p>
 
 <p>
