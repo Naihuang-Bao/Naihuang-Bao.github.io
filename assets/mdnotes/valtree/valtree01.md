@@ -1,5 +1,6 @@
 ---
 permalink: /valtree01/
+math: true
 ---
 
 # 赋值树理论简介 01: 总览

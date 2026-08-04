@@ -1,5 +1,6 @@
 ---
 permalink: /valtree02/
+math: true
 ---
 
 # 赋值树理论简介 02: 树理论
@@ -87,11 +88,10 @@ $$\alpha(v) := \sup \Big\{ \frac{v(\phi)}{m(\phi)} \mid \phi \in \mathfrak{m} \B
 
 下一节开始我们介绍如何具体构造 $\mathcal{V}$ 中的赋值.
 
-![Valuative Tree](/assets/mdnotes/valtree/Valuative_Tree.png)
+![Valuative Tree]({{ site.baseurl }}/assets/mdnotes/valtree/Valuative_Tree.png)
 
 
 
 ## 参考文献
 
 Favre, C. and Jonsson, M. (2004). [The Valuative Tree](http://link.springer.com/10.1007/b100262). vol 1853 Springer Berlin Heidelberg, Berlin, Heidelberg.
-

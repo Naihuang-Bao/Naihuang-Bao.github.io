@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Jekyll 构建产物
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# 编辑器临时文件
+*.swp
+*~

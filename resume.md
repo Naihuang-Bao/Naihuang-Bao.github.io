@@ -2,6 +2,7 @@
 layout: default
 title: "Academic Resume"
 permalink: /resume/
+math: true
 ---
 
 <div class="math-resume">
@@ -16,7 +17,7 @@ permalink: /resume/
     
     <!-- 专业附件区 -->
     <div class="attachments">
-      <a href="/assets/resume/CV_Shijie_Bao.pdf" class="btn" download>
+      <a href="{{ site.baseurl }}/assets/resume/CV_Shijie_Bao.pdf" class="btn" download>
          CV
       </a>
     </div>

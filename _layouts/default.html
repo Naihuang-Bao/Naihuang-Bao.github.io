@@ -181,6 +181,11 @@
       margin: 1.2rem 0;
       line-height: 1.4;
     }
+
+    .page-content > .math-resume .institution {
+      color: #555;
+      font-weight: 600;
+    }
     
     .page-content > .math-resume .attachments {
       display: flex;
@@ -260,7 +265,7 @@
       width: fit-content;
       margin: 2rem auto;
       padding: 0.8rem 2rem;
-      background: #87cefa;
+      background: #2980b9;
       color: white;
       text-decoration: none;
       border-radius: 4px;
@@ -324,7 +329,8 @@
     }
   </style>
   
-  <!-- MathJax 配置（数学工作者必备） -->
+  <!-- MathJax 配置（仅含数学公式的页面加载） -->
+  {% if page.math %}
   <script>
     window.MathJax = {
       tex: {
@@ -335,16 +341,17 @@
     };
   </script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  {% endif %}
 </head>
 <body>
   <!-- 导航栏（保持原样） -->
   <nav class="navbar">
-    <a href="/" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
-    <a href="/resume/" {% if page.url == '/resume/' %}class="active"{% endif %}>Resume</a>
-    <a href="/publications/" {% if page.url == '/publications/' %}class="active"{% endif %}>Publications</a>
-    <a href="/preprints/" {% if page.url == '/preprints/' %}class="active"{% endif %}>Preprints</a>
-    <a href="/courses/" {% if page.url == '/courses/' %}class="active"{% endif %}>Courses</a>
-    <a href="/notes/" {% if page.url == '/notes/' %}class="active"{% endif %}>Notes</a>
+    <a href="{{ site.baseurl }}/" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+    <a href="{{ site.baseurl }}/resume/" {% if page.url == '/resume/' %}class="active"{% endif %}>Resume</a>
+    <a href="{{ site.baseurl }}/publications/" {% if page.url == '/publications/' %}class="active"{% endif %}>Publications</a>
+    <a href="{{ site.baseurl }}/preprints/" {% if page.url == '/preprints/' %}class="active"{% endif %}>Preprints</a>
+    <a href="{{ site.baseurl }}/courses/" {% if page.url == '/courses/' %}class="active"{% endif %}>Courses</a>
+    <a href="{{ site.baseurl }}/notes/" {% if page.url == '/notes/' %}class="active"{% endif %}>Notes</a>
   </nav>
   
   <!-- ========== 核心修复：内容容器 ========== -->
