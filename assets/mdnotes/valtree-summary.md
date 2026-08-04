@@ -7,7 +7,8 @@ permalink: /valtree-summary/
   
   <div class="publication">
     <p>
-      <a href="/valtree01/" target="_blank" class="paper-link">01 | <a href="/valtree02/" target="_blank" class="paper-link">02 </a>
+      <a href="/valtree01/" target="_blank" class="paper-link">01</a> |
+      <a href="/valtree02/" target="_blank" class="paper-link">02</a>
     </p>
   </div>
 </section>

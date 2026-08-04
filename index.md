@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Home"
+title: "Shijie Bao's Academic Homepage"
+last_updated: 2026-08-04
 ---
 
 <h1>Shijie Bao (包 诗界)</h1>
@@ -22,13 +23,5 @@ title: "Home"
 </a>
 
 <div class="last-updated">
-  Last updated: <span id="update-date"></span>
-  <script>
-    const now = new Date();
-    document.getElementById('update-date').textContent = 
-      now.getFullYear() + '-' + 
-      String(now.getMonth()+1).padStart(2, '0') + '-' + 
-      String(now.getDate()).padStart(2, '0');
-  </script>
+  Last updated: <time datetime="{{ page.last_updated }}">{{ page.last_updated | date: "%B %-d, %Y" }}</time>
 </div>
-

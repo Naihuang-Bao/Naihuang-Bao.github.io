@@ -1,4 +1,5 @@
 title: "Dr. Shijie Bao | Mathematician"
+description: "Academic homepage of Dr. Shijie Bao (包诗界): several complex variables, algebraic geometry, multiplier ideal sheaves, L2 extension problems, and Bergman kernel theory."
 url: "https://naihuang-bao.github.io"
 baseurl: ""
 markdown: kramdown       # 必须指定 Markdown 解析器
@@ -6,7 +7,6 @@ kramdown:
   input: GFM
   math_engine: mathjax
 highlighter: rouge       # 代码高亮
-permalink: /:title/      # URL 格式
 
 # 确保没有排除 .md 文件
 exclude:
