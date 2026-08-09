@@ -7,6 +7,12 @@ permalink: /notes/
 <section class="publications">
 
   <div class="publication">
+    <p><strong>A Counterexample to a Convexity Question of Błocki and Zwonek</strong>
+      <a href="{{ site.baseurl }}/assets/seminar/ctexmp_BZ.pdf" target="_blank" rel="noopener" class="paper-link">View PDF</a>
+    </p>
+  </div>
+
+  <div class="publication">
     <p><strong>Number Theory I.</strong> Xie, Junyi (2025-2026, Fall).
       <a href="{{ site.baseurl }}/assets/lecnotes/Note_on_NTI.pdf" target="_blank" rel="noopener" class="paper-link">View PDF</a>
     </p>
@@ -37,7 +43,7 @@ permalink: /notes/
   </div>
   
   <div class="publication">
-    <p>An Introduction to Valuative Tree Theory (in Chinese).
+    <p><strong>An Introduction to Valuative Tree Theory (in Chinese).</strong>
       <a href="{{ site.baseurl }}/valtree01/" target="_blank" rel="noopener" class="paper-link">01</a> |
       <a href="{{ site.baseurl }}/valtree02/" target="_blank" rel="noopener" class="paper-link">02</a> |
       <a href="{{ site.baseurl }}/valtree03/" target="_blank" rel="noopener" class="paper-link">03</a> |
@@ -56,8 +62,14 @@ permalink: /notes/
   </div>
 
   <div class="publication">
-    <p>自编高考模拟卷.
+    <p><strong>自编高考模拟卷.</strong>
       <a href="{{ site.baseurl }}/assets/highschoolnotes/gaokao_moni.pdf" target="_blank" rel="noopener" class="paper-link">试题</a> | <a href="{{ site.baseurl }}/assets/highschoolnotes/gaokao_moni(answer).pdf" target="_blank" rel="noopener" class="paper-link">解答</a>
+    </p>
+  </div>
+
+  <div class="publication">
+    <p><strong>数学分析习题集 (I).</strong> 单变量函数的连续性、微分与积分 (更新中)
+      <a href="{{ site.baseurl }}/assets/cournotes/Problems_in_MAI.pdf" target="_blank" rel="noopener" class="paper-link">View PDF </a>
     </p>
   </div>
 </section>
