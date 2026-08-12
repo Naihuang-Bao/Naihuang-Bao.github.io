@@ -13,6 +13,12 @@ permalink: /notes/
   </div>
 
   <div class="publication">
+    <p><strong>A counterexample on the equality in the higher order Suita’s conjecture</strong>
+      <a href="{{ site.baseurl }}/assets/seminar/Higher-Suita.pdf" target="_blank" rel="noopener" class="paper-link">View PDF</a>
+    </p>
+  </div>
+
+  <div class="publication">
     <p><strong>Number Theory I.</strong> Xie, Junyi (2025-2026, Fall).
       <a href="{{ site.baseurl }}/assets/lecnotes/Note_on_NTI.pdf" target="_blank" rel="noopener" class="paper-link">View PDF</a>
     </p>
