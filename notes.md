@@ -7,14 +7,8 @@ permalink: /notes/
 <section class="publications">
 
   <div class="publication">
-    <p><strong>A Counterexample to a Convexity Question of Błocki and Zwonek</strong>
-      <a href="{{ site.baseurl }}/assets/seminar/ctexmp_BZ.pdf" target="_blank" rel="noopener" class="paper-link">View PDF</a>
-    </p>
-  </div>
-
-  <div class="publication">
-    <p><strong>A counterexample on the equality in the higher order Suita’s conjecture</strong>
-      <a href="{{ site.baseurl }}/assets/seminar/Higher-Suita.pdf" target="_blank" rel="noopener" class="paper-link">View PDF</a>
+    <p><strong>Some counterexamples on higher order Bergman kernels</strong> Estalished by AI tools.
+      <a href="{{ site.baseurl }}/assets/seminar/CHOBK.pdf" target="_blank" rel="noopener" class="paper-link">View PDF</a>
     </p>
   </div>
 
