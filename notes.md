@@ -7,7 +7,7 @@ permalink: /notes/
 <section class="publications">
 
   <div class="publication">
-    <p><strong>Some counterexamples on higher order Bergman kernels</strong> Estalished by AI tools.
+    <p><strong>Some counterexamples on higher order Bergman kernels</strong> Established by AI tools.
       <a href="{{ site.baseurl }}/assets/seminar/CHOBK.pdf" target="_blank" rel="noopener" class="paper-link">View PDF</a>
     </p>
   </div>
