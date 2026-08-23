@@ -7,7 +7,7 @@ math: true
 
 <div class="math-resume">
   <header class="resume-header">
-    <h1>Bao Shijie (包 诗界)</h1>
+    <h2 class="resume-name">Bao Shijie (包 诗界)</h2>
     
     <div class="contact-info">
       <p> 411 Room, Siyuan Building, No.55 Zhongguancun East Road, Beijing, China</p>

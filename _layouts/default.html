@@ -1,335 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   {% seo %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <style>
-    /* ========== 1. 基础重置（关键修复） ========== */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    body {
-      font-family: 'TeX Gyre Termes', 'Times New Roman', serif;
-      line-height: 1.6;
-      color: #333;
-      background: #fff;
-      max-width: 800px;
-      margin: 4rem auto;
-      padding: 0 2rem;
-    }
-    
-    /* ========== 2. 导航栏样式（保持原样） ========== */
-    .navbar {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      margin-bottom: 2rem;
-      padding-bottom: 0.5rem;
-      border-bottom: 1px solid #eaecef;
-    }
-    
-    .navbar a {
-      text-decoration: none;
-      color: #2c3e50;
-      font-weight: bold;
-      padding: 0.5rem 1rem;
-      border-radius: 4px;
-      transition: all 0.3s;
-    }
-    
-    .navbar a:hover {
-      background: #f8f9fa;
-      color: #e74c3c;
-    }
-    
-    .navbar a.active {
-      background: #2c3e50;
-      color: white;
-    }
-    
-    /* ========== 3. 内容容器（核心修复！） ========== */
-    .page-content {
-      /* 所有页面内容都包裹在这个容器内 */
-    }
-    
-    /* ========== 4. 通用页面样式 ========== */
-    .page-content > *:not(.math-resume):not(.publications):not(.preprints):not(.notes) {
-      margin-bottom: 2rem;
-    }
-    
-    /* 修复标题居中问题 - 关键修复 */
-    .page-content > h1 {
-      color: #2c3e50;
-      text-align: center;
-      border-bottom: 1px solid #eaecef;
-      padding-bottom: 1rem;
-      margin-bottom: 1.5rem;
-    }
-    
-    /* ========== 5. 出版物页面关键修复 ========== */
-    /* 5.1 修复段落格式（核心！） */
-    .publications p,
-    .preprints p,
-    .notes p {
-      margin: 0 0 0.8rem 0;
-      line-height: 1.6;
-    }
-    
-    .publications h1,
-    .preprints h1,
-    .notes h1 {
-      margin-top: 0;
-      padding-top: 0;
-      text-align: center; /* 确保出版物标题也居中 */
-      border-bottom: 1px solid #eaecef;
-      padding-bottom: 1rem;
-      margin-bottom: 1.5rem;
-    }
+  <meta name="theme-color" content="#f5f3ee">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/site.css">
 
-    /* 5.2 修复出版物条目结构 */
-    .publications > .publication,
-    .preprints > .publication {
-      background: #f8f9fa;
-      padding: 1.1rem;
-      border-radius: 6px;
-      margin-bottom: 1.2rem;
-      border-left: 3px solid #3498db;
-      position: relative;
-    }
-    
-    .publications > .publication:last-child,
-    .preprints > .publication:last-child {
-      margin-bottom: 0;
-    }
-
-    /* 5.3 修复交替行背景 */
-    .publications > .publication:nth-of-type(odd),
-    .preprints > .publication:nth-of-type(odd) {
-      background: #fcfdff;
-      border-left-color: #2c3e50;
-    }
-    
-    /* 5.4 修复链接样式 */
-    .page-content .publications a,
-    .page-content .preprints a {
-      color: #2980b9;
-      text-decoration: underline;
-    }
-    
-    .page-content .publications .paper-link,
-    .page-content .preprints .paper-link {
-      color: #2980b9;
-      font-weight: bold;
-    }
-    
-    .page-content .publications .mathscinet,
-    .page-content .publications .doi,
-    .page-content .preprints .mathscinet,
-    .page-content .preprints .doi {
-      color: #7f8c8d;
-      font-size: 0.9rem;
-    }
-    
-    /* ========== 6. Resume 页面样式 ========== */
-    /* 修复Resume间距问题 - 不影响标题居中 */
-    .page-content > .math-resume {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 0;
-    }
-    
-    .page-content > .math-resume > * {
-      margin-bottom: 1.5rem;
-    }
-    
-    .page-content > .math-resume > *:last-child {
-      margin-bottom: 0;
-    }
-    
-    .page-content > .math-resume .resume-header {
-      text-align: center;
-      padding: 2rem 0;
-      border-bottom: 1px solid #eaecef;
-      margin-bottom: 2rem;
-    }
-    
-    /* 修复Resume标题 - 保持居中但特殊处理 */
-    .page-content > .math-resume h1 {
-      color: #2c3e50;
-      text-align: center; /* 保持居中！ */
-      border-bottom: none;
-      margin-bottom: 1rem;
-      font-size: 2.2rem;
-    }
-    
-    .page-content > .math-resume h2 {
-      color: #2c3e50;
-      text-align: center; /* 保持居中 */
-      margin-bottom: 1rem;
-      padding: 0 0.5rem;
-      border-bottom: 1px solid #eaecef;
-      padding-bottom: 0.8rem;
-    }
-    
-    .page-content > .math-resume .contact-info {
-      font-size: 0.95rem;
-      margin: 1.2rem 0;
-      line-height: 1.4;
-    }
-
-    .page-content > .math-resume .institution {
-      color: #555;
-      font-weight: 600;
-    }
-    
-    .page-content > .math-resume .attachments {
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-      margin-top: 1rem;
-      flex-wrap: wrap;
-    }
-    
-    .page-content > .math-resume .btn {
-      display: inline-block;
-      padding: 0.6rem 1.2rem;
-      background: #2c3e50;
-      color: white;
-      text-decoration: none;
-      border-radius: 4px;
-      font-weight: bold;
-      transition: all 0.3s;
-      min-width: 220px;
-      text-align: center;
-    }
-    
-    .page-content > .math-resume .btn:hover {
-      background: #3498db;
-      transform: translateY(-2px);
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-    
-    .page-content > .math-resume .timeline-item {
-      margin-bottom: 1.8rem;
-      padding-left: 1.8rem;
-      border-left: 2px solid #3498db;
-      position: relative;
-    }
-    
-    .page-content > .math-resume .timeline-item:before {
-      content: "";
-      position: absolute;
-      left: -6px;
-      top: 8px;
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background: #e74c3c;
-      border: 2px solid #c0392b;
-    }
-    
-    .page-content > .math-resume .research-focus {
-      background: #f8f9fa;
-      padding: 1.2rem;
-      border-radius: 8px;
-      border-left: 3px solid #e74c3c;
-      margin-bottom: 2rem;
-    }
-
-    .page-content > .math-resume .last-updated {
-      text-align: center;
-      margin-top: 2.5rem;
-      padding-top: 1rem;
-      border-top: 1px dashed #eaecef;
-      color: #7f8c8d;
-      font-size: 0.9rem;
-    }
-    
-    .page-content > .last-updated {
-      text-align: center;
-      margin-top: 2.5rem;
-      padding-top: 1rem;
-      border-top: 1px dashed #eaecef;
-      color: #7f8c8d;
-      font-size: 0.9rem;
-    }
-    
-    /* ========== 7. 首页特定样式 ========== */
-    .cta-button {
-      display: block;
-      width: fit-content;
-      margin: 2rem auto;
-      padding: 0.8rem 2rem;
-      background: #2980b9;
-      color: white;
-      text-decoration: none;
-      border-radius: 4px;
-      font-weight: bold;
-      text-align: center;
-      transition: all 0.3s;
-    }
-    
-    .cta-button:hover {
-      background: #c0392b;
-      transform: translateY(-2px);
-    }
-    
-    /* ========== 8. 响应式设计 ========== */
-    @media (max-width: 768px) {
-      body {
-        margin: 2rem auto;
-        padding: 0 1rem;
-      }
-      
-      .navbar {
-        flex-direction: column;
-        gap: 0.5rem;
-      }
-      
-      .page-content .publications > .publication,
-      .page-content .preprints > .publication {
-        padding: 1rem;
-      }
-      
-      .page-content > .math-resume .resume-header h1 {
-        font-size: 1.8rem;
-      }
-      
-      .page-content > .math-resume .btn {
-        width: 100%;
-        margin-bottom: 8px;
-      }
-      
-      .page-content > .math-resume .timeline-item {
-        padding-left: 1.2rem;
-      }
-      
-      /* 确保小屏幕下标题仍然居中 */
-      .page-content > h1,
-      .publications h1,
-      .preprints h1,
-      .notes h1,
-      .page-content > .math-resume h1 {
-        text-align: center;
-      }
-    }
-    
-    /* ========== 9. 数学符号安全区 ========== */
-    .math-container {
-      background: #fff8e6;
-      padding: 1rem;
-      border-radius: 4px;
-      margin: 1.5rem 0;
-      border-left: 3px solid #ffc107;
-    }
-  </style>
-  
-  <!-- MathJax 配置（仅含数学公式的页面加载） -->
   {% if page.math %}
   <script>
     window.MathJax = {
@@ -343,24 +20,41 @@
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
   {% endif %}
 </head>
-<body>
-  <!-- 导航栏（保持原样） -->
-  <nav class="navbar">
-    <a href="{{ site.baseurl }}/" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
-    <a href="{{ site.baseurl }}/resume/" {% if page.url == '/resume/' %}class="active"{% endif %}>Resume</a>
-    <a href="{{ site.baseurl }}/publications/" {% if page.url == '/publications/' %}class="active"{% endif %}>Publications</a>
-    <a href="{{ site.baseurl }}/preprints/" {% if page.url == '/preprints/' %}class="active"{% endif %}>Preprints</a>
-    <a href="{{ site.baseurl }}/courses/" {% if page.url == '/courses/' %}class="active"{% endif %}>Courses</a>
-    <a href="{{ site.baseurl }}/notes/" {% if page.url == '/notes/' %}class="active"{% endif %}>Notes</a>
-    <a href="{{ site.baseurl }}/ai/" {% if page.url == '/ai/' %}class="active"{% endif %}>AI</a>
-  </nav>
-  
-  <!-- ========== 核心修复：内容容器 ========== -->
-  <main class="page-content">
-    {{ content }}
-  </main>
-  
-  <!-- 百度自动推送 -->
+<body id="top" class="{% if page.url == '/' %}home-page{% else %}inner-page{% endif %}">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="site-name" href="{{ site.baseurl }}/">Shijie Bao</a>
+      <div class="nav-links">
+        <a href="{{ site.baseurl }}/" {% if page.url == '/' %}class="active" aria-current="page"{% endif %}>Home</a>
+        <a href="{{ site.baseurl }}/resume/" {% if page.url == '/resume/' %}class="active" aria-current="page"{% endif %}>Resume</a>
+        <a href="{{ site.baseurl }}/publications/" {% if page.url == '/publications/' %}class="active" aria-current="page"{% endif %}>Publications</a>
+        <a href="{{ site.baseurl }}/preprints/" {% if page.url == '/preprints/' %}class="active" aria-current="page"{% endif %}>Preprints</a>
+        <a href="{{ site.baseurl }}/courses/" {% if page.url == '/courses/' %}class="active" aria-current="page"{% endif %}>Courses</a>
+        <a href="{{ site.baseurl }}/notes/" {% if page.url == '/notes/' %}class="active" aria-current="page"{% endif %}>Notes</a>
+        <a href="{{ site.baseurl }}/ai/" {% if page.url == '/ai/' %}class="active" aria-current="page"{% endif %}>AI</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="site-shell">
+    <main id="main-content" class="page-content">
+      {% unless page.url == '/' %}
+      <header class="page-heading">
+        <h1>{{ page.title }}</h1>
+      </header>
+      {% endunless %}
+
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; {{ site.time | date: "%Y" }} Shijie Bao</p>
+      <a href="#top">Back to top <span aria-hidden="true">&uarr;</span></a>
+    </footer>
+  </div>
+
   <script>
   (function() {
     var bp = document.createElement('script');

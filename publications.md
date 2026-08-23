@@ -6,8 +6,6 @@ math: true
 ---
 
 <section class="publications">
-  <h1>Publications</h1>
-
   <div class="publication">
     <p><strong>[2026]</strong> Bao, S., Guan, Q., & Yuan, Z. (2026). Concavity property of minimal $L^{2}$ integrals with Lebesgue measurable gain VI: Fibrations over products of open Riemann surfaces. <em>Science China Mathematics</em>. 69, 615–666. 
       <a href="{{ site.baseurl }}/assets/papers/SCM2025.pdf" target="_blank" rel="noopener" class="paper-link">View PDF</a>

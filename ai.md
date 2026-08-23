@@ -4,7 +4,7 @@ title: "AI"
 permalink: /ai/
 ---
 
-<section class="publications">
+<section class="publications ai-publications">
 
   <div class="publication">
     <p><strong>A ξ-Bergman kernel proof of the concavity of minimal L² integrals</strong> Developed with the assistance of GPT-5.6-sol (xhigh).

@@ -4,7 +4,7 @@ title: "Notes"
 permalink: /notes/
 ---
 
-<section class="publications">
+<section class="publications notes-publications">
 
   <div class="publication">
     <p><strong>Number Theory I.</strong> Xie, Junyi (2025-2026, Fall).
