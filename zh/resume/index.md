@@ -47,7 +47,7 @@ page_class: resume-page
       <span class="institution-logo institution-logo-amss" aria-hidden="true"><img src="{{ site.baseurl }}/assets/institutions/amss-logo.png" alt=""></span>
       <div class="experience-copy">
         <h3>博士后</h3>
-        <p class="institution">中国科学院数学与系统科学研究院 | 2022 年 7 月–2026 年 8 月</p>
+        <p class="institution">中国科学院数学与系统科学研究院 | 2022 年 7 月–2026 年 6 月 30 日</p>
         <p>合作导师：周向宇研究员 | 中国北京</p>
       </div>
     </div>

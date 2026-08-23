@@ -47,7 +47,7 @@ page_class: resume-page
       <span class="institution-logo institution-logo-amss" aria-hidden="true"><img src="{{ site.baseurl }}/assets/institutions/amss-logo.png" alt=""></span>
       <div class="experience-copy">
         <h3>博士研究員</h3>
-        <p class="institution">中国科学院数学・システム科学研究院 | 2022年7月–2026年8月</p>
+        <p class="institution">中国科学院数学・システム科学研究院 | 2022年7月–2026年6月30日</p>
         <p>受入研究者：周向宇教授 | 中国・北京</p>
       </div>
     </div>

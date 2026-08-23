@@ -60,7 +60,7 @@ page_class: resume-page
       </span>
       <div class="experience-copy">
         <h3>Postdoctoral Fellow</h3>
-        <p class="institution">Academy of Mathematics and Systems Science, Chinese Academy of Sciences | July 2022 - Aug 2026</p>
+        <p class="institution">Academy of Mathematics and Systems Science, Chinese Academy of Sciences | July 2022 - June 30, 2026</p>
         <p>Supervisor: Prof. Xiangyu Zhou | Beijing, China</p>
       </div>
     </div>
