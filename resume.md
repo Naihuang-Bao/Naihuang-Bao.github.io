@@ -49,7 +49,7 @@ page_class: resume-page
       </span>
       <div class="experience-copy">
         <h3>Lecturer</h3>
-        <p class="institution">Osaka Metropolitan University, Faculty of Science / Graduate School of Science / School of Science | Sep 2026 - Present</p>
+        <p class="institution"><a href="https://www.omu.ac.jp/en/" target="_blank" rel="noopener">Osaka Metropolitan University</a>, Faculty of Science / Graduate School of Science / <a href="https://www.omu.ac.jp/sci/math_en/" target="_blank" rel="noopener">Department of Mathematics</a> | Sep 2026 - Present</p>
         <p>Mathematical Structures | Sugimoto Campus, Osaka, Japan</p>
       </div>
     </div>
@@ -60,7 +60,7 @@ page_class: resume-page
       </span>
       <div class="experience-copy">
         <h3>Postdoctoral Fellow</h3>
-        <p class="institution">Academy of Mathematics and Systems Science, Chinese Academy of Sciences | July 2022 - June 30, 2026</p>
+        <p class="institution"><a href="https://english.amss.cas.cn/" target="_blank" rel="noopener">Academy of Mathematics and Systems Science</a>, Chinese Academy of Sciences | July 2022 - June 30, 2026</p>
         <p>Supervisor: Prof. Xiangyu Zhou | Beijing, China</p>
       </div>
     </div>
@@ -76,7 +76,7 @@ page_class: resume-page
       </span>
       <div class="experience-copy">
         <h3>Ph.D. in Mathematics</h3>
-        <p class="institution">Peking University, School of Mathematical Sciences | Sep 2017 - Jun 2022</p>
+        <p class="institution"><a href="https://english.pku.edu.cn/" target="_blank" rel="noopener">Peking University</a>, School of Mathematical Sciences | Sep 2017 - Jun 2022</p>
         <p>Advisor: Prof. Qi'an Guan | Thesis: "$L^{2}$ Extension and Effectiveness of Strong Openness Property"</p>
       </div>
     </div>
@@ -87,7 +87,7 @@ page_class: resume-page
       </span>
       <div class="experience-copy">
         <h3>B.Sc. in Mathematics</h3>
-        <p class="institution">University of Science and Technology of China | Sep 2013 - Jun 2017</p>
+        <p class="institution"><a href="https://en.ustc.edu.cn/" target="_blank" rel="noopener">University of Science and Technology of China</a>, School of Mathematical Sciences | Sep 2013 - Jun 2017</p>
         <p>Thesis: "Hörmander's $L^{2}$ Theorem for Dirac Operator in Complex Clifford Analysis"</p>
       </div>
     </div>

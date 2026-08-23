@@ -39,7 +39,7 @@ page_class: resume-page
       <span class="institution-logo institution-logo-omu" aria-hidden="true"><img src="{{ site.baseurl }}/assets/institutions/omu-logo.png" alt=""></span>
       <div class="experience-copy">
         <h3>講師</h3>
-        <p class="institution">大阪公立大学 理学部／大学院理学研究科／理学系 | 2026年9月–現在</p>
+        <p class="institution"><a href="https://www.omu.ac.jp/" target="_blank" rel="noopener">大阪公立大学</a> 理学部／大学院理学研究科／<a href="https://www.omu.ac.jp/sci/math/" target="_blank" rel="noopener">数学科・数学専攻</a> | 2026年9月–現在</p>
         <p>数学構造論講座 | 杉本キャンパス（大阪）</p>
       </div>
     </div>
@@ -47,7 +47,7 @@ page_class: resume-page
       <span class="institution-logo institution-logo-amss" aria-hidden="true"><img src="{{ site.baseurl }}/assets/institutions/amss-logo.png" alt=""></span>
       <div class="experience-copy">
         <h3>博士研究員</h3>
-        <p class="institution">中国科学院数学・システム科学研究院 | 2022年7月–2026年6月30日</p>
+        <p class="institution"><a href="https://english.amss.cas.cn/" target="_blank" rel="noopener">中国科学院数学・システム科学研究院</a> | 2022年7月–2026年6月30日</p>
         <p>受入研究者：周向宇教授 | 中国・北京</p>
       </div>
     </div>
@@ -59,15 +59,15 @@ page_class: resume-page
       <span class="institution-logo institution-logo-pku" aria-hidden="true"><img src="{{ site.baseurl }}/assets/institutions/pku-logo.png" alt=""></span>
       <div class="experience-copy">
         <h3>博士（数学）</h3>
-        <p class="institution">北京大学 数学科学学院 | 2017年9月–2022年6月</p>
-        <p>指導教員：管取安教授 | 学位論文：“$L^{2}$ Extension and Effectiveness of Strong Openness Property”</p>
+        <p class="institution"><a href="https://english.pku.edu.cn/" target="_blank" rel="noopener">北京大学</a> 数学科学学院 | 2017年9月–2022年6月</p>
+        <p>指導教員：关启安教授 | 学位論文：“$L^{2}$ Extension and Effectiveness of Strong Openness Property”</p>
       </div>
     </div>
     <div class="timeline-item experience-item">
       <span class="institution-logo institution-logo-ustc" aria-hidden="true"><img src="{{ site.baseurl }}/assets/institutions/ustc-logo.png" alt=""></span>
       <div class="experience-copy">
         <h3>学士（数学）</h3>
-        <p class="institution">中国科学技術大学 | 2013年9月–2017年6月</p>
+        <p class="institution"><a href="https://en.ustc.edu.cn/" target="_blank" rel="noopener">中国科学技術大学</a> 数学科学学院 | 2013年9月–2017年6月</p>
         <p>卒業論文：“Hörmander's $L^{2}$ Theorem for Dirac Operator in Complex Clifford Analysis”</p>
       </div>
     </div>

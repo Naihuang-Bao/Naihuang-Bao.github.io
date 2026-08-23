@@ -512,13 +512,8 @@ ul {
 }
 
 .institution-logo-omu img {
-  position: absolute;
-  top: 50%;
-  left: 0.12rem;
-  width: auto;
-  max-width: none;
-  height: 2.75rem;
-  transform: translateY(-50%);
+  width: 2.5rem;
+  height: 2.2rem;
 }
 
 .institution-logo-ustc img {
@@ -563,6 +558,15 @@ ul {
 .institution {
   color: var(--color-navy);
   font-weight: 600;
+}
+
+.institution a {
+  color: inherit;
+  text-decoration-color: rgba(36, 60, 82, 0.32);
+}
+
+.institution a:hover {
+  color: var(--color-rust);
 }
 
 .math-container {
