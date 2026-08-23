@@ -13,7 +13,7 @@ page_class: resume-page
   <header class="resume-header">
     <h2 class="resume-name">包诗界</h2>
     <div class="contact-info">
-      <p>中国北京市中关村东路 55 号思源楼 411 室</p>
+      <p>日本大阪府大阪市住吉区杉本 3 丁目 2，理学部楼 F-301 室，邮编 558-0022</p>
       <p><a href="mailto:bsjie@amss.ac.cn">bsjie@amss.ac.cn</a> | <a href="mailto:baoshijie96@gmail.com">baoshijie96@gmail.com</a></p>
       <p><a href="https://orcid.org/0000-0002-6781-2316">ORCID</a> | <a href="https://scholar.google.com/citations?user=FKbOyUAAAAAJ">Google Scholar</a> | <a href="https://www.researchgate.net/profile/Shijie-Bao-3">ResearchGate</a> | <a href="https://mathscinet.ams.org/mathscinet/author?authorId=1534515">MathSciNet</a></p>
     </div>
@@ -47,7 +47,7 @@ page_class: resume-page
       <span class="institution-logo institution-logo-amss" aria-hidden="true"><img src="{{ site.baseurl }}/assets/institutions/amss-logo.png" alt=""></span>
       <div class="experience-copy">
         <h3>博士后</h3>
-        <p class="institution"><a href="https://www.amss.cas.cn/" target="_blank" rel="noopener">中国科学院数学与系统科学研究院</a> | 2022 年 7 月–2026 年 6 月 30 日</p>
+        <p class="institution"><a href="https://www.amss.cas.cn/" target="_blank" rel="noopener">中国科学院数学与系统科学研究院</a> | 2022 年 7 月–2026 年 6 月</p>
         <p>合作导师：周向宇研究员 | 中国北京</p>
       </div>
     </div>

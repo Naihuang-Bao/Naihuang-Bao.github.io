@@ -14,7 +14,7 @@ page_class: resume-page
     <h2 class="resume-name">Bao Shijie (包 诗界)</h2>
     
     <div class="contact-info">
-      <p> 411 Room, Siyuan Building, No.55 Zhongguancun East Road, Beijing, China</p>
+      <p>Room F-301, Faculty of Science Building, 3-2 Sugimoto, Sumiyoshi-ku, Osaka 558-0022, Japan</p>
       <p> <a href="mailto:bsjie@amss.ac.cn">bsjie@amss.ac.cn</a> | <a href="mailto:baoshijie96@gmail.com">baoshijie96@gmail.com</a></p>
       <p><a href="https://orcid.org/0000-0002-6781-2316">ORCID</a> | <a href="https://scholar.google.com/citations?user=FKbOyUAAAAAJ">Google Scholar</a> | <a href="https://www.researchgate.net/profile/Shijie-Bao-3">ResearchGate</a> | <a href="https://mathscinet.ams.org/mathscinet/author?authorId=1534515">MathSciNet</a></p>
     </div>
@@ -60,7 +60,7 @@ page_class: resume-page
       </span>
       <div class="experience-copy">
         <h3>Postdoctoral Fellow</h3>
-        <p class="institution"><a href="https://english.amss.cas.cn/" target="_blank" rel="noopener">Academy of Mathematics and Systems Science</a>, Chinese Academy of Sciences | July 2022 - June 30, 2026</p>
+        <p class="institution"><a href="https://english.amss.cas.cn/" target="_blank" rel="noopener">Academy of Mathematics and Systems Science</a>, Chinese Academy of Sciences | July 2022 - June 2026</p>
         <p>Supervisor: Prof. Xiangyu Zhou | Beijing, China</p>
       </div>
     </div>

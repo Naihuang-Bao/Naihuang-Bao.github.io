@@ -22,7 +22,7 @@ math: true
       </p>
 
       <p>
-        My research focuses on multiplier ideal sheaves, $L^{2}$ extension problems, and Bergman kernel theory.
+        My research focuses on multiplier ideal sheaves, $L^{2}$ extension problems, Bergman kernel theory, and valuation theory.
       </p>
     </div>
 
