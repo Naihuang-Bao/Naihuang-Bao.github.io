@@ -2,9 +2,13 @@
 layout: default
 title: "Academic Resume"
 permalink: /resume/
+lang: en
+section: resume
 math: true
+page_class: resume-page
 ---
 
+<div class="resume-layout">
 <div class="math-resume">
   <header class="resume-header">
     <h2 class="resume-name">Bao Shijie (包 诗界)</h2>
@@ -35,13 +39,30 @@ math: true
     </ul>
   </section>
 
-  <!-- 当前职位 -->
+  <!-- 学术任职 -->
   <section class="current-position">
-    <h2>Current Position</h2>
-    <div class="timeline-item">
-      <h3>Postdoctoral Fellow</h3>
-      <p class="institution">Academy of Mathematics and Systems Science, Chinese Academy of Sciences | July 2022 - Present</p>
-      <p>Supervisor: Prof. Xiangyu Zhou | Beijing, China</p>
+    <h2>Academic Positions</h2>
+
+    <div class="timeline-item experience-item">
+      <span class="institution-logo institution-logo-omu" aria-hidden="true">
+        <img src="{{ site.baseurl }}/assets/institutions/omu-logo.png" alt="">
+      </span>
+      <div class="experience-copy">
+        <h3>Lecturer</h3>
+        <p class="institution">Osaka Metropolitan University, Faculty of Science / Graduate School of Science / School of Science | Sep 2026 - Present</p>
+        <p>Mathematical Structures | Sugimoto Campus, Osaka, Japan</p>
+      </div>
+    </div>
+
+    <div class="timeline-item experience-item">
+      <span class="institution-logo institution-logo-amss" aria-hidden="true">
+        <img src="{{ site.baseurl }}/assets/institutions/amss-logo.png" alt="">
+      </span>
+      <div class="experience-copy">
+        <h3>Postdoctoral Fellow</h3>
+        <p class="institution">Academy of Mathematics and Systems Science, Chinese Academy of Sciences | July 2022 - Aug 2026</p>
+        <p>Supervisor: Prof. Xiangyu Zhou | Beijing, China</p>
+      </div>
     </div>
   </section>
 
@@ -49,21 +70,38 @@ math: true
   <section class="education">
     <h2>Education</h2>
     
-    <div class="timeline-item">
-      <h3>Ph.D. in Mathematics</h3>
-      <p class="institution">Peking University, School of Mathematical Sciences | Sep 2017 - Jun 2022</p>
-      <p>Advisor: Prof. Qi'an Guan | Thesis: "$L^{2}$ Extension and Effectiveness of Strong Openness Property"</p>
+    <div class="timeline-item experience-item">
+      <span class="institution-logo institution-logo-pku" aria-hidden="true">
+        <img src="{{ site.baseurl }}/assets/institutions/pku-logo.png" alt="">
+      </span>
+      <div class="experience-copy">
+        <h3>Ph.D. in Mathematics</h3>
+        <p class="institution">Peking University, School of Mathematical Sciences | Sep 2017 - Jun 2022</p>
+        <p>Advisor: Prof. Qi'an Guan | Thesis: "$L^{2}$ Extension and Effectiveness of Strong Openness Property"</p>
+      </div>
     </div>
     
-    <div class="timeline-item">
-      <h3>B.Sc. in Mathematics</h3>
-      <p class="institution">University of Science and Technology of China | Sep 2013 - Jun 2017</p>
-      <p>Thesis: "Hörmander's $L^{2}$ Theorem for Dirac Operator in Complex Clifford Analysis"</p>
+    <div class="timeline-item experience-item">
+      <span class="institution-logo institution-logo-ustc" aria-hidden="true">
+        <img src="{{ site.baseurl }}/assets/institutions/ustc-logo.png" alt="">
+      </span>
+      <div class="experience-copy">
+        <h3>B.Sc. in Mathematics</h3>
+        <p class="institution">University of Science and Technology of China | Sep 2013 - Jun 2017</p>
+        <p>Thesis: "Hörmander's $L^{2}$ Theorem for Dirac Operator in Complex Clifford Analysis"</p>
+      </div>
     </div>
   </section>
   
   <!-- 更新时间戳 -->
   <div class="last-updated">
-    Last updated: <time datetime="2026-06-21">August 4, 2026</time>
+    Last updated: <time datetime="2026-08-23">August 23, 2026</time>
   </div>
+</div>
+
+<aside class="resume-aside" aria-label="Decorative academic photograph">
+  <figure class="resume-feature-image">
+    <img src="{{ site.baseurl }}/assets/photo/resume-academic-companions.jpg" alt="Two plush academic companions wearing graduation caps" width="1600" height="1102">
+  </figure>
+</aside>
 </div>

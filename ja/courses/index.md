@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Courses"
-permalink: /courses/
-lang: en
+title: "講義"
+permalink: /ja/courses/
+lang: ja
 section: courses
 ---
 

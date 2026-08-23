@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Courses"
-permalink: /courses/
-lang: en
+title: "课程"
+permalink: /zh/courses/
+lang: zh
 section: courses
 ---
 

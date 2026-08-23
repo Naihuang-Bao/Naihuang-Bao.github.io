@@ -1,11 +1,19 @@
+{% assign current_lang = page.lang | default: "en" %}
+{% assign t = site.data.i18n[current_lang] %}
+{% assign language_codes = "en,zh,ja" | split: "," %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ t.html_lang }}">
 <head>
   <meta charset="utf-8">
   {% seo %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f3ee">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/site.css">
+  {% for language_code in language_codes %}
+    {% assign language_data = site.data.i18n[language_code] %}
+    <link rel="alternate" hreflang="{{ language_data.html_lang }}" href="{{ language_data.paths[page.section] | absolute_url }}">
+  {% endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.data.i18n.en.paths[page.section] | absolute_url }}">
 
   {% if page.math %}
   <script>
@@ -20,27 +28,35 @@
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
   {% endif %}
 </head>
-<body id="top" class="{% if page.url == '/' %}home-page{% else %}inner-page{% endif %}">
-  <a class="skip-link" href="#main-content">Skip to content</a>
+<body id="top" class="{% if page.section == 'home' %}home-page{% else %}inner-page{% endif %}{% if page.page_class %} {{ page.page_class }}{% endif %}">
+  <a class="skip-link" href="#main-content">{{ t.skip }}</a>
 
   <header class="site-header">
-    <nav class="navbar" aria-label="Primary navigation">
-      <a class="site-name" href="{{ site.baseurl }}/">Shijie Bao</a>
-      <div class="nav-links">
-        <a href="{{ site.baseurl }}/" {% if page.url == '/' %}class="active" aria-current="page"{% endif %}>Home</a>
-        <a href="{{ site.baseurl }}/resume/" {% if page.url == '/resume/' %}class="active" aria-current="page"{% endif %}>Resume</a>
-        <a href="{{ site.baseurl }}/publications/" {% if page.url == '/publications/' %}class="active" aria-current="page"{% endif %}>Publications</a>
-        <a href="{{ site.baseurl }}/preprints/" {% if page.url == '/preprints/' %}class="active" aria-current="page"{% endif %}>Preprints</a>
-        <a href="{{ site.baseurl }}/courses/" {% if page.url == '/courses/' %}class="active" aria-current="page"{% endif %}>Courses</a>
-        <a href="{{ site.baseurl }}/notes/" {% if page.url == '/notes/' %}class="active" aria-current="page"{% endif %}>Notes</a>
-        <a href="{{ site.baseurl }}/ai/" {% if page.url == '/ai/' %}class="active" aria-current="page"{% endif %}>AI</a>
+    <nav class="navbar" aria-label="{{ t.primary_nav }}">
+      <a class="site-name" href="{{ site.baseurl }}{{ t.paths.home }}">{{ t.site_name }}</a>
+      <div class="nav-cluster">
+        <div class="nav-links">
+          <a href="{{ site.baseurl }}{{ t.paths.home }}" {% if page.section == 'home' %}class="active" aria-current="page"{% endif %}>{{ t.nav.home }}</a>
+          <a href="{{ site.baseurl }}{{ t.paths.resume }}" {% if page.section == 'resume' %}class="active" aria-current="page"{% endif %}>{{ t.nav.resume }}</a>
+          <a href="{{ site.baseurl }}{{ t.paths.publications }}" {% if page.section == 'publications' %}class="active" aria-current="page"{% endif %}>{{ t.nav.publications }}</a>
+          <a href="{{ site.baseurl }}{{ t.paths.preprints }}" {% if page.section == 'preprints' %}class="active" aria-current="page"{% endif %}>{{ t.nav.preprints }}</a>
+          <a href="{{ site.baseurl }}{{ t.paths.courses }}" {% if page.section == 'courses' %}class="active" aria-current="page"{% endif %}>{{ t.nav.courses }}</a>
+          <a href="{{ site.baseurl }}{{ t.paths.notes }}" {% if page.section == 'notes' %}class="active" aria-current="page"{% endif %}>{{ t.nav.notes }}</a>
+          <a href="{{ site.baseurl }}{{ t.paths.ai }}" {% if page.section == 'ai' %}class="active" aria-current="page"{% endif %}>{{ t.nav.ai }}</a>
+        </div>
+        <div class="language-switcher" aria-label="{{ t.language_nav }}">
+          {% for language_code in language_codes %}
+            {% assign language_data = site.data.i18n[language_code] %}
+            <a href="{{ site.baseurl }}{{ language_data.paths[page.section] }}" lang="{{ language_data.html_lang }}" hreflang="{{ language_data.html_lang }}"{% if language_code == current_lang %} class="active" aria-current="true"{% endif %}>{{ t.language_short[language_code] }}</a>
+          {% endfor %}
+        </div>
       </div>
     </nav>
   </header>
 
   <div class="site-shell">
     <main id="main-content" class="page-content">
-      {% unless page.url == '/' %}
+      {% unless page.section == 'home' %}
       <header class="page-heading">
         <h1>{{ page.title }}</h1>
       </header>
@@ -50,8 +66,8 @@
     </main>
 
     <footer class="site-footer">
-      <p>&copy; {{ site.time | date: "%Y" }} Shijie Bao</p>
-      <a href="#top">Back to top <span aria-hidden="true">&uarr;</span></a>
+      <p>&copy; {{ site.time | date: "%Y" }} {{ t.copyright_name }}</p>
+      <a href="#top">{{ t.back_to_top }} <span aria-hidden="true">&uarr;</span></a>
     </footer>
   </div>
 

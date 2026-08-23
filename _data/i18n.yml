@@ -1,0 +1,107 @@
+en:
+  html_lang: en
+  site_name: Shijie Bao
+  skip: Skip to content
+  primary_nav: Primary navigation
+  language_nav: Language selection
+  back_to_top: Back to top
+  copyright_name: Shijie Bao
+  nav:
+    home: Home
+    resume: Resume
+    publications: Publications
+    preprints: Preprints
+    courses: Courses
+    notes: Notes
+    ai: AI
+  paths:
+    home: /
+    resume: /resume/
+    publications: /publications/
+    preprints: /preprints/
+    courses: /courses/
+    notes: /notes/
+    ai: /ai/
+  languages:
+    en: English
+    zh: Chinese
+  language_short:
+    en: EN
+    zh: 中文
+    ja: 日本語
+  note_links:
+    pdf: View PDF
+    questions: Questions
+    answers: Solutions
+
+zh:
+  html_lang: zh-CN
+  site_name: 包诗界
+  skip: 跳至正文
+  primary_nav: 主导航
+  language_nav: 语言选择
+  back_to_top: 返回顶部
+  copyright_name: 包诗界
+  nav:
+    home: 首页
+    resume: 简历
+    publications: 论文
+    preprints: 预印本
+    courses: 课程
+    notes: 笔记
+    ai: AI
+  paths:
+    home: /zh/
+    resume: /zh/resume/
+    publications: /zh/publications/
+    preprints: /zh/preprints/
+    courses: /zh/courses/
+    notes: /zh/notes/
+    ai: /zh/ai/
+  languages:
+    en: 英语
+    zh: 中文
+  language_short:
+    en: EN
+    zh: 中文
+    ja: 日本語
+  note_links:
+    pdf: 查看 PDF
+    questions: 试题
+    answers: 解答
+
+ja:
+  html_lang: ja
+  site_name: 包 詩界
+  skip: 本文へ移動
+  primary_nav: メインナビゲーション
+  language_nav: 言語選択
+  back_to_top: ページ上部へ
+  copyright_name: 包 詩界
+  nav:
+    home: ホーム
+    resume: 経歴
+    publications: 論文
+    preprints: プレプリント
+    courses: 講義
+    notes: ノート
+    ai: AI
+  paths:
+    home: /ja/
+    resume: /ja/resume/
+    publications: /ja/publications/
+    preprints: /ja/preprints/
+    courses: /ja/courses/
+    notes: /ja/notes/
+    ai: /ja/ai/
+  languages:
+    en: 英語
+    zh: 中国語
+  language_short:
+    en: EN
+    zh: 中文
+    ja: 日本語
+  note_links:
+    pdf: PDF を見る
+    questions: 問題
+    answers: 解答

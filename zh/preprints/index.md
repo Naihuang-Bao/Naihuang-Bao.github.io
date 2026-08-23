@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Preprints"
-permalink: /preprints/
-lang: en
+title: "预印本"
+permalink: /zh/preprints/
+lang: zh
 section: preprints
 math: true
 ---

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Notes"
-permalink: /notes/
-lang: en
+title: "ノート"
+permalink: /ja/notes/
+lang: ja
 section: notes
 ---
 

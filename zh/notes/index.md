@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Notes"
-permalink: /notes/
-lang: en
+title: "笔记"
+permalink: /zh/notes/
+lang: zh
 section: notes
 ---
 

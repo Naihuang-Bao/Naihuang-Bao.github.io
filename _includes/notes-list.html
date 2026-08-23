@@ -1,0 +1,18 @@
+{% assign current_lang = page.lang | default: "en" %}
+{% assign t = site.data.i18n[current_lang] %}
+<section class="publications notes-publications">
+  {% for note in site.data.notes %}
+  <article class="publication note-item">
+    <p>
+      <strong>{{ note.title[current_lang] }}.</strong>
+      <span class="language-note">({% if current_lang == "en" %}in {{ t.languages[note.file_language] }}{% else %}{% if current_lang == "zh" %}文件语言：{% else %}ファイル言語：{% endif %}{{ t.languages[note.file_language] }}{% endif %})</span>
+      {% if note.meta %}{% if note.meta[current_lang] %} {{ note.meta[current_lang] }}{% endif %}{% endif %}
+      <span class="note-links">
+        {% for link in note.links %}
+        <a href="{{ site.baseurl }}{{ link.path }}" target="_blank" rel="noopener" class="paper-link">{% if link.text %}{{ link.text }}{% else %}{{ t.note_links[link.label] }}{% endif %}</a>
+        {% endfor %}
+      </span>
+    </p>
+  </article>
+  {% endfor %}
+</section>

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Preprints"
-permalink: /preprints/
-lang: en
+title: "プレプリント"
+permalink: /ja/preprints/
+lang: ja
 section: preprints
 math: true
 ---

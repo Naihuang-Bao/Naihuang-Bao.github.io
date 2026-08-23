@@ -1,0 +1,131 @@
+- id: number-theory-1
+  title:
+    en: Number Theory I
+    zh: 数论 I
+    ja: 数論 I
+  meta:
+    en: Xie, Junyi (2025–2026, Fall).
+    zh: 谢俊逸（2025–2026 学年秋季学期）。
+    ja: 謝俊逸（2025–2026年度・秋学期）。
+  file_language: en
+  links:
+    - path: /assets/lecnotes/Note_on_NTI.pdf
+      label: pdf
+
+- id: selected-number-theory
+  title:
+    en: Selected Topics in Number Theory
+    zh: 数论选讲
+    ja: 数論特論
+  meta:
+    en: Xie, Junyi (2024–2025, Spring).
+    zh: 谢俊逸（2024–2025 学年春季学期）。
+    ja: 謝俊逸（2024–2025年度・春学期）。
+  file_language: en
+  links:
+    - path: /assets/lecnotes/Sel_Top_in_NT.pdf
+      label: pdf
+
+- id: selected-algebraic-geometry
+  title:
+    en: Selected Topics in Algebraic Geometry
+    zh: 代数几何选讲
+    ja: 代数幾何学特論
+  meta:
+    en: Xie, Junyi (2024–2025, Fall).
+    zh: 谢俊逸（2024–2025 学年秋季学期）。
+    ja: 謝俊逸（2024–2025年度・秋学期）。
+  file_language: en
+  links:
+    - path: /assets/lecnotes/Sel_Top_in_AG.pdf
+      label: pdf
+
+- id: nagata
+  title:
+    en: "Seminar: Nagata Conjecture"
+    zh: 讨论班：Nagata 猜想
+    ja: セミナー：Nagata 予想
+  meta:
+    en: at AMSS (March 2025).
+    zh: 中国科学院数学与系统科学研究院（2025 年 3 月）。
+    ja: 中国科学院数学・システム科学研究院（2025年3月）。
+  file_language: zh
+  links:
+    - path: /assets/seminar/Nagata.pdf
+      label: pdf
+
+- id: basic-complex-analytic-methods
+  title:
+    en: "Mini-course: Basic Complex Analytic Methods"
+    zh: 短期课程：复分析基本方法
+    ja: ミニコース：複素解析の基本的手法
+  meta:
+    en: at CQU (May 2025).
+    zh: 重庆大学（2025 年 5 月）。
+    ja: 重慶大学（2025年5月）。
+  file_language: en
+  links:
+    - path: /assets/seminar/bcam.pdf
+      label: pdf
+
+- id: valuative-tree
+  title:
+    en: An Introduction to Valuative Tree Theory
+    zh: 赋值树理论简介
+    ja: 付値木理論入門
+  file_language: zh
+  links:
+    - path: /assets/mdnotes/valtree/valtree01.pdf
+      text: "01"
+    - path: /assets/mdnotes/valtree/valtree02.pdf
+      text: "02"
+    - path: /assets/mdnotes/valtree/valtree03.pdf
+      text: "03"
+    - path: /assets/mdnotes/valtree/valtree04.pdf
+      text: "04"
+    - path: /assets/mdnotes/valtree/valtree05.pdf
+      text: "05"
+    - path: /assets/mdnotes/valtree/valtree06.pdf
+      text: "06"
+    - path: /assets/mdnotes/valtree/valtree07.pdf
+      text: "07"
+    - path: /assets/mdnotes/valtree/valtree08.pdf
+      text: "08"
+    - path: /assets/mdnotes/valtree/valtree09.pdf
+      text: "09"
+    - path: /assets/mdnotes/valtree/valtree10.pdf
+      text: "10"
+    - path: /assets/mdnotes/valtree/valtree11.pdf
+      text: "11"
+    - path: /assets/mdnotes/valtree/valtree12.pdf
+      text: "12"
+    - path: /assets/mdnotes/valtree/valtree13.pdf
+      text: "13"
+    - path: /assets/mdnotes/valtree/valtree14.pdf
+      text: "14"
+
+- id: gaokao
+  title:
+    en: Self-compiled Gaokao Mock Examination
+    zh: 自编高考模拟卷
+    ja: 自作の中国大学入試模擬試験
+  file_language: zh
+  links:
+    - path: /assets/highschoolnotes/gaokao_moni.pdf
+      label: questions
+    - path: /assets/highschoolnotes/gaokao_moni(answer).pdf
+      label: answers
+
+- id: mathematical-analysis
+  title:
+    en: Mathematical Analysis Problem Set (I)
+    zh: 数学分析习题集（I）
+    ja: 数学解析問題集（I）
+  meta:
+    en: Continuity, differentiation, and integration of single-variable functions (work in progress).
+    zh: 单变量函数的连续性、微分与积分（更新中）。
+    ja: 一変数関数の連続性・微分・積分（更新中）。
+  file_language: zh
+  links:
+    - path: /assets/cournotes/Problems_in_MAI.pdf
+      label: pdf
