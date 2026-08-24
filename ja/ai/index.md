@@ -32,7 +32,7 @@ section: ai
   </article>
 
   <article class="publication">
-    <p><strong>A ξ-Bergman kernel proof of the concavity of minimal L² integrals</strong> ファイバー方向の ξ-Bergman 核の変分、行列曲率、有限次元近似から Guan の凹性定理を導きます。<strong>AI の使用：</strong>この論証は GPT-5.6-sol（xhigh）の支援を受けて構築されました。
+    <p><strong>A ξ-Bergman kernel proof of the concavity of minimal L² integrals</strong> ファイバー方向の ξ-Bergman 核の変分、行列曲率、有限次元近似から Guan の凹性定理を導きます。<strong>AI の使用：</strong>この論証は GPT-5.6-sol（high）の支援を受けて構築されました。
       <a href="{{ site.baseurl }}/assets/papers/xi-Bergman-concavity.pdf" target="_blank" rel="noopener" class="paper-link">PDF を見る</a>
     </p>
   </article>

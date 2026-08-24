@@ -32,7 +32,7 @@ section: ai
   </article>
 
   <article class="publication">
-    <p><strong>A ξ-Bergman kernel proof of the concavity of minimal L² integrals</strong> 通过纤维 ξ-Bergman 核的变分、矩阵曲率及有限维逼近，给出 Guan 凹性定理的新证明。<strong>AI 使用说明：</strong>该论证是在 GPT-5.6-sol（xhigh）的协助下完成的。
+    <p><strong>A ξ-Bergman kernel proof of the concavity of minimal L² integrals</strong> 通过纤维 ξ-Bergman 核的变分、矩阵曲率及有限维逼近，给出 Guan 凹性定理的新证明。<strong>AI 使用说明：</strong>该论证是在 GPT-5.6-sol（high）的协助下完成的。
       <a href="{{ site.baseurl }}/assets/papers/xi-Bergman-concavity.pdf" target="_blank" rel="noopener" class="paper-link">查看 PDF</a>
     </p>
   </article>

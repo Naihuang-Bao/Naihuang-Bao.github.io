@@ -32,7 +32,7 @@ section: ai
   </article>
 
   <article class="publication">
-    <p><strong>A ξ-Bergman kernel proof of the concavity of minimal L² integrals</strong> Derives Guan’s concavity theorem from fiberwise ξ-Bergman kernel variation, matrix curvature, and finite-dimensional approximation. <strong>AI use:</strong> the argument was developed with the assistance of GPT-5.6-sol (xhigh).
+    <p><strong>A ξ-Bergman kernel proof of the concavity of minimal L² integrals</strong> Derives Guan’s concavity theorem from fiberwise ξ-Bergman kernel variation, matrix curvature, and finite-dimensional approximation. <strong>AI use:</strong> the argument was developed with the assistance of GPT-5.6-sol (high).
       <a href="{{ site.baseurl }}/assets/papers/xi-Bergman-concavity.pdf" target="_blank" rel="noopener" class="paper-link">View PDF</a>
     </p>
   </article>
