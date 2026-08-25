@@ -7,6 +7,10 @@ section: ai
 ---
 
 <section class="publications ai-publications">
+  <aside class="ai-verification-note" role="note">
+    以下の論文に含まれる結果および証明は、AI によって生成されたか、AI の支援を受けて得られたものです。現在、順次検証を進めていますので、査読を経たものとはみなさないでください。
+  </aside>
+
   <article class="publication">
     <p><strong>Counterexamples from Green sublevel families for higher order p-Bergman kernels</strong> 明示的な Green 劣位集合族を構成し、高階核の凸性、p &gt; 2 における単調性、および対応する Lᵖ 凹性を否定します。<strong>AI の使用：</strong>第一の反例は GPT-5.6-sol（xhigh）で、第二・第三の反例は DeepSeek V4 flash および pro で得られました。
       <a href="{{ site.baseurl }}/assets/papers/green-sublevel-counterexamples.pdf" target="_blank" rel="noopener" class="paper-link">PDF を見る</a>

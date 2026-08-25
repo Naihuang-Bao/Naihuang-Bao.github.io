@@ -337,6 +337,18 @@ ul {
   background: rgba(255, 251, 246, 0.88);
 }
 
+.ai-verification-note {
+  margin-bottom: var(--space-4);
+  padding: 1rem 1.15rem;
+  border: 1px solid rgba(149, 83, 67, 0.25);
+  border-left: 3px solid var(--color-rust);
+  border-radius: var(--radius-sm);
+  color: var(--color-ink-soft);
+  background: rgba(255, 250, 244, 0.82);
+  font-size: 0.94rem;
+  line-height: 1.65;
+}
+
 .language-note {
   color: var(--color-rust);
   font-family: var(--font-sans);
