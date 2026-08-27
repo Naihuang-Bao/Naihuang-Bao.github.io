@@ -12,6 +12,12 @@ section: ai
   </aside>
 
   <article class="publication">
+    <p><strong>Generalized Lelong numbers determine valuative transforms</strong> 证明以所有 tame 权函数为参照的广义 Lelong 数能够确定多重次调和函数芽的赋值变换。证明先将来自准素理想的对角交数恒等式极化，再使用严格的相对 Hodge 分离。<strong>AI 使用说明：</strong>文中的全部数学思想、论证、证明细节与计算均由 GPT-5.6-sol（high）生成；作者审阅了文稿。
+      <a href="{{ site.baseurl }}/assets/papers/generalized-Lelong-valuative-transforms.pdf" target="_blank" rel="noopener" class="paper-link">查看 PDF</a>
+    </p>
+  </article>
+
+  <article class="publication">
     <p><strong>Counterexamples from Green sublevel families for higher order p-Bergman kernels</strong> 构造显式的 Green 下水平集族，分别否定高阶核的凸性、p &gt; 2 时的单调性，以及相应的 Lᵖ 凹性结论。<strong>AI 使用说明：</strong>第一个反例由 GPT-5.6-sol（xhigh）得到；第二、第三个反例由 DeepSeek V4 flash 和 pro 得到。
       <a href="{{ site.baseurl }}/assets/papers/green-sublevel-counterexamples.pdf" target="_blank" rel="noopener" class="paper-link">查看 PDF</a>
     </p>
