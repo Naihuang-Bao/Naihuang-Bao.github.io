@@ -15,7 +15,7 @@ page_class: resume-page
     
     <div class="contact-info">
       <p>Room F-301, Faculty of Science Building, 3-2 Sugimoto, Sumiyoshi-ku, Osaka 558-0022, Japan</p>
-      <p> <a href="mailto:bsjie@amss.ac.cn">bsjie@amss.ac.cn</a> | <a href="mailto:baoshijie96@gmail.com">baoshijie96@gmail.com</a></p>
+      <p><a href="mailto:shijie.bao@omu.ac.jp">shijie.bao@omu.ac.jp</a> | <a href="mailto:baoshijie96@gmail.com">baoshijie96@gmail.com</a></p>
       <p><a href="https://orcid.org/0000-0002-6781-2316">ORCID</a> | <a href="https://scholar.google.com/citations?user=FKbOyUAAAAAJ">Google Scholar</a> | <a href="https://www.researchgate.net/profile/Shijie-Bao-3">ResearchGate</a> | <a href="https://mathscinet.ams.org/mathscinet/author?authorId=1534515">MathSciNet</a></p>
     </div>
     
@@ -49,7 +49,8 @@ page_class: resume-page
       </span>
       <div class="experience-copy">
         <h3>Lecturer</h3>
-        <p class="institution"><a href="https://www.omu.ac.jp/en/" target="_blank" rel="noopener">Osaka Metropolitan University</a>, Faculty of Science / Graduate School of Science / <a href="https://www.omu.ac.jp/sci/math_en/" target="_blank" rel="noopener">Department of Mathematics</a> | Sep 2026 - Present</p>
+        <p class="institution"><a href="https://www.omu.ac.jp/en/" target="_blank" rel="noopener">Osaka Metropolitan University</a>, Graduate School of Science, <a href="https://www.omu.ac.jp/sci/math_en/" target="_blank" rel="noopener">Department of Mathematics</a> | July 2026 - Present</p>
+        <p class="institution"><a href="https://www.omu.ac.jp/en/" target="_blank" rel="noopener">Osaka Metropolitan University</a>, School of Science, <a href="https://www.omu.ac.jp/sci/math_en/" target="_blank" rel="noopener">Department of Mathematics</a> | September 2026 - Present</p>
         <p>Mathematical Structures | Sugimoto Campus, Osaka, Japan</p>
       </div>
     </div>
@@ -95,7 +96,7 @@ page_class: resume-page
   
   <!-- 更新时间戳 -->
   <div class="last-updated">
-    Last updated: <time datetime="2026-08-23">August 23, 2026</time>
+    Last updated: <time datetime="2026-09-01">September 1, 2026</time>
   </div>
 </div>
 

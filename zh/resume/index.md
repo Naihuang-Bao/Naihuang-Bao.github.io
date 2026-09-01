@@ -14,7 +14,7 @@ page_class: resume-page
     <h2 class="resume-name">包诗界</h2>
     <div class="contact-info">
       <p>日本大阪府大阪市住吉区杉本 3 丁目 2，理学部楼 F-301 室，邮编 558-0022</p>
-      <p><a href="mailto:bsjie@amss.ac.cn">bsjie@amss.ac.cn</a> | <a href="mailto:baoshijie96@gmail.com">baoshijie96@gmail.com</a></p>
+      <p><a href="mailto:shijie.bao@omu.ac.jp">shijie.bao@omu.ac.jp</a> | <a href="mailto:baoshijie96@gmail.com">baoshijie96@gmail.com</a></p>
       <p><a href="https://orcid.org/0000-0002-6781-2316">ORCID</a> | <a href="https://scholar.google.com/citations?user=FKbOyUAAAAAJ">Google Scholar</a> | <a href="https://www.researchgate.net/profile/Shijie-Bao-3">ResearchGate</a> | <a href="https://mathscinet.ams.org/mathscinet/author?authorId=1534515">MathSciNet</a></p>
     </div>
     <div class="attachments">
@@ -39,7 +39,8 @@ page_class: resume-page
       <span class="institution-logo institution-logo-omu" aria-hidden="true"><img src="{{ site.baseurl }}/assets/institutions/omu-logo.png" alt=""></span>
       <div class="experience-copy">
         <h3>讲师</h3>
-        <p class="institution"><a href="https://www.omu.ac.jp/" target="_blank" rel="noopener">大阪公立大学</a>，理学部／大学院理学研究科／<a href="https://www.omu.ac.jp/sci/math_en/" target="_blank" rel="noopener">数学系</a> | 2026 年 9 月至今</p>
+        <p class="institution"><a href="https://www.omu.ac.jp/" target="_blank" rel="noopener">大阪公立大学</a>，大学院理学研究科，<a href="https://www.omu.ac.jp/sci/math_en/" target="_blank" rel="noopener">数学专攻</a> | 2026 年 7 月至今</p>
+        <p class="institution"><a href="https://www.omu.ac.jp/" target="_blank" rel="noopener">大阪公立大学</a>，理学部，<a href="https://www.omu.ac.jp/sci/math_en/" target="_blank" rel="noopener">数学科</a> | 2026 年 9 月至今</p>
         <p>数学构造论讲座 | 日本大阪杉本校区</p>
       </div>
     </div>
@@ -73,7 +74,7 @@ page_class: resume-page
     </div>
   </section>
 
-  <div class="last-updated">最近更新：<time datetime="2026-08-23">2026 年 8 月 23 日</time></div>
+  <div class="last-updated">最近更新：<time datetime="2026-09-01">2026 年 9 月 1 日</time></div>
 </div>
 
 <aside class="resume-aside" aria-label="学术主题装饰照片">

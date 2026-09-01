@@ -18,7 +18,7 @@ math: true
 
     <div class="hero-introduction">
       <p>
-        Welcome to my academic homepage. I was a postdoctoral fellow at the Academy of Mathematics and Systems Science, Chinese Academy of Sciences, until June 30, 2026. On September 1, 2026, I will join the Faculty of Science at Osaka Metropolitan University as a Lecturer.
+        Welcome to my academic homepage. I joined Osaka Metropolitan University on September 1, 2026. I am a Lecturer in the Department of Mathematics, Graduate School of Science (July 2026–present), and in the Department of Mathematics, School of Science (September 2026–present).
       </p>
 
       <p>

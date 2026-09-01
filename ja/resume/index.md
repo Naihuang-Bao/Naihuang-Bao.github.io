@@ -14,7 +14,7 @@ page_class: resume-page
     <h2 class="resume-name">包 詩界（BAO SHIJIE）</h2>
     <div class="contact-info">
       <p>〒558-0022 大阪府大阪市住吉区杉本3丁目2 理学部棟 F-301</p>
-      <p><a href="mailto:bsjie@amss.ac.cn">bsjie@amss.ac.cn</a> | <a href="mailto:baoshijie96@gmail.com">baoshijie96@gmail.com</a></p>
+      <p><a href="mailto:shijie.bao@omu.ac.jp">shijie.bao@omu.ac.jp</a> | <a href="mailto:baoshijie96@gmail.com">baoshijie96@gmail.com</a></p>
       <p><a href="https://orcid.org/0000-0002-6781-2316">ORCID</a> | <a href="https://scholar.google.com/citations?user=FKbOyUAAAAAJ">Google Scholar</a> | <a href="https://www.researchgate.net/profile/Shijie-Bao-3">ResearchGate</a> | <a href="https://mathscinet.ams.org/mathscinet/author?authorId=1534515">MathSciNet</a></p>
     </div>
     <div class="attachments">
@@ -39,7 +39,8 @@ page_class: resume-page
       <span class="institution-logo institution-logo-omu" aria-hidden="true"><img src="{{ site.baseurl }}/assets/institutions/omu-logo.png" alt=""></span>
       <div class="experience-copy">
         <h3>講師</h3>
-        <p class="institution"><a href="https://www.omu.ac.jp/" target="_blank" rel="noopener">大阪公立大学</a> 理学部／大学院理学研究科／<a href="https://www.omu.ac.jp/sci/math/" target="_blank" rel="noopener">数学科・数学専攻</a> | 2026年9月–現在</p>
+        <p class="institution"><a href="https://www.omu.ac.jp/" target="_blank" rel="noopener">大阪公立大学</a> 大学院理学研究科 <a href="https://www.omu.ac.jp/sci/math/" target="_blank" rel="noopener">数学専攻</a> | 2026年7月–現在</p>
+        <p class="institution"><a href="https://www.omu.ac.jp/" target="_blank" rel="noopener">大阪公立大学</a> 理学部 <a href="https://www.omu.ac.jp/sci/math/" target="_blank" rel="noopener">数学科</a> | 2026年9月–現在</p>
         <p>数学構造論講座 | 杉本キャンパス（大阪）</p>
       </div>
     </div>
@@ -73,7 +74,7 @@ page_class: resume-page
     </div>
   </section>
 
-  <div class="last-updated">最終更新：<time datetime="2026-08-23">2026年8月23日</time></div>
+  <div class="last-updated">最終更新：<time datetime="2026-09-01">2026年9月1日</time></div>
 </div>
 
 <aside class="resume-aside" aria-label="学術テーマの装飾写真">
