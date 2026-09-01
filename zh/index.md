@@ -2,7 +2,7 @@
 layout: default
 title: "包诗界的学术主页"
 permalink: /zh/
-last_updated: 2026-08-23
+last_updated: 2026-09-01
 lang: zh
 section: home
 math: true
@@ -27,8 +27,8 @@ math: true
   </div>
 
   <figure class="portrait-frame">
-    <img src="{{ site.baseurl }}/assets/photo/faceu_1671519200337.jpg" alt="包诗界的个人照片" width="675" height="900">
+    <img src="{{ site.baseurl }}/assets/photo/shijie-bao-portrait-2026.jpg" alt="包诗界的个人照片" width="900" height="1200">
   </figure>
 </section>
 
-<div class="last-updated">最近更新：<time datetime="{{ page.last_updated }}">2026 年 8 月 23 日</time></div>
+<div class="last-updated">最近更新：<time datetime="{{ page.last_updated }}">2026 年 9 月 1 日</time></div>

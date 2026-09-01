@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Shijie Bao's Academic Homepage"
-last_updated: 2026-08-23
+last_updated: 2026-09-01
 lang: en
 section: home
 math: true
@@ -33,7 +33,7 @@ math: true
   </div>
 
   <figure class="portrait-frame">
-    <img src="{{ site.baseurl }}/assets/photo/faceu_1671519200337.jpg" alt="Portrait of Shijie Bao" width="675" height="900">
+    <img src="{{ site.baseurl }}/assets/photo/shijie-bao-portrait-2026.jpg" alt="Portrait of Shijie Bao" width="900" height="1200">
   </figure>
 </section>
 

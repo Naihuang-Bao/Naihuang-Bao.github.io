@@ -2,7 +2,7 @@
 layout: default
 title: "包 詩界の研究者ホームページ"
 permalink: /ja/
-last_updated: 2026-08-23
+last_updated: 2026-09-01
 lang: ja
 section: home
 math: true
@@ -27,8 +27,8 @@ math: true
   </div>
 
   <figure class="portrait-frame">
-    <img src="{{ site.baseurl }}/assets/photo/faceu_1671519200337.jpg" alt="包 詩界のポートレート" width="675" height="900">
+    <img src="{{ site.baseurl }}/assets/photo/shijie-bao-portrait-2026.jpg" alt="包 詩界のポートレート" width="900" height="1200">
   </figure>
 </section>
 
-<div class="last-updated">最終更新：<time datetime="{{ page.last_updated }}">2026年8月23日</time></div>
+<div class="last-updated">最終更新：<time datetime="{{ page.last_updated }}">2026年9月1日</time></div>
