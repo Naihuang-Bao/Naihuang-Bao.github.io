@@ -39,8 +39,7 @@ page_class: resume-page
       <span class="institution-logo institution-logo-omu" aria-hidden="true"><img src="{{ site.baseurl }}/assets/institutions/omu-logo.png" alt=""></span>
       <div class="experience-copy">
         <h3>讲师</h3>
-        <p class="institution"><a href="https://www.omu.ac.jp/" target="_blank" rel="noopener">大阪公立大学</a>，大学院理学研究科，<a href="https://www.omu.ac.jp/sci/math_en/" target="_blank" rel="noopener">数学专攻</a> | 2026 年 9 月 1 日至今</p>
-        <p class="institution"><a href="https://www.omu.ac.jp/" target="_blank" rel="noopener">大阪公立大学</a>，理学部，<a href="https://www.omu.ac.jp/sci/math_en/" target="_blank" rel="noopener">数学科</a> | 2026 年 9 月 1 日至今</p>
+        <p class="institution"><a href="https://www.omu.ac.jp/" target="_blank" rel="noopener">大阪公立大学</a>，<a href="https://www.omu.ac.jp/sci/math_en/" target="_blank" rel="noopener">大学院理学研究科数学专攻／理学部数学科</a> | 2026 年 9 月 1 日至今</p>
         <p>数学构造论讲座 | 日本大阪杉本校区</p>
       </div>
     </div>

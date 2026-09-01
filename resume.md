@@ -49,8 +49,7 @@ page_class: resume-page
       </span>
       <div class="experience-copy">
         <h3>Lecturer</h3>
-        <p class="institution"><a href="https://www.omu.ac.jp/en/" target="_blank" rel="noopener">Osaka Metropolitan University</a>, Graduate School of Science, <a href="https://www.omu.ac.jp/sci/math_en/" target="_blank" rel="noopener">Department of Mathematics</a> | September 1, 2026 - Present</p>
-        <p class="institution"><a href="https://www.omu.ac.jp/en/" target="_blank" rel="noopener">Osaka Metropolitan University</a>, School of Science, <a href="https://www.omu.ac.jp/sci/math_en/" target="_blank" rel="noopener">Department of Mathematics</a> | September 1, 2026 - Present</p>
+        <p class="institution"><a href="https://www.omu.ac.jp/en/" target="_blank" rel="noopener">Osaka Metropolitan University</a>, Graduate School of Science / School of Science, <a href="https://www.omu.ac.jp/sci/math_en/" target="_blank" rel="noopener">Department of Mathematics</a> | September 1, 2026 - Present</p>
         <p>Mathematical Structures | Sugimoto Campus, Osaka, Japan</p>
       </div>
     </div>
