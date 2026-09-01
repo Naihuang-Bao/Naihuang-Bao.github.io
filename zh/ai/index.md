@@ -12,7 +12,7 @@ section: ai
   </aside>
 
   <article class="publication">
-    <p><strong>Generalized Lelong numbers determine valuative transforms</strong> 证明以所有 tame 权函数为参照的广义 Lelong 数能够确定多重次调和函数芽的赋值变换。证明先将来自准素理想的对角交数恒等式极化，再使用严格的相对 Hodge 分离。<strong>AI 使用说明：</strong>文中的全部数学思想、论证、证明细节与计算均由 GPT-5.6-sol（high）生成；作者审阅了文稿。
+    <p><strong>Generalized Lelong numbers determine valuative transforms</strong> 证明 Boucksom-Favre-Jonsson 留下的逆命题：只需检验由准素理想定义的解析权重，其广义 Lelong 数相等就已能推出赋值变换以及所有无穷近点 Lelong 数相等。<strong>AI 使用说明：</strong>文中的全部数学思想、研究方向、论证、证明细节和计算均由 GPT-5.6 Sol（high）生成；作者审阅了全文并对数学内容承担全部责任。
       <a href="{{ site.baseurl }}/assets/papers/generalized-Lelong-valuative-transforms.pdf" target="_blank" rel="noopener" class="paper-link">查看 PDF</a>
     </p>
   </article>

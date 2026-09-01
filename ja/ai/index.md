@@ -12,7 +12,7 @@ section: ai
   </aside>
 
   <article class="publication">
-    <p><strong>Generalized Lelong numbers determine valuative transforms</strong> tame な参照ウェイトに関する一般化 Lelong 数が、多重劣調和関数芽の付値変換を決定することを示します。証明では、準素イデアルから得られる対角交点数恒等式を偏極し、厳密な相対 Hodge 分離を適用します。<strong>AI の使用：</strong>数学的アイデア、論証、証明の詳細、計算のすべては GPT-5.6-sol（high）によって生成され、著者が原稿を確認しました。
+    <p><strong>Generalized Lelong numbers determine valuative transforms</strong> Boucksom-Favre-Jonsson が未解決として残した逆命題を証明し、準素イデアルから定まる解析的ウェイトに対する一般化 Lelong 数の一致だけで、付値変換およびすべての無限近接点での Lelong 数の一致が従うことを示します。<strong>AI の使用：</strong>本論文の数学的アイデア、研究方針、論証、証明の詳細、および計算はすべて GPT-5.6 Sol（high）によって生成されました。著者は原稿を確認し、数学的内容に全責任を負います。
       <a href="{{ site.baseurl }}/assets/papers/generalized-Lelong-valuative-transforms.pdf" target="_blank" rel="noopener" class="paper-link">PDF を見る</a>
     </p>
   </article>
