@@ -39,8 +39,8 @@ page_class: resume-page
       <span class="institution-logo institution-logo-omu" aria-hidden="true"><img src="{{ site.baseurl }}/assets/institutions/omu-logo.png" alt=""></span>
       <div class="experience-copy">
         <h3>講師</h3>
-        <p class="institution"><a href="https://www.omu.ac.jp/" target="_blank" rel="noopener">大阪公立大学</a> 大学院理学研究科 <a href="https://www.omu.ac.jp/sci/math/" target="_blank" rel="noopener">数学専攻</a> | 2026年7月–現在</p>
-        <p class="institution"><a href="https://www.omu.ac.jp/" target="_blank" rel="noopener">大阪公立大学</a> 理学部 <a href="https://www.omu.ac.jp/sci/math/" target="_blank" rel="noopener">数学科</a> | 2026年9月–現在</p>
+        <p class="institution"><a href="https://www.omu.ac.jp/" target="_blank" rel="noopener">大阪公立大学</a> 大学院理学研究科 <a href="https://www.omu.ac.jp/sci/math/" target="_blank" rel="noopener">数学専攻</a> | 2026年9月1日–現在</p>
+        <p class="institution"><a href="https://www.omu.ac.jp/" target="_blank" rel="noopener">大阪公立大学</a> 理学部 <a href="https://www.omu.ac.jp/sci/math/" target="_blank" rel="noopener">数学科</a> | 2026年9月1日–現在</p>
         <p>数学構造論講座 | 杉本キャンパス（大阪）</p>
       </div>
     </div>
