@@ -11,6 +11,14 @@ section: ai
     下列论文中的结果与证明均由 AI 所生成或在 AI 协助下得到，本人正在逐步验证中，请勿轻易认为已通过同行评议。
   </aside>
 
+  <article class="publication" id="zhou-weights-flat">
+    <p><strong>Zhou weights and valuative separation by generalized Lelong numbers</strong></p>
+    <p><strong>证明 Zhou weights are flat：</strong>对每个多重次调和（psh）函数芽，归一化广义 Lelong 数都等于 relative type。进而<strong>以解析方法证明 BFJ 提出的问题，即 Theorem A 中剩余的 (4) ⇒ (1)</strong>；论证结合质量比较、赋值理想的重数计算和 Zhou 赋值的受控稠密性。扩写版补充背景、具体例子与逐步证明。</p>
+    <p><strong>AI 使用说明：</strong>作者提出研究问题及以 Zhou weight、稠密性为主线的组织方向；证明和详细论述由 GPT（Astra）参与形成，部分背景来自 GPT-5.6 Sol（high）。<strong>更新：</strong>2026 年 9 月 5 日，24 页。
+      <a href="{{ site.baseurl }}/assets/papers/zhou-weights-lelong-separation.pdf?v=e50e41a1" target="_blank" rel="noopener" class="paper-link">查看 PDF</a>
+    </p>
+  </article>
+
   <article class="publication">
     <p><strong>Generalized Lelong numbers determine valuative transforms</strong> 证明由准素理想定义的解析权函数对应的广义 Lelong 数能够确定赋值变换。修订后的证明使用固定模型上相对丰沛除子的扰动与例外除子交叉矩阵的严格负定性。<strong>AI 使用说明：</strong>全部数学思想与论证均由 AI 生成；原稿使用 GPT-5.6 Sol（high），纠错与证明扩写使用 GPT（Astra）。作者对数学内容负责。<strong>更新：</strong>2026 年 9 月 5 日，20 页。
       <a href="{{ site.baseurl }}/assets/papers/generalized-Lelong-valuative-transforms.pdf?v=c06885f8" target="_blank" rel="noopener" class="paper-link">查看 PDF</a>
