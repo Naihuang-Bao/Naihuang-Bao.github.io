@@ -12,8 +12,8 @@ section: ai
   </aside>
 
   <article class="publication">
-    <p><strong>Generalized Lelong numbers determine valuative transforms</strong> Boucksom-Favre-Jonsson が未解決として残した逆命題を証明し、準素イデアルから定まる解析的ウェイトに対する一般化 Lelong 数の一致だけで、付値変換およびすべての無限近接点での Lelong 数の一致が従うことを示します。<strong>AI の使用：</strong>本論文の数学的アイデア、研究方針、論証、証明の詳細、および計算はすべて GPT-5.6 Sol（high）によって生成されました。著者は原稿を確認し、数学的内容に全責任を負います。
-      <a href="{{ site.baseurl }}/assets/papers/generalized-Lelong-valuative-transforms.pdf" target="_blank" rel="noopener" class="paper-link">PDF を見る</a>
+    <p><strong>Generalized Lelong numbers determine valuative transforms</strong> 準素イデアルの解析的ウェイトに関する一般化 Lelong 数が付値変換を決定することを示します。改訂版では、固定したモデル上の相対豊富因子の摂動と例外因子の交点行列の負定値性を用います。<strong>AI の使用：</strong>数学的アイデアと論証はすべて AI によって生成されました。初稿には GPT-5.6 Sol（high）、誤りの修正と証明の詳述には GPT（Astra）を使用しました。数学的内容の責任は著者が負います。<strong>更新：</strong>2026 年 9 月 5 日、20 ページ。
+      <a href="{{ site.baseurl }}/assets/papers/generalized-Lelong-valuative-transforms.pdf?v=c06885f8" target="_blank" rel="noopener" class="paper-link">PDF を見る</a>
     </p>
   </article>
 

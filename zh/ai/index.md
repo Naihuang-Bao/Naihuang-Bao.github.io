@@ -12,8 +12,8 @@ section: ai
   </aside>
 
   <article class="publication">
-    <p><strong>Generalized Lelong numbers determine valuative transforms</strong> 证明 Boucksom-Favre-Jonsson 留下的逆命题：只需检验由准素理想定义的解析权重，其广义 Lelong 数相等就已能推出赋值变换以及所有无穷近点 Lelong 数相等。<strong>AI 使用说明：</strong>文中的全部数学思想、研究方向、论证、证明细节和计算均由 GPT-5.6 Sol（high）生成；作者审阅了全文并对数学内容承担全部责任。
-      <a href="{{ site.baseurl }}/assets/papers/generalized-Lelong-valuative-transforms.pdf" target="_blank" rel="noopener" class="paper-link">查看 PDF</a>
+    <p><strong>Generalized Lelong numbers determine valuative transforms</strong> 证明由准素理想定义的解析权函数对应的广义 Lelong 数能够确定赋值变换。修订后的证明使用固定模型上相对丰沛除子的扰动与例外除子交叉矩阵的严格负定性。<strong>AI 使用说明：</strong>全部数学思想与论证均由 AI 生成；原稿使用 GPT-5.6 Sol（high），纠错与证明扩写使用 GPT（Astra）。作者对数学内容负责。<strong>更新：</strong>2026 年 9 月 5 日，20 页。
+      <a href="{{ site.baseurl }}/assets/papers/generalized-Lelong-valuative-transforms.pdf?v=c06885f8" target="_blank" rel="noopener" class="paper-link">查看 PDF</a>
     </p>
   </article>
 
