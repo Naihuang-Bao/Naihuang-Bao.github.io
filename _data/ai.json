@@ -9,7 +9,7 @@
       "id": "indefinite-theta-hessians",
       "group": "theta",
       "title": "Indefinite theta Hessians at Green-function parameters",
-      "pdf": "/assets/papers/indefinite-theta-hessians.pdf?v=5441570e",
+      "pdf": "/assets/papers/indefinite-theta-hessians.pdf?v=c21723a0",
       "pages": 16,
       "models": "OpenAI Codex · GPT-6",
       "summary": {
@@ -18,9 +18,9 @@
         "ja": "Green 関数のパラメータにおけるテータ関数の対数のヘッセ行列が正と負の固有値を一つずつ持つ三重連結円領域を構成し、山田が提起した負定値性の予想を否定します。調和測度とテータ関数の二次展開により、両固有値の主要項の係数を計算します。"
       },
       "ai_usage": {
-        "en": "The author selected the problem, suggested the counterexample direction, and supplied a related earlier construction; the new construction, proofs, numerical calculations, and exposition were developed with OpenAI Codex (GPT-6). The paper includes a detailed AI declaration.",
-        "zh": "作者选定问题、建议寻找反例，并提供相关的已有构造；新的构造、证明、数值计算与论述由 OpenAI Codex（GPT-6）参与完成。文末附有详细 AI 声明。",
-        "ja": "著者は問題を選び、反例を探す方針と関連する既存の構成を提供しました。新しい構成、証明、数値計算および記述は OpenAI Codex（GPT-6）の支援で作成しました。論文末尾に詳しい AI 使用声明を付しています。"
+        "en": "The author selected the problem and counterexample direction and supplied a related construction. The new mathematics, computations, exposition, and figures were developed with OpenAI Codex (GPT-6); independent verification is required.",
+        "zh": "作者选题、建议寻找反例并提供相关构造；新的数学论证、计算、写作与配图由 OpenAI Codex（GPT-6）参与完成，仍需独立验证。",
+        "ja": "著者は問題と反例を探す方針を選び、関連する構成を提供しました。新しい論証、計算、記述と図は OpenAI Codex（GPT-6）の支援で作成しており、独立した検証が必要です。"
       },
       "updated": "2026-09-07"
     },
