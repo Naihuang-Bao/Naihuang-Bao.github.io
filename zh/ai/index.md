@@ -11,6 +11,14 @@ section: ai
     下列论文中的结果与证明均由 AI 所生成或在 AI 协助下得到，本人正在逐步验证中，请勿轻易认为已通过同行评议。
   </aside>
 
+  <article class="publication" id="log-discrepancy">
+    <p><strong>Log discrepancy from jumping numbers</strong></p>
+    <p>一篇短文：证明对含有理数域的优秀正则局部整环上的每个非平凡实赋值，Bao–Guan–Yuan 引入的不变量均等于 log discrepancy，包括无穷 discrepancy 的情形。证明只需紧性与有限个分离函数的乘积，辅助理想取主理想即可。</p>
+    <p><strong>AI 使用说明：</strong>研究问题及想法由 Shijie Bao 提出，受到 Bao–Guan–Yuan 和 Bao–Guan–Zhou 工作的启发；证明与论述由 GPT（Astra）协助完成。<strong>更新：</strong>2026 年 9 月 7 日，3 页。
+      <a href="{{ site.baseurl }}/assets/papers/log-discrepancy.pdf?v=3b5bcd42" target="_blank" rel="noopener" class="paper-link">查看 PDF</a>
+    </p>
+  </article>
+
   <article class="publication" id="zhou-weights-flat">
     <p><strong>Zhou weights and valuative separation by generalized Lelong numbers</strong></p>
     <p><strong>证明 Zhou weights are flat：</strong>对每个多重次调和（psh）函数芽，归一化广义 Lelong 数都等于 relative type。进而<strong>以解析方法证明 BFJ 提出的问题，即 Theorem A 中剩余的 (4) ⇒ (1)</strong>；论证结合质量比较、赋值理想的重数计算和 Zhou 赋值的受控稠密性。扩写版补充背景、具体例子与逐步证明。</p>

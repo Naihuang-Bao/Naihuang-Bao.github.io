@@ -11,6 +11,14 @@ section: ai
     以下の論文に含まれる結果および証明は、AI によって生成されたか、AI の支援を受けて得られたものです。現在、順次検証を進めていますので、査読を経たものとはみなさないでください。
   </aside>
 
+  <article class="publication" id="log-discrepancy">
+    <p><strong>Log discrepancy from jumping numbers</strong></p>
+    <p>有理数体を含む優秀正則局所整域上のすべての非自明な実付値について、Bao–Guan–Yuan の不変量が log discrepancy と一致することを示す短報です。無限大の場合も含みます。証明はコンパクト性と有限個の分離関数の積を用い、補助イデアルは単項イデアルだけで十分です。</p>
+    <p><strong>AI の使用：</strong>研究課題とアイデアは、Bao–Guan–Yuan および Bao–Guan–Zhou の研究を踏まえて Shijie Bao が提案しました。証明と記述は GPT（Astra）の支援で作成しました。<strong>更新：</strong>2026 年 9 月 7 日、3 ページ。
+      <a href="{{ site.baseurl }}/assets/papers/log-discrepancy.pdf?v=3b5bcd42" target="_blank" rel="noopener" class="paper-link">PDF を見る</a>
+    </p>
+  </article>
+
   <article class="publication" id="zhou-weights-flat">
     <p><strong>Zhou weights and valuative separation by generalized Lelong numbers</strong></p>
     <p><strong>Zhou weights are flat：</strong>すべての多重劣調和関数の芽に対して、正規化された一般化 Lelong 数と相対型が一致することを証明します。さらに、<strong>Boucksom–Favre–Jonsson の Theorem A に残されていた (4) ⇒ (1) の解析的証明</strong>を与えます。質量の比較、付値イデアルの重複度計算、および Zhou 付値の制御付き稠密性を用い、背景・具体例・証明の各段階を詳述しています。</p>
