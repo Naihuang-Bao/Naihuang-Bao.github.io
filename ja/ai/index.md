@@ -11,6 +11,14 @@ section: ai
     以下の論文に含まれる結果および証明は、AI によって生成されたか、AI の支援を受けて得られたものです。現在、順次検証を進めていますので、査読を経たものとはみなさないでください。
   </aside>
 
+  <article class="publication" id="indefinite-theta-hessians">
+    <p><strong>Indefinite theta Hessians at Green-function parameters</strong></p>
+    <p>Green 関数のパラメータにおけるテータ関数の対数のヘッセ行列が正と負の固有値を一つずつ持つ三重連結円領域を構成し、Yamada が提起した負定値性の予想を否定します。調和測度とテータ関数の二次展開により、両固有値の主要項の係数を計算します。</p>
+    <p><strong>AI の使用：</strong>著者は問題を選び、反例を探す方針と関連する既存の構成を提供しました。新しい構成、証明、数値計算および記述は OpenAI Codex（GPT-6）の支援で作成しました。論文末尾に詳しい AI 使用声明を付しています。<strong>更新：</strong>2026 年 9 月 7 日、15 ページ。
+      <a href="{{ site.baseurl }}/assets/papers/indefinite-theta-hessians.pdf?v=09afedb4" target="_blank" rel="noopener" class="paper-link">PDF を見る</a>
+    </p>
+  </article>
+
   <article class="publication" id="log-discrepancy">
     <p><strong>Log discrepancy from jumping numbers</strong></p>
     <p>有理数体を含む優秀正則局所整域上のすべての非自明な実付値について、Bao–Guan–Yuan の不変量が log discrepancy と一致することを示す短報です。無限大の場合も含みます。証明はコンパクト性と有限個の分離関数の積を用い、補助イデアルは単項イデアルだけで十分です。</p>

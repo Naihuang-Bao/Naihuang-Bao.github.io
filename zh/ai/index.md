@@ -11,6 +11,14 @@ section: ai
     下列论文中的结果与证明均由 AI 所生成或在 AI 协助下得到，本人正在逐步验证中，请勿轻易认为已通过同行评议。
   </aside>
 
+  <article class="publication" id="indefinite-theta-hessians">
+    <p><strong>Indefinite theta Hessians at Green-function parameters</strong></p>
+    <p>构造三连通圆域，使 Green 函数参数处的 theta 对数 Hessian 有一正一负两个特征值，否定 Yamada 提出的恒负定猜测。证明通过调和测度和 theta 函数的二阶展开，计算两个特征值的首项系数。</p>
+    <p><strong>AI 使用说明：</strong>作者选定问题、建议寻找反例，并提供相关的已有构造；新的构造、证明、数值计算与论述由 OpenAI Codex（GPT-6）参与完成。文末附有详细 AI 声明。<strong>更新：</strong>2026 年 9 月 7 日，15 页。
+      <a href="{{ site.baseurl }}/assets/papers/indefinite-theta-hessians.pdf?v=09afedb4" target="_blank" rel="noopener" class="paper-link">查看 PDF</a>
+    </p>
+  </article>
+
   <article class="publication" id="log-discrepancy">
     <p><strong>Log discrepancy from jumping numbers</strong></p>
     <p>一篇短文：证明对含有理数域的优秀正则局部整环上的每个非平凡实赋值，Bao–Guan–Yuan 引入的不变量均等于 log discrepancy，包括无穷 discrepancy 的情形。证明只需紧性与有限个分离函数的乘积，辅助理想取主理想即可。</p>
