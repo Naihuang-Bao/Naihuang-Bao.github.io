@@ -47,18 +47,18 @@
       "id": "zhou-weights-flat",
       "group": "valuations",
       "title": "Flat tame weights and valuative separation",
-      "pdf": "/assets/papers/zhou-weights-lelong-separation.pdf?v=88023d5e",
+      "pdf": "/assets/papers/zhou-weights-lelong-separation.pdf?v=4e665b3a",
       "pages": 14,
       "models": "GPT (Astra) · GPT-5.6 Sol",
       "summary": {
-        "en": "A tame maximal weight is flat if and only if its holomorphic relative types define a valuation; its residual mass then equals the valuation volume. Valuative interpolation and the identity 𝒜 = A identify these weights, modulo bounded functions, with all centered valuations of finite log discrepancy. Zhou weights are flat as a corollary. Analytic mass comparison and hypersurface multiplicities, applied to BFJ’s quasi-monomial weights, prove the remaining implication (4) ⇒ (1) in Boucksom–Favre–Jonsson’s Theorem A without Zhou density or the new discrepancy identity.",
-        "zh": "证明 tame maximal weight 是 flat 当且仅当其全纯 relative type 定义赋值，此时剩余质量等于赋值体积。结合 valuative interpolation 与 𝒜 = A，得到这类权（模有界函数）与所有有限 log discrepancy 的 centered 赋值的一一对应；Zhou weights are flat 是直接推论。利用解析质量比较、超曲面重数及 BFJ 已构造的 quasi-monomial weights，证明 BFJ Theorem A 中剩余的 (4) ⇒ (1)；该证明不需要 Zhou 稠密性或新的 discrepancy 恒等式。",
-        "ja": "tame maximal weight が flat であることと、その正則関数上の相対型が付値を定めることの同値性を示し、残余質量が付値の体積に等しいことを証明します。付値的補間と恒等式 𝒜 = A により、これらのウェイトは有界関数の差を除いて有限の log discrepancy を持つ中心付き付値と一対一に対応します。Zhou weights are flat はその系です。解析的な質量比較、超曲面上の重複度、BFJ の準単項ウェイトを用いて Theorem A の残された (4) ⇒ (1) を証明します。この証明は Zhou 付値の稠密性や新しい discrepancy 恒等式を必要としません。"
+        "en": "A tame maximal weight is flat if and only if its holomorphic relative types define a valuation; its residual mass then equals the valuation volume. Valuative interpolation and the identity 𝒜 = A identify these weights, modulo bounded functions, with all centered valuations of finite log discrepancy. Zhou weights are flat as a corollary. Analytic mass comparison and hypersurface multiplicities, applied to BFJ’s quasi-monomial weights, prove the remaining implication (4) ⇒ (1) in Boucksom–Favre–Jonsson’s Theorem A.",
+        "zh": "证明 tame maximal weight 是 flat 当且仅当其全纯 relative type 定义赋值，此时剩余质量等于赋值体积。结合 valuative interpolation 与 𝒜 = A，得到这类权（模有界函数）与所有有限 log discrepancy 的 centered 赋值的一一对应；Zhou weights are flat 是直接推论。利用解析质量比较、超曲面重数及 BFJ 已构造的 quasi-monomial weights，证明 BFJ Theorem A 中剩余的 (4) ⇒ (1)。",
+        "ja": "tame maximal weight が flat であることと、その正則関数上の相対型が付値を定めることの同値性を示し、残余質量が付値の体積に等しいことを証明します。付値的補間と恒等式 𝒜 = A により、これらのウェイトは有界関数の差を除いて有限の log discrepancy を持つ中心付き付値と一対一に対応します。Zhou weights are flat はその系です。解析的な質量比較、超曲面上の重複度、BFJ の準単項ウェイトを用いて Theorem A の残された (4) ⇒ (1) を証明します。"
       },
       "ai_usage": {
-        "en": "The author proposed the research questions and the extension from Zhou weights to finite-discrepancy valuations via valuative interpolation and 𝒜 = A. The hypersurface-volume argument, flatness proof, and revised exposition were developed with GPT (Astra), with background from GPT-5.6 Sol (high). External results are cited separately.",
-        "zh": "作者提出研究问题，以及通过 valuative interpolation 和 𝒜 = A 从 Zhou weights 推广到有限 discrepancy 赋值的方向。超曲面体积论证、flatness 证明与修订论述由 GPT（Astra）参与完成，部分背景来自 GPT-5.6 Sol（high）；外部结果分别注明出处。",
-        "ja": "研究課題と、付値的補間および 𝒜 = A によって Zhou ウェイトから有限 discrepancy の付値へ拡張する方針は著者が提案しました。超曲面上の体積の議論、flatness の証明、改訂稿の記述は GPT（Astra）の支援で作成し、一部の背景には GPT-5.6 Sol（high）を用いました。外部の結果は別途引用しています。"
+        "en": "The author proposed the research questions. The proofs and exposition were developed with GPT (Astra) and GPT-5.6 Sol (high), and remain subject to the author's mathematical verification.",
+        "zh": "作者提出研究问题，证明与论述由 GPT（Astra）和 GPT-5.6 Sol（high）参与完成，仍待作者核验。",
+        "ja": "研究課題は著者が提案しました。証明と記述は GPT（Astra）および GPT-5.6 Sol（high）の支援で作成され、著者による数学的検証を要します。"
       },
       "updated": "2026-09-07"
     },
