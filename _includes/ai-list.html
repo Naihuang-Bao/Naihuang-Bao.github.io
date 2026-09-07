@@ -1,0 +1,55 @@
+{% assign ai_lang = page.lang | default: "en" %}
+{% assign ai = site.data.ai %}
+{% assign labels = ai.labels[ai_lang] %}
+<div class="ai-library">
+  <header class="ai-intro">
+    <p class="ai-subtitle">{{ labels.intro }}</p>
+    <p>{{ labels.description }}</p>
+  </header>
+
+  <aside class="ai-notice" role="note" aria-labelledby="ai-notice-title">
+    <h2 id="ai-notice-title">{{ labels.notice_title }}</h2>
+    <p>{{ ai.notice[ai_lang] }}</p>
+  </aside>
+
+  <nav class="ai-topics" aria-label="{{ labels.browse }}">
+    {% for group in ai.groups %}
+      {% assign group_papers = ai.papers | where: "group", group.id %}
+      <a href="#topic-{{ group.id }}">{{ group.title[ai_lang] }} <span class="ai-topic-count">{{ group_papers.size }}</span></a>
+    {% endfor %}
+  </nav>
+
+  {% for group in ai.groups %}
+    {% assign group_papers = ai.papers | where: "group", group.id %}
+    <section class="ai-group" aria-labelledby="topic-{{ group.id }}">
+      <header class="ai-group-heading">
+        <div>
+          <h2 id="topic-{{ group.id }}">{{ group.title[ai_lang] }}</h2>
+          <p>{{ group.description[ai_lang] }}</p>
+        </div>
+        <span class="ai-group-count">{{ group_papers.size }} {% if group_papers.size == 1 %}{{ labels.paper }}{% else %}{{ labels.papers }}{% endif %}</span>
+      </header>
+      <div class="ai-paper-list">
+        {% for paper in group_papers %}
+        <article class="ai-paper" id="{{ paper.id }}" aria-labelledby="{{ paper.id }}-title">
+          <h3 id="{{ paper.id }}-title" lang="en">{{ paper.title | escape }}</h3>
+          <ul class="ai-meta" aria-label="{{ paper.title | escape }}">
+            <li>{{ paper.pages }} {{ labels.pages }}</li>
+            <li>{{ labels.language }}</li>
+            {% if paper.updated %}<li>{{ labels.updated }} <time datetime="{{ paper.updated }}">{{ paper.updated }}</time></li>{% endif %}
+          </ul>
+          <p class="ai-abstract">{{ paper.summary[ai_lang] | escape }}</p>
+          <div class="ai-paper-footer">
+            <details class="ai-disclosure">
+              <summary>{{ labels.ai }} <span class="ai-models" lang="en">{{ paper.models | escape }}</span></summary>
+              <p>{{ paper.ai_usage[ai_lang] | escape }}</p>
+            </details>
+            <a class="ai-pdf" href="{{ site.baseurl }}{{ paper.pdf }}" target="_blank" rel="noopener" aria-label="{{ labels.pdf }}: {{ paper.title | escape }} ({{ labels.new_tab }})">{{ labels.pdf }} <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+  <p class="ai-date-note">{{ labels.date_note }}</p>
+</div>

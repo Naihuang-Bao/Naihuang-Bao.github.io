@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f3ee">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/site.css">
+  {% if page.section == 'ai' %}<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ai.css">{% endif %}
   {% for language_code in language_codes %}
     {% assign language_data = site.data.i18n[language_code] %}
     <link rel="alternate" hreflang="{{ language_data.html_lang }}" href="{{ language_data.paths[page.section] | absolute_url }}">
