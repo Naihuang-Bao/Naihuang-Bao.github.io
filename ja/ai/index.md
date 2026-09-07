@@ -15,7 +15,7 @@ section: ai
     <p><strong>Log discrepancy from jumping numbers</strong></p>
     <p>有理数体を含む優秀正則局所整域上のすべての非自明な実付値について、Bao–Guan–Yuan の不変量が log discrepancy と一致することを示す短報です。無限大の場合も含みます。証明はコンパクト性と有限個の分離関数の積を用い、補助イデアルは単項イデアルだけで十分です。</p>
     <p><strong>AI の使用：</strong>研究課題とアイデアは、Bao–Guan–Yuan および Bao–Guan–Zhou の研究を踏まえて Shijie Bao が提案しました。証明と記述は GPT（Astra）の支援で作成しました。<strong>更新：</strong>2026 年 9 月 7 日、3 ページ。
-      <a href="{{ site.baseurl }}/assets/papers/log-discrepancy.pdf?v=3b5bcd42" target="_blank" rel="noopener" class="paper-link">PDF を見る</a>
+      <a href="{{ site.baseurl }}/assets/papers/log-discrepancy.pdf?v=fae31c37" target="_blank" rel="noopener" class="paper-link">PDF を見る</a>
     </p>
   </article>
 

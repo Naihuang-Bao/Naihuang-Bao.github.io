@@ -15,7 +15,7 @@ section: ai
     <p><strong>Log discrepancy from jumping numbers</strong></p>
     <p>一篇短文：证明对含有理数域的优秀正则局部整环上的每个非平凡实赋值，Bao–Guan–Yuan 引入的不变量均等于 log discrepancy，包括无穷 discrepancy 的情形。证明只需紧性与有限个分离函数的乘积，辅助理想取主理想即可。</p>
     <p><strong>AI 使用说明：</strong>研究问题及想法由 Shijie Bao 提出，受到 Bao–Guan–Yuan 和 Bao–Guan–Zhou 工作的启发；证明与论述由 GPT（Astra）协助完成。<strong>更新：</strong>2026 年 9 月 7 日，3 页。
-      <a href="{{ site.baseurl }}/assets/papers/log-discrepancy.pdf?v=3b5bcd42" target="_blank" rel="noopener" class="paper-link">查看 PDF</a>
+      <a href="{{ site.baseurl }}/assets/papers/log-discrepancy.pdf?v=fae31c37" target="_blank" rel="noopener" class="paper-link">查看 PDF</a>
     </p>
   </article>
 

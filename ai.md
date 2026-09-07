@@ -15,7 +15,7 @@ section: ai
     <p><strong>Log discrepancy from jumping numbers</strong></p>
     <p>A short note showing that the Bao–Guan–Yuan invariant equals log discrepancy for every nontrivial real valuation on an excellent regular local domain containing the rational numbers, including infinite discrepancy. The proof uses compactness and a finite product of separating functions; principal auxiliary ideals suffice.</p>
     <p><strong>AI use:</strong> the research question and idea originated with Shijie Bao, motivated by the work of Bao–Guan–Yuan and Bao–Guan–Zhou; the proof and exposition were developed with GPT (Astra). <strong>Updated:</strong> September 7, 2026; 3 pages.
-      <a href="{{ site.baseurl }}/assets/papers/log-discrepancy.pdf?v=3b5bcd42" target="_blank" rel="noopener" class="paper-link">View PDF</a>
+      <a href="{{ site.baseurl }}/assets/papers/log-discrepancy.pdf?v=fae31c37" target="_blank" rel="noopener" class="paper-link">View PDF</a>
     </p>
   </article>
 
