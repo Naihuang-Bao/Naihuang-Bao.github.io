@@ -29,9 +29,9 @@ section: ai
 
   <article class="publication" id="zhou-weights-flat">
     <p><strong>Zhou weights and valuative separation by generalized Lelong numbers</strong></p>
-    <p><strong>Zhou weights are flat:</strong> for every plurisubharmonic germ, the normalized generalized Lelong number equals the relative type. The paper gives <strong>an analytic proof of the remaining implication (4) ⇒ (1) in Boucksom–Favre–Jonsson’s Theorem A</strong>, using mass comparison, valuation-ideal multiplicities, and controlled density of Zhou valuations. The expanded version includes background, examples, and step-by-step proofs.</p>
-    <p><strong>AI use:</strong> the author proposed the research questions and the Zhou-weight/density organization; the proofs and exposition were developed with GPT (Astra), with background from GPT-5.6 Sol (high). <strong>Updated:</strong> September 5, 2026; 24 pages.
-      <a href="{{ site.baseurl }}/assets/papers/zhou-weights-lelong-separation.pdf?v=e50e41a1" target="_blank" rel="noopener" class="paper-link">View PDF</a>
+    <p><strong>Zhou weights are flat:</strong> their normalized generalized Lelong numbers equal their relative types, and their residual masses equal the volumes of the associated valuations. The paper gives <strong>an analytic proof of the remaining implication (4) ⇒ (1) in Boucksom–Favre–Jonsson’s Theorem A</strong>, using mass comparison, hypersurface multiplicities, and bounded-discrepancy approximation by Zhou valuations.</p>
+    <p><strong>AI use:</strong> the author proposed the research questions and the Zhou-weight/density organization; the proofs and exposition were developed with GPT (Astra), with background from GPT-5.6 Sol (high). <strong>Updated:</strong> September 7, 2026; 13 pages.
+      <a href="{{ site.baseurl }}/assets/papers/zhou-weights-lelong-separation.pdf?v=459f6fb0" target="_blank" rel="noopener" class="paper-link">View PDF</a>
     </p>
   </article>
 

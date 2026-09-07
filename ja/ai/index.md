@@ -29,9 +29,9 @@ section: ai
 
   <article class="publication" id="zhou-weights-flat">
     <p><strong>Zhou weights and valuative separation by generalized Lelong numbers</strong></p>
-    <p><strong>Zhou weights are flat：</strong>すべての多重劣調和関数の芽に対して、正規化された一般化 Lelong 数と相対型が一致することを証明します。さらに、<strong>Boucksom–Favre–Jonsson の Theorem A に残されていた (4) ⇒ (1) の解析的証明</strong>を与えます。質量の比較、付値イデアルの重複度計算、および Zhou 付値の制御付き稠密性を用い、背景・具体例・証明の各段階を詳述しています。</p>
-    <p><strong>AI の使用：</strong>研究課題と Zhou ウェイト・稠密性を中心とする構成は著者が提案し、証明と詳しい解説は GPT（Astra）の支援で作成しました。一部の背景記述は GPT-5.6 Sol（high）によるものです。<strong>更新：</strong>2026 年 9 月 5 日、24 ページ。
-      <a href="{{ site.baseurl }}/assets/papers/zhou-weights-lelong-separation.pdf?v=e50e41a1" target="_blank" rel="noopener" class="paper-link">PDF を見る</a>
+    <p><strong>Zhou weights are flat：</strong>正規化された一般化 Lelong 数が相対型と一致し、残余 Monge–Ampère 質量が対応する付値の体積に等しいことを証明します。さらに、<strong>Boucksom–Favre–Jonsson の Theorem A に残されていた (4) ⇒ (1) の解析的証明</strong>を与えます。質量の比較、超曲面上の重複度公式、および log discrepancy を制御した Zhou 付値による近似を用います。</p>
+    <p><strong>AI の使用：</strong>研究課題と Zhou ウェイト・稠密性を中心とする構成は著者が提案し、証明と記述は GPT（Astra）の支援で作成しました。一部の背景記述は GPT-5.6 Sol（high）によるものです。<strong>更新：</strong>2026 年 9 月 7 日、13 ページ。
+      <a href="{{ site.baseurl }}/assets/papers/zhou-weights-lelong-separation.pdf?v=459f6fb0" target="_blank" rel="noopener" class="paper-link">PDF を見る</a>
     </p>
   </article>
 
