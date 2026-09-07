@@ -9,8 +9,8 @@
       "id": "indefinite-theta-hessians",
       "group": "theta",
       "title": "Indefinite theta Hessians at Green-function parameters",
-      "pdf": "/assets/papers/indefinite-theta-hessians.pdf?v=09afedb4",
-      "pages": 15,
+      "pdf": "/assets/papers/indefinite-theta-hessians.pdf?v=5441570e",
+      "pages": 16,
       "models": "OpenAI Codex · GPT-6",
       "summary": {
         "en": "Constructs triply connected circle domains for which the logarithmic theta Hessian at the Green-function parameter has one positive and one negative eigenvalue, disproving Yamada's proposed negative definiteness. The proof computes both leading eigenvalue coefficients using harmonic measures and a second-order theta expansion.",
