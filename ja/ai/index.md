@@ -13,7 +13,7 @@ section: ai
 
   <article class="publication" id="indefinite-theta-hessians">
     <p><strong>Indefinite theta Hessians at Green-function parameters</strong></p>
-    <p>Green 関数のパラメータにおけるテータ関数の対数のヘッセ行列が正と負の固有値を一つずつ持つ三重連結円領域を構成し、Yamada が提起した負定値性の予想を否定します。調和測度とテータ関数の二次展開により、両固有値の主要項の係数を計算します。</p>
+    <p>Green 関数のパラメータにおけるテータ関数の対数のヘッセ行列が正と負の固有値を一つずつ持つ三重連結円領域を構成し、山田 が提起した負定値性の予想を否定します。調和測度とテータ関数の二次展開により、両固有値の主要項の係数を計算します。</p>
     <p><strong>AI の使用：</strong>著者は問題を選び、反例を探す方針と関連する既存の構成を提供しました。新しい構成、証明、数値計算および記述は OpenAI Codex（GPT-6）の支援で作成しました。論文末尾に詳しい AI 使用声明を付しています。<strong>更新：</strong>2026 年 9 月 7 日、15 ページ。
       <a href="{{ site.baseurl }}/assets/papers/indefinite-theta-hessians.pdf?v=09afedb4" target="_blank" rel="noopener" class="paper-link">PDF を見る</a>
     </p>
