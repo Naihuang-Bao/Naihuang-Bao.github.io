@@ -25,25 +25,6 @@
       "updated": "2026-09-07"
     },
     {
-      "id": "log-discrepancy",
-      "group": "valuations",
-      "title": "Log discrepancy from jumping numbers",
-      "pdf": "/assets/papers/log-discrepancy.pdf?v=fae31c37",
-      "pages": 3,
-      "models": "GPT (Astra)",
-      "summary": {
-        "en": "A short note showing that the Bao–Guan–Yuan invariant equals log discrepancy for every nontrivial real valuation on an excellent regular local domain containing the rational numbers, including infinite discrepancy. The proof uses compactness and a finite product of separating functions; principal auxiliary ideals suffice.",
-        "zh": "一篇短文：证明对含有理数域的优秀正则局部整环上的每个非平凡实赋值，Bao–Guan–Yuan 引入的不变量均等于 log discrepancy，包括无穷 discrepancy 的情形。证明只需紧性与有限个分离函数的乘积，辅助理想取主理想即可。",
-        "ja": "有理数体を含む優秀正則局所整域上のすべての非自明な実付値について、Bao–Guan–Yuan の不変量が log discrepancy と一致することを示す短報です。無限大の場合も含みます。証明はコンパクト性と有限個の分離関数の積を用い、補助イデアルは単項イデアルだけで十分です。"
-      },
-      "ai_usage": {
-        "en": "The research question and idea originated with Shijie Bao, motivated by the work of Bao–Guan–Yuan and Bao–Guan–Zhou; the proof and exposition were developed with GPT (Astra).",
-        "zh": "研究问题及想法由 Shijie Bao 提出，受到 Bao–Guan–Yuan 和 Bao–Guan–Zhou 工作的启发；证明与论述由 GPT（Astra）协助完成。",
-        "ja": "研究課題とアイデアは、Bao–Guan–Yuan および Bao–Guan–Zhou の研究を踏まえて Shijie Bao が提案しました。証明と記述は GPT（Astra）の支援で作成しました。"
-      },
-      "updated": "2026-09-07"
-    },
-    {
       "id": "zhou-weights-flat",
       "group": "valuations",
       "title": "Flat tame weights and valuative separation",
@@ -59,6 +40,25 @@
         "en": "The author proposed the research questions. The proofs and exposition were developed with GPT (Astra) and GPT-5.6 Sol (high), and remain subject to the author's mathematical verification.",
         "zh": "作者提出研究问题，证明与论述由 GPT（Astra）和 GPT-5.6 Sol（high）参与完成，仍待作者核验。",
         "ja": "研究課題は著者が提案しました。証明と記述は GPT（Astra）および GPT-5.6 Sol（high）の支援で作成され、著者による数学的検証を要します。"
+      },
+      "updated": "2026-09-07"
+    },
+    {
+      "id": "log-discrepancy",
+      "group": "valuations",
+      "title": "Log discrepancy from jumping numbers",
+      "pdf": "/assets/papers/log-discrepancy.pdf?v=fae31c37",
+      "pages": 3,
+      "models": "GPT (Astra)",
+      "summary": {
+        "en": "A short note showing that the Bao–Guan–Yuan invariant equals log discrepancy for every nontrivial real valuation on an excellent regular local domain containing the rational numbers, including infinite discrepancy. The proof uses compactness and a finite product of separating functions; principal auxiliary ideals suffice.",
+        "zh": "一篇短文：证明对含有理数域的优秀正则局部整环上的每个非平凡实赋值，Bao–Guan–Yuan 引入的不变量均等于 log discrepancy，包括无穷 discrepancy 的情形。证明只需紧性与有限个分离函数的乘积，辅助理想取主理想即可。",
+        "ja": "有理数体を含む優秀正則局所整域上のすべての非自明な実付値について、Bao–Guan–Yuan の不変量が log discrepancy と一致することを示す短報です。無限大の場合も含みます。証明はコンパクト性と有限個の分離関数の積を用い、補助イデアルは単項イデアルだけで十分です。"
+      },
+      "ai_usage": {
+        "en": "The research question and idea originated with Shijie Bao, motivated by the work of Bao–Guan–Yuan and Bao–Guan–Zhou; the proof and exposition were developed with GPT (Astra).",
+        "zh": "研究问题及想法由 Shijie Bao 提出，受到 Bao–Guan–Yuan 和 Bao–Guan–Zhou 工作的启发；证明与论述由 GPT（Astra）协助完成。",
+        "ja": "研究課題とアイデアは、Bao–Guan–Yuan および Bao–Guan–Zhou の研究を踏まえて Shijie Bao が提案しました。証明と記述は GPT（Astra）の支援で作成しました。"
       },
       "updated": "2026-09-07"
     },
