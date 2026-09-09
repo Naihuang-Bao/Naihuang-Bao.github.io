@@ -74,7 +74,7 @@
 
 .ai-topics a:hover {
   border-color: var(--accent);
-  background: #f5f5f5;
+  background: var(--accent-light);
 }
 
 .ai-topic-count {
@@ -176,12 +176,14 @@
   transition: color 150ms ease;
 }
 
-.ai-disclosure summary:hover {
-  color: var(--ink);
+.ai-disclosure summary:is(:hover, :focus-visible) {
+  color: var(--feedback);
+  background: var(--feedback-light);
 }
+.ai-disclosure summary:is(:hover, :focus-visible) .ai-models { color: inherit; }
 
 .ai-disclosure summary:focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 2px solid var(--feedback);
   outline-offset: 3px;
 }
 

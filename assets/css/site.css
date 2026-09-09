@@ -4,6 +4,8 @@
   --accent: #caa82b;
   --accent-text: #806817;
   --accent-light: #fbf7e9;
+  --feedback: #a63767;
+  --feedback-light: #f8f1f4;
   --line: #dedfe0;
   --width: 1120px;
   --font: Arial, "Helvetica Neue", "Hiragino Sans", "Yu Gothic", "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -22,7 +24,7 @@ body {
 }
 html:lang(zh) { --font: "PingFang SC", "Microsoft YaHei", Arial, sans-serif; }
 html:lang(ja) { --font: "Hiragino Sans", "Yu Gothic", Meiryo, Arial, sans-serif; }
-a { color: var(--accent-text); text-underline-offset: 4px; }
+a { color: var(--accent-text); text-underline-offset: 4px; transition: color 150ms ease, background-color 150ms ease, border-color 150ms ease; }
 a:hover { text-decoration-thickness: 2px; }
 a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
 img { display: block; max-width: 100%; }
@@ -152,6 +154,18 @@ mjx-container[display="true"] { max-width: 100%; overflow-x: auto; overflow-y: h
 .back-to-top { color: var(--ink); text-decoration: none; padding: 7px 0; }
 .back-to-top span { margin-left: 16px; color: var(--accent-text); }
 
+/* Hover and keyboard focus share the rose feedback palette. Local tokens
+   also recolor nested labels, borders, and the active navigation underline. */
+a[href]:is(:hover, :focus-visible) {
+  --accent: var(--feedback);
+  --accent-text: var(--feedback);
+  --accent-light: var(--feedback-light);
+  color: var(--feedback);
+  background-color: var(--feedback-light);
+  border-color: var(--feedback);
+}
+a[href]:is(:hover, :focus-visible) .site-name-description { color: inherit; }
+
 @media (max-width: 1000px) {
   .masthead, .navigation-inner, .site-shell, .footer-inner { width: calc(100% - 48px); }
   .nav-links { gap: 0; }
@@ -211,6 +225,7 @@ mjx-container[display="true"] { max-width: 100%; overflow-x: auto; overflow-y: h
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+  a { transition: none; }
 }
 @media print {
   .site-header, .site-footer, .skip-link, .breadcrumb, .hero-actions, .attachments { display: none; }
