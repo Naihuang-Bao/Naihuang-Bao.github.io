@@ -42,7 +42,7 @@
 
 .ai-notice h2 {
   margin: 0 0 0.4rem;
-  color: var(--accent);
+  color: var(--accent-text);
   font: 650 0.85rem/1.5 var(--font);
 }
 
@@ -80,7 +80,7 @@
 .ai-topic-count {
   padding-left: 0.65rem;
   border-left: 1px solid var(--line);
-  color: var(--accent);
+  color: var(--accent-text);
   font-variant-numeric: tabular-nums;
 }
 
@@ -111,7 +111,7 @@
 
 .ai-group-count {
   flex-shrink: 0;
-  color: var(--accent);
+  color: var(--accent-text);
   font: 550 0.78rem/1.5 var(--font);
 }
 
@@ -169,7 +169,7 @@
 
 .ai-disclosure summary {
   padding: 0.6rem 0;
-  color: var(--accent);
+  color: var(--accent-text);
   font: 550 0.8rem/1.6 var(--font);
   cursor: pointer;
   border-radius: 0;
@@ -211,7 +211,7 @@
   padding: 0.55rem 0.9rem;
   border: 1px solid var(--line);
   border-radius: 0;
-  color: var(--accent);
+  color: var(--accent-text);
   background: #f5f5f5;
   font: 650 0.8rem/1.5 var(--font);
   text-decoration: none;
