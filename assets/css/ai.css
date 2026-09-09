@@ -1,9 +1,9 @@
 /* AI manuscript library. Shared site tokens and navigation stay in site.css. */
 .ai-page .page-heading,
 .ai-library {
-  width: min(100%, 54rem);
-  max-width: 54rem;
-  margin-inline: auto;
+  width: min(100%, 960px);
+  max-width: 960px;
+  margin-inline: 0;
 }
 
 .ai-page .page-heading {
@@ -13,42 +13,42 @@
 
 .ai-page .page-heading::after {
   left: 0;
-  background: var(--color-rust);
+  background: var(--accent);
   transform: none;
 }
 
 .ai-intro {
-  margin-bottom: var(--space-4);
+  margin-bottom: 24px;
 }
 
 .ai-intro p {
   margin-bottom: 0.45rem;
-  color: var(--color-ink-soft);
+  color: var(--muted);
   font-size: 0.98rem;
 }
 
 .ai-intro .ai-subtitle {
-  color: var(--color-navy-deep);
+  color: var(--ink);
   font-size: clamp(1.3rem, 3vw, 1.65rem);
 }
 
 .ai-notice {
   padding: 1rem 1.25rem;
-  border: 1px solid var(--color-line);
-  border-left: 3px solid var(--color-rust);
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-  background: var(--color-surface-muted);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 0 0 0;
+  background: #f5f5f5;
 }
 
 .ai-notice h2 {
   margin: 0 0 0.4rem;
-  color: var(--color-rust);
-  font: 650 0.85rem/1.5 var(--font-sans);
+  color: var(--accent);
+  font: 650 0.85rem/1.5 var(--font);
 }
 
 .ai-notice p {
   margin: 0;
-  color: var(--color-ink-soft);
+  color: var(--muted);
   font-size: 0.92rem;
   line-height: 1.7;
 }
@@ -57,7 +57,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
-  margin: var(--space-4) 0 var(--space-6);
+  margin: 24px 0 48px;
 }
 
 .ai-topics a {
@@ -66,27 +66,26 @@
   gap: 0.65rem;
   min-height: 2.75rem;
   padding: 0.45rem 0.8rem;
-  border: 1px solid var(--color-line);
-  border-radius: var(--radius-sm);
-  background: var(--color-surface);
-  font: 550 0.78rem/1.5 var(--font-sans);
+  border-bottom: 1px solid var(--line);
+  background: #fff;
+  font: 550 0.78rem/1.5 var(--font);
   text-decoration: none;
 }
 
 .ai-topics a:hover {
-  border-color: var(--color-rust);
-  background: var(--color-surface-muted);
+  border-color: var(--accent);
+  background: #f5f5f5;
 }
 
 .ai-topic-count {
   padding-left: 0.65rem;
-  border-left: 1px solid var(--color-line);
-  color: var(--color-rust);
+  border-left: 1px solid var(--line);
+  color: var(--accent);
   font-variant-numeric: tabular-nums;
 }
 
 .ai-group {
-  margin-bottom: var(--space-6);
+  margin-bottom: 48px;
 }
 
 .ai-group-heading {
@@ -106,21 +105,20 @@
 
 .ai-group-heading p {
   margin: 0;
-  color: var(--color-ink-soft);
+  color: var(--muted);
   font-size: 0.9rem;
 }
 
 .ai-group-count {
   flex-shrink: 0;
-  color: var(--color-rust);
-  font: 550 0.78rem/1.5 var(--font-sans);
+  color: var(--accent);
+  font: 550 0.78rem/1.5 var(--font);
 }
 
 .ai-paper-list {
-  padding-inline: clamp(1rem, 3vw, 1.8rem);
-  border: 1px solid var(--color-line);
-  border-radius: var(--radius-md);
-  background: var(--color-surface);
+  padding-inline: 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
 
 .ai-paper {
@@ -130,12 +128,12 @@
 }
 
 .ai-paper + .ai-paper {
-  border-top: 1px solid var(--color-line);
+  border-top: 1px solid var(--line);
 }
 
 .ai-paper h3 {
   margin: 0 0 0.65rem;
-  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-family: var(--font);
   font-size: 1.2rem;
   line-height: 1.45;
   text-wrap: pretty;
@@ -148,8 +146,8 @@
   margin: 0 0 0.85rem;
   padding: 0;
   list-style: none;
-  color: var(--color-ink-soft);
-  font: 400 0.76rem/1.6 var(--font-sans);
+  color: var(--muted);
+  font: 400 0.76rem/1.6 var(--font);
 }
 
 .ai-meta time {
@@ -171,26 +169,26 @@
 
 .ai-disclosure summary {
   padding: 0.6rem 0;
-  color: var(--color-rust);
-  font: 550 0.8rem/1.6 var(--font-sans);
+  color: var(--accent);
+  font: 550 0.8rem/1.6 var(--font);
   cursor: pointer;
-  border-radius: var(--radius-sm);
-  transition: color var(--transition);
+  border-radius: 0;
+  transition: color 150ms ease;
 }
 
 .ai-disclosure summary:hover {
-  color: var(--color-navy-deep);
+  color: var(--ink);
 }
 
 .ai-disclosure summary:focus-visible {
-  outline: 2px solid var(--color-rust);
+  outline: 2px solid var(--accent);
   outline-offset: 3px;
 }
 
 .ai-models {
   display: block;
   padding-left: 1rem;
-  color: var(--color-ink-soft);
+  color: var(--muted);
   font-size: 0.72rem;
   font-weight: 400;
 }
@@ -198,8 +196,8 @@
 .ai-disclosure p {
   margin: 0.4rem 0 0;
   padding: 0.2rem 0 0.2rem 1rem;
-  border-left: 2px solid var(--color-line);
-  color: var(--color-ink-soft);
+  border-left: 2px solid var(--line);
+  color: var(--muted);
   font-size: 0.9rem;
   line-height: 1.75;
 }
@@ -211,34 +209,34 @@
   gap: 0.8rem;
   min-height: 2.75rem;
   padding: 0.55rem 0.9rem;
-  border: 1px solid var(--color-line-strong);
-  border-radius: var(--radius-sm);
-  color: var(--color-navy);
-  background: var(--color-surface-muted);
-  font: 650 0.8rem/1.5 var(--font-sans);
+  border: 1px solid var(--line);
+  border-radius: 0;
+  color: var(--accent);
+  background: #f5f5f5;
+  font: 650 0.8rem/1.5 var(--font);
   text-decoration: none;
 }
 
 .ai-pdf:hover {
-  color: var(--color-navy-deep);
-  border-color: var(--color-navy);
-  background: var(--color-canvas);
+  color: var(--ink);
+  border-color: var(--accent);
+  background: var(--accent-light);
 }
 
 .ai-date-note {
-  color: var(--color-ink-soft);
-  font: 400 0.75rem/1.6 var(--font-sans);
+  color: var(--muted);
+  font: 400 0.75rem/1.6 var(--font);
 }
 
 .ai-group h2,
 .ai-paper {
-  scroll-margin-top: 8rem;
+  scroll-margin-top: 2rem;
 }
 
 @media (max-width: 520px) {
   .ai-topics {
     display: grid;
-    margin-bottom: var(--space-5);
+    margin-bottom: 36px;
   }
 
   .ai-topics a {

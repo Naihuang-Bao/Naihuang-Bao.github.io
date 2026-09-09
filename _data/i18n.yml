@@ -1,6 +1,10 @@
 en:
   html_lang: en
   site_name: Shijie Bao
+  site_description: Academic Homepage
+  university: Osaka Metropolitan University
+  department: Department of Mathematics
+  department_url: https://www.omu.ac.jp/sci/math_en/
   skip: Skip to content
   primary_nav: Primary navigation
   language_nav: Language selection
@@ -37,6 +41,10 @@ en:
 zh:
   html_lang: zh-CN
   site_name: 包诗界
+  site_description: 学术主页
+  university: 大阪公立大学
+  department: 数学专攻・数学科
+  department_url: https://www.omu.ac.jp/sci/math/
   skip: 跳至正文
   primary_nav: 主导航
   language_nav: 语言选择
@@ -73,6 +81,10 @@ zh:
 ja:
   html_lang: ja
   site_name: 包 詩界
+  site_description: 研究者ホームページ
+  university: 大阪公立大学
+  department: 数学専攻・数学科
+  department_url: https://www.omu.ac.jp/sci/math/
   skip: 本文へ移動
   primary_nav: メインナビゲーション
   language_nav: 言語選択
