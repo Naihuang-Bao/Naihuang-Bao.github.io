@@ -9,20 +9,20 @@
       "id": "indefinite-theta-hessians",
       "group": "theta",
       "title": "Indefinite theta Hessians at Green-function parameters",
-      "pdf": "/assets/papers/indefinite-theta-hessians.pdf?v=c21723a0",
-      "pages": 16,
+      "pdf": "/assets/papers/indefinite-theta-hessians.pdf?v=6ad52e66",
+      "pages": 17,
       "models": "OpenAI Codex · GPT-6",
       "summary": {
-        "en": "Constructs triply connected circle domains for which the logarithmic theta Hessian at the Green-function parameter has one positive and one negative eigenvalue, disproving Yamada's proposed negative definiteness. The proof computes both leading eigenvalue coefficients using harmonic measures and a second-order theta expansion.",
-        "zh": "构造三连通圆域，使 Green 函数参数处的 theta 对数 Hessian 有一正一负两个特征值，否定 Yamada 提出的恒负定猜测。证明通过调和测度和 theta 函数的二阶展开，计算两个特征值的首项系数。",
-        "ja": "Green 関数のパラメータにおけるテータ関数の対数のヘッセ行列が正と負の固有値を一つずつ持つ三重連結円領域を構成し、山田が提起した負定値性の予想を否定します。調和測度とテータ関数の二次展開により、両固有値の主要項の係数を計算します。"
+        "en": "Constructs triply connected circle domains for which the logarithmic theta Hessian at the Green-function parameter has one positive and one negative eigenvalue, disproving Saitoh's negative-definiteness conjecture in Yamada's theta-function formulation. The proof computes both leading eigenvalue coefficients using harmonic measures and a second-order theta expansion.",
+        "zh": "构造三连通圆域，使 Green 函数参数处的 theta 对数 Hessian 有一正一负两个特征值，否定 Saitoh 的负定性猜想（采用山田的 theta 函数表述）。证明通过调和测度和 theta 函数的二阶展开，计算两个特征值的首项系数。",
+        "ja": "Green 関数のパラメータにおけるテータ関数の対数のヘッセ行列が正と負の固有値を一つずつ持つ三重連結円領域を構成し、山田によるテータ関数の定式化で述べられた齋藤の負定値性予想を否定します。調和測度とテータ関数の二次展開により、両固有値の主要項の係数を計算します。"
       },
       "ai_usage": {
         "en": "The author selected the problem and counterexample direction and supplied a related construction. The new mathematics, computations, exposition, and figures were developed with OpenAI Codex (GPT-6); independent verification is required.",
         "zh": "作者选题、建议寻找反例并提供相关构造；新的数学论证、计算、写作与配图由 OpenAI Codex（GPT-6）参与完成，仍需独立验证。",
         "ja": "著者は問題と反例を探す方針を選び、関連する構成を提供しました。新しい論証、計算、記述と図は OpenAI Codex（GPT-6）の支援で作成しており、独立した検証が必要です。"
       },
-      "updated": "2026-09-07"
+      "updated": "2026-09-09"
     },
     {
       "id": "zhou-weights-flat",
