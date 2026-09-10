@@ -38,12 +38,12 @@
         "ja": "tame maximal weight が flat であることと、その正則関数上の相対型が付値を定めることの同値性を示し、残余質量が付値の体積に等しいことを証明します。付値的補間と恒等式 𝒜 = A により、これらのウェイトは有界関数の差を除いて有限の log discrepancy を持つ中心付き付値と一対一に対応します。Zhou weights are flat はその系です。解析的な質量比較、超曲面上の重複度、BFJ の準単項ウェイトを用いて Theorem A の残された (4) ⇒ (1) を証明します。"
       },
       "ai_usage": {
-        "en": "The author proposed the research questions. The proofs and exposition were developed with GPT (Astra) and GPT-5.6 Sol (high), and remain subject to the author's mathematical verification.",
-        "zh": "作者提出研究问题，证明与论述由 GPT（Astra）和 GPT-5.6 Sol（high）参与完成，仍待作者核验。",
-        "ja": "研究課題は著者が提案しました。証明と記述は GPT（Astra）および GPT-5.6 Sol（high）の支援で作成され、著者による数学的検証を要します。"
+        "en": "The author proposed the research questions. The proofs and exposition were developed with GPT (Astra) and GPT-5.6 Sol (high). The author has completed a self-review.",
+        "zh": "作者提出研究问题，证明与论述由 GPT（Astra）和 GPT-5.6 Sol（high）参与完成。作者已完成自我验证。",
+        "ja": "研究課題は著者が提案しました。証明と記述は GPT（Astra）および GPT-5.6 Sol（high）の支援で作成されました。著者による自己検証は完了しています。"
       },
       "updated": "2026-09-07",
-      "review_status": "pending"
+      "review_status": "self_reviewed"
     },
     {
       "id": "log-discrepancy",
