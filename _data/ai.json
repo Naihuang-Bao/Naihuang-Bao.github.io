@@ -127,20 +127,21 @@
       "id": "fiberwise-bergman",
       "group": "bergman",
       "title": "Failure of fiberwise log-plurisubharmonicity for classical p-Bergman kernels",
-      "pdf": "/assets/papers/fiberwise-p-Bergman-counterexamples.pdf",
+      "pdf": "/assets/papers/fiberwise-p-Bergman-counterexamples.pdf?v=2f34ccd8",
       "pages": 6,
-      "models": "GPT-5.6 Sol",
+      "models": "GPT-5.6 Sol · GPT-6",
       "summary": {
-        "en": "Gives pseudoconvex Hartogs-family counterexamples for every p > 4, including bounded examples obtained by exhaustion.",
-        "zh": "对每个 p > 4 构造伪凸 Hartogs 族反例，并通过穷竭得到有界伪凸反例。",
-        "ja": "すべての p > 4 に対する擬凸 Hartogs 族の反例を与え、近似により有界擬凸反例も構成します。"
+        "en": "Gives counterexamples to fiberwise log-plurisubharmonicity for every p > 2, with an explicit kernel formula and strictly negative Levi form along a holomorphic section. Exhaustion also yields bounded pseudoconvex counterexamples, establishing the sharp threshold p = 2.",
+        "zh": "对每个 p > 2 构造纤维方向对数多次调和性的反例，给出显式核公式及全纯截面上的严格负 Levi 形式；通过穷竭得到有界伪凸反例，确定精确阈值 p = 2。",
+        "ja": "すべての p > 2 に対し、ファイバー方向の対数多重劣調和性の反例を構成し、核の明示公式と正則切断上の負の Levi 形式を与えます。増大列による近似から有界擬凸反例も得られ、p = 2 が正確な閾値であることを示します。"
       },
       "ai_usage": {
-        "en": "The construction and proof were obtained with GPT-5.6 Sol (high).",
-        "zh": "文中的构造和证明由 GPT-5.6 Sol（high）得到。",
-        "ja": "構成と証明は GPT-5.6 Sol（high）で得られました。"
+        "en": "The original construction and proof were obtained with GPT-5.6 Sol (high). The extension to every p > 2, the explicit kernel formula, and this revision were developed with OpenAI Codex (GPT-6). Verification by the author is in progress.",
+        "zh": "原有构造和证明由 GPT-5.6 Sol（high）参与完成。覆盖每个 p > 2 的构造、显式核公式及本次修订由 OpenAI Codex（GPT-6）协助完成。作者验证中。",
+        "ja": "当初の構成と証明は GPT-5.6 Sol（high）で得られました。すべての p > 2 への拡張、核の明示公式および今回の改訂は OpenAI Codex（GPT-6）の支援で作成しました。著者による検証中です。"
       },
-      "review_status": "self_reviewed"
+      "review_status": "in_progress",
+      "updated": "2026-09-10"
     },
     {
       "id": "higher-suita",
@@ -198,7 +199,8 @@
       "paper": "paper",
       "self_reviewed": "Self-Reviewed",
       "review_pending": "Self-Review Pending",
-      "review_note": "Self-Reviewed indicates that I have completed my own review; it does not indicate peer review."
+      "review_note": "Self-Reviewed indicates that I have completed my own review; it does not indicate peer review.",
+      "review_in_progress": "Verification in progress"
     },
     "zh": {
       "intro": "AI 参与的数学研究",
@@ -216,7 +218,8 @@
       "paper": "篇",
       "self_reviewed": "Self-Reviewed",
       "review_pending": "自我验证尚未完成",
-      "review_note": "Self-Reviewed 表示本人已完成自我验证，不代表已通过同行评议。"
+      "review_note": "Self-Reviewed 表示本人已完成自我验证，不代表已通过同行评议。",
+      "review_in_progress": "验证中"
     },
     "ja": {
       "intro": "AI とともに取り組む数学研究",
@@ -234,7 +237,8 @@
       "paper": "編",
       "self_reviewed": "Self-Reviewed",
       "review_pending": "自己検証未完了",
-      "review_note": "Self-Reviewed は著者による自己検証の完了を示すものであり、査読済みを意味するものではありません。"
+      "review_note": "Self-Reviewed は著者による自己検証の完了を示すものであり、査読済みを意味するものではありません。",
+      "review_in_progress": "検証中"
     }
   },
   "groups": [

@@ -33,6 +33,8 @@
           <ul class="ai-meta" aria-label="{{ paper.title | escape }}">
             {% if paper.review_status == 'self_reviewed' %}
             <li class="ai-review-status" title="{{ labels.review_note | escape }}">{{ labels.self_reviewed }}</li>
+            {% elsif paper.review_status == 'in_progress' %}
+            <li class="ai-review-status ai-review-pending">{{ labels.review_in_progress }}</li>
             {% else %}
             <li class="ai-review-status ai-review-pending">{{ labels.review_pending }}</li>
             {% endif %}
