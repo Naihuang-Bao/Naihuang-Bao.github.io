@@ -23,10 +23,7 @@
     {% assign group_papers = ai.papers | where: "group", group.id %}
     <section class="ai-group" aria-labelledby="topic-{{ group.id }}">
       <header class="ai-group-heading">
-        <div>
-          <h2 id="topic-{{ group.id }}">{{ group.title[ai_lang] }}</h2>
-          <p>{{ group.description[ai_lang] }}</p>
-        </div>
+        <h2 id="topic-{{ group.id }}">{{ group.title[ai_lang] }}</h2>
         <span class="ai-group-count">{{ group_papers.size }} {% if group_papers.size == 1 %}{{ labels.paper }}{% else %}{{ labels.papers }}{% endif %}</span>
       </header>
       <div class="ai-paper-list">
@@ -34,6 +31,11 @@
         <article class="ai-paper" id="{{ paper.id }}" aria-labelledby="{{ paper.id }}-title">
           <h3 id="{{ paper.id }}-title" lang="en">{{ paper.title | escape }}</h3>
           <ul class="ai-meta" aria-label="{{ paper.title | escape }}">
+            {% if paper.review_status == 'self_reviewed' %}
+            <li class="ai-review-status" title="{{ labels.review_note | escape }}">{{ labels.self_reviewed }}</li>
+            {% else %}
+            <li class="ai-review-status ai-review-pending">{{ labels.review_pending }}</li>
+            {% endif %}
             <li>{{ paper.pages }} {{ labels.pages }}</li>
             <li>{{ labels.language }}</li>
             {% if paper.updated %}<li>{{ labels.updated }} <time datetime="{{ paper.updated }}">{{ paper.updated }}</time></li>{% endif %}

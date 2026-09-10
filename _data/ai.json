@@ -22,7 +22,8 @@
         "zh": "作者选题、建议寻找反例并提供相关构造；新的数学论证、计算、写作与配图由 OpenAI Codex（GPT-6）参与完成，仍需独立验证。",
         "ja": "著者は問題と反例を探す方針を選び、関連する構成を提供しました。新しい論証、計算、記述と図は OpenAI Codex（GPT-6）の支援で作成しており、独立した検証が必要です。"
       },
-      "updated": "2026-09-09"
+      "updated": "2026-09-09",
+      "review_status": "pending"
     },
     {
       "id": "zhou-weights-flat",
@@ -41,7 +42,8 @@
         "zh": "作者提出研究问题，证明与论述由 GPT（Astra）和 GPT-5.6 Sol（high）参与完成，仍待作者核验。",
         "ja": "研究課題は著者が提案しました。証明と記述は GPT（Astra）および GPT-5.6 Sol（high）の支援で作成され、著者による数学的検証を要します。"
       },
-      "updated": "2026-09-07"
+      "updated": "2026-09-07",
+      "review_status": "pending"
     },
     {
       "id": "log-discrepancy",
@@ -60,7 +62,8 @@
         "zh": "研究问题及想法由 Shijie Bao 提出，受到 Bao–Guan–Yuan 和 Bao–Guan–Zhou 工作的启发；证明与论述由 GPT（Astra）协助完成。",
         "ja": "研究課題とアイデアは、Bao–Guan–Yuan および Bao–Guan–Zhou の研究を踏まえて Shijie Bao が提案しました。証明と記述は GPT（Astra）の支援で作成しました。"
       },
-      "updated": "2026-09-07"
+      "updated": "2026-09-07",
+      "review_status": "self_reviewed"
     },
     {
       "id": "generalized-lelong",
@@ -79,7 +82,8 @@
         "zh": "全部数学思想与论证均由 AI 生成；原稿使用 GPT-5.6 Sol（high），纠错与证明扩写使用 GPT（Astra）。作者对数学内容负责。",
         "ja": "数学的アイデアと論証はすべて AI によって生成されました。初稿には GPT-5.6 Sol（high）、誤りの修正と証明の詳述には GPT（Astra）を使用しました。数学的内容の責任は著者が負います。"
       },
-      "updated": "2026-09-05"
+      "updated": "2026-09-05",
+      "review_status": "pending"
     },
     {
       "id": "green-sublevel",
@@ -97,7 +101,8 @@
         "en": "The first counterexample was obtained with GPT-5.6 Sol (xhigh); the second and third were obtained with DeepSeek V4 Flash and Pro.",
         "zh": "第一个反例由 GPT-5.6 Sol（xhigh）得到；第二、第三个反例由 DeepSeek V4 Flash 和 Pro 得到。",
         "ja": "第一の反例は GPT-5.6 Sol（xhigh）で、第二・第三の反例は DeepSeek V4 Flash および Pro で得られました。"
-      }
+      },
+      "review_status": "pending"
     },
     {
       "id": "xi-reduction",
@@ -115,7 +120,8 @@
         "en": "The counterexamples and proofs were obtained with DeepSeek V4 Flash and Pro.",
         "zh": "文中的反例和证明由 DeepSeek V4 Flash 和 Pro 得到。",
         "ja": "反例と証明は DeepSeek V4 Flash および Pro で得られました。"
-      }
+      },
+      "review_status": "self_reviewed"
     },
     {
       "id": "fiberwise-bergman",
@@ -133,7 +139,8 @@
         "en": "The construction and proof were obtained with GPT-5.6 Sol (high).",
         "zh": "文中的构造和证明由 GPT-5.6 Sol（high）得到。",
         "ja": "構成と証明は GPT-5.6 Sol（high）で得られました。"
-      }
+      },
+      "review_status": "self_reviewed"
     },
     {
       "id": "higher-suita",
@@ -151,7 +158,8 @@
         "en": "The counterexample was found with the assistance of DeepSeek V4 Flash.",
         "zh": "该反例是在 DeepSeek V4 Flash 的协助下发现的。",
         "ja": "この反例は DeepSeek V4 Flash の支援を受けて発見されました。"
-      }
+      },
+      "review_status": "self_reviewed"
     },
     {
       "id": "xi-concavity",
@@ -169,7 +177,8 @@
         "en": "The argument was developed with the assistance of GPT-5.6 Sol (high).",
         "zh": "该论证是在 GPT-5.6 Sol（high）的协助下完成的。",
         "ja": "この論証は GPT-5.6 Sol（high）の支援を受けて構築されました。"
-      }
+      },
+      "review_status": "self_reviewed"
     }
   ],
   "labels": {
@@ -186,7 +195,10 @@
       "new_tab": "opens in a new tab",
       "ai": "AI contribution",
       "date_note": "Update dates are shown where recorded.",
-      "paper": "paper"
+      "paper": "paper",
+      "self_reviewed": "Self-Reviewed",
+      "review_pending": "Self-Review Pending",
+      "review_note": "Self-Reviewed indicates that I have completed my own review; it does not indicate peer review."
     },
     "zh": {
       "intro": "AI 参与的数学研究",
@@ -201,7 +213,10 @@
       "new_tab": "在新标签页打开",
       "ai": "AI 参与说明",
       "date_note": "更新日期仅在已有记录时显示。",
-      "paper": "篇"
+      "paper": "篇",
+      "self_reviewed": "Self-Reviewed",
+      "review_pending": "自我验证尚未完成",
+      "review_note": "Self-Reviewed 表示本人已完成自我验证，不代表已通过同行评议。"
     },
     "ja": {
       "intro": "AI とともに取り組む数学研究",
@@ -216,7 +231,10 @@
       "new_tab": "新しいタブで開く",
       "ai": "AI の関与",
       "date_note": "更新日は記録がある場合のみ表示しています。",
-      "paper": "編"
+      "paper": "編",
+      "self_reviewed": "Self-Reviewed",
+      "review_pending": "自己検証未完了",
+      "review_note": "Self-Reviewed は著者による自己検証の完了を示すものであり、査読済みを意味するものではありません。"
     }
   },
   "groups": [
@@ -226,11 +244,6 @@
         "en": "Green functions & theta functions",
         "zh": "Green 函数与 theta 函数",
         "ja": "Green 関数とテータ関数"
-      },
-      "description": {
-        "en": "Planar domains, period matrices, and theta Hessians.",
-        "zh": "平面区域、周期矩阵与 theta Hessian。",
-        "ja": "平面領域、周期行列、テータ関数のヘッセ行列。"
       }
     },
     {
@@ -239,24 +252,14 @@
         "en": "Valuations & Lelong numbers",
         "zh": "赋值与 Lelong 数",
         "ja": "付値と Lelong 数"
-      },
-      "description": {
-        "en": "Log discrepancy, Zhou weights, and valuative separation.",
-        "zh": "Log discrepancy、Zhou 权与赋值分离。",
-        "ja": "Log discrepancy、Zhou ウェイト、付値の分離。"
       }
     },
     {
       "id": "bergman",
       "title": {
-        "en": "Bergman kernels & minimal integrals",
-        "zh": "Bergman 核与极小积分",
-        "ja": "Bergman 核と極小積分"
-      },
-      "description": {
-        "en": "Counterexamples, duality, and concavity.",
-        "zh": "反例、对偶性与凹性。",
-        "ja": "反例、双対性、凹性。"
+        "en": "Bergman kernels & minimal L² integrals",
+        "zh": "Bergman 核与极小 L² 积分",
+        "ja": "Bergman 核と極小 L² 積分"
       }
     }
   ]

@@ -97,16 +97,10 @@
 }
 
 .ai-group-heading h2 {
-  margin: 0 0 0.45rem;
+  margin: 0;
   font-size: clamp(1.25rem, 3vw, 1.5rem);
   line-height: 1.4;
   text-wrap: pretty;
-}
-
-.ai-group-heading p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.9rem;
 }
 
 .ai-group-count {
@@ -152,6 +146,16 @@
 
 .ai-meta time {
   font-variant-numeric: tabular-nums;
+}
+
+.ai-review-status {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.ai-review-pending {
+  color: var(--muted);
+  font-weight: 400;
 }
 
 .ai-abstract {
