@@ -6,26 +6,6 @@
   },
   "papers": [
     {
-      "id": "local-holomorphic-towers",
-      "group": "dynamics-psh",
-      "title": "Prescribed Plurisubharmonic Germs: Holomorphic Towers and Mass Control",
-      "pdf": "/assets/papers/local-holomorphic-towers.pdf?v=252ff02b",
-      "pages": 22,
-      "models": "OpenAI Codex · GPT-6",
-      "summary": {
-        "en": "Constructs finite polynomial towers on fixed ℂⁿ (n ≥ 2) realizing every admissible Lelong-number–mass pair, and exact towers on varying models for prescribed psh germs, with mass convergence for asymptotically analytic weights. An explicit tame maximal weight on ℂ² shows that exact realization of a chosen representative on a fixed smooth space can fail: local degrees stay bounded by 16, obstructing simultaneous function and mass convergence. Realization modulo bounded functions remains a separate question.",
-        "zh": "在固定 ℂⁿ（n ≥ 2）上构造有限多项式自映射塔，实现所有允许的 Lelong 数—质量数对；对预先指定的 psh 芽，则在变化模型上构造精确全纯塔，并对渐近解析权得到质量收敛。一个显式的二维 tame maximal 权表明：固定光滑空间上的精确代表元实现可能失败，局部次数被 16 一致控制，阻碍函数与质量同时收敛。模有界函数的奇性类型实现仍是另一个问题。",
-        "ja": "固定した ℂⁿ（n ≥ 2）上の有限多項式写像の塔により、許容されるすべての Lelong 数と質量の組を実現します。指定された psh 関数芽にはモデルを変えながら厳密な正則写像の塔を構成し、漸近解析的ウェイトについて質量収束を得ます。一方、ℂ² 上の明示的な tame maximal weight では局所次数が 16 以下に抑えられ、固定した滑らかな空間上で指定された代表元への関数収束と質量収束を同時に実現できません。有界関数の差を除いた特異点型の実現は別の問題として残ります。"
-      },
-      "ai_usage": {
-        "en": "The manuscript was prepared with AI assistance. The fixed-smooth-space counterexample and the present revision were developed with OpenAI Codex (GPT-6). Mathematical correctness and literature novelty require independent verification.",
-        "zh": "本稿由 AI 协助完成；固定光滑空间上的反例及本次修订由 OpenAI Codex（GPT-6）参与完成。数学正确性与文献新颖性仍需独立核验。",
-        "ja": "本稿は AI の支援を受けて作成しました。固定した滑らかな空間上の反例と今回の改訂は OpenAI Codex（GPT-6）の支援で作成しており、数学的正確性と先行研究に照らした新規性には独立した検証が必要です。"
-      },
-      "updated": "2026-09-11",
-      "review_status": "pending"
-    },
-    {
       "id": "indefinite-theta-hessians",
       "group": "theta",
       "title": "Indefinite theta Hessians at Green-function parameters",
@@ -262,14 +242,6 @@
     }
   },
   "groups": [
-    {
-      "id": "dynamics-psh",
-      "title": {
-        "en": "Dynamical systems & psh functions",
-        "zh": "动力系统与 psh 函数",
-        "ja": "力学系と psh 関数"
-      }
-    },
     {
       "id": "theta",
       "title": {
