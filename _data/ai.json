@@ -29,13 +29,13 @@
       "id": "demailly-pham-equality",
       "group": "valuations",
       "title": "Ideals attaining equality in the Demailly–Pham inequality",
-      "pdf": "/assets/papers/demailly-pham-equality.pdf?v=47cd63ae",
-      "pages": 30,
+      "pdf": "/assets/papers/demailly-pham-equality.pdf?v=fa33d776",
+      "pages": 20,
       "models": "OpenAI Codex",
       "summary": {
-        "en": "Presents a candidate proof of Baily's Conjecture 6.2, classifying ideals attaining equality in the Demailly–Pham inequality in arbitrary codimension by diagonal integral closures in regular parameters. Artin approximation gives the corresponding classification, in holomorphic coordinates and modulo bounded terms, of plurisubharmonic germs with analytic singularities. The paper also studies finite generation for equality valuations and ideal-weighted volume minimizers.",
-        "zh": "给出 Baily Conjecture 6.2 的候选证明：在任意余维，将 Demailly–Pham 不等式的等号理想刻画为正规参数下的对角整闭包。通过 Artin 逼近，得到具有解析奇点的 psh germ 在全纯坐标下、模有界项的相应分类。另讨论等号赋值及理想加权体积极小元的有限生成性。",
-        "ja": "Baily の予想 6.2 の証明案を提示し、任意の余次元で Demailly–Pham 不等式の等号を達成するイデアルを、正則パラメータに関する対角イデアルの整閉包によって特徴づけます。Artin 近似により、解析的特異点を持つ多重劣調和関数の芽について、正則座標と有界項の差を除いた対応する分類を導きます。等号付値およびイデアルで重み付けされた体積の極小元の有限生成性も扱います。"
+        "en": "Presents an algebraic candidate proof of Baily's Conjecture 6.2: in arbitrary codimension, ideals attaining equality in the Demailly–Pham inequality are precisely those whose integral closures are diagonal in formal regular parameters. The proof combines hyperplane descent and Rees degeneration in the primary case with transverse primary truncations and compatible coordinate jets. The diagonal exponents are determined by the extended mixed multiplicities.",
+        "zh": "给出 Baily Conjecture 6.2 的代数候选证明：在任意余维，将 Demailly–Pham 不等式的等号理想刻画为形式正则参数下的对角整闭包。证明通过超平面下降与 Rees 退化处理准素情形，再利用横向准素截断和相容坐标射流处理一般余维；对角指数由扩展混合重数确定。",
+        "ja": "Baily の予想 6.2 の代数的な証明案を提示し、任意の余次元で Demailly–Pham 不等式の等号を達成するイデアルを、形式的な正則パラメータに関する対角イデアルの整閉包によって特徴づけます。極大イデアルに準素な場合を超平面への制限と Rees 退化で扱い、横断的な準素切断と両立する座標ジェットによって一般の余次元へ進みます。対角指数は拡張混合重複度から定まります。"
       },
       "ai_usage": {
         "en": "The author selected the research problems. The arguments and exposition were developed with OpenAI Codex and remain subject to the author's mathematical verification.",
