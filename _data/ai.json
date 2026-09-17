@@ -26,6 +26,26 @@
       "review_status": "self_reviewed"
     },
     {
+      "id": "analytic-dp-equality",
+      "group": "valuations",
+      "title": "Equality in the Demailly–Pham inequality and monomial valuations",
+      "pdf": "/assets/papers/analytic-dp-equality.pdf?v=3ea682b3",
+      "pages": 30,
+      "models": "OpenAI Codex · GPT-6",
+      "summary": {
+        "en": "Presents a candidate analytic proof of the Demailly–Pham equality classification for plurisubharmonic germs in the local Cegrell class with positive Lelong number, in terms of diagonal logarithmic greenifications. It derives, conditional on that classification, the finite-discrepancy case of Baily's Conjecture 6.3 for arbitrary centers, using multiplier-ideal restriction and discrepancy rigidity to obtain monomial parameters in the original formal ring.",
+        "zh": "给出局部 Cegrell 类中具有正 Lelong 数的一般 psh germ 的 DP 等号分类候选证明，以对角对数型 Green 化刻画等号情形。以该解析分类为前提，通过乘子理想限制定理与 discrepancy 等号刚性，推出 Baily Conjecture 6.3 的任意中心、有限 discrepancy 情形，并在原形式环中得到单项式参数。",
+        "ja": "正の Lelong 数を持つ局所 Cegrell 類の一般の多重劣調和関数の芽について、対角対数型の Green 化による Demailly–Pham 等号分類の証明案を提示します。この解析的分類を前提として、乗数イデアルの制限定理と discrepancy の等号剛性を用い、任意の中心と有限の discrepancy の場合に Baily の予想 6.3 を導き、元の形式的局所環で単項化するパラメータを得ます。"
+      },
+      "ai_usage": {
+        "en": "The author selected the research problem, proposed the analytic direction, and suggested the extension to arbitrary centers. The arguments and exposition were developed with OpenAI Codex (GPT-6). Mathematical verification by the author remains pending; no independent verification or peer review is claimed.",
+        "zh": "作者选定研究问题、提出解析方向，并建议推广到任意中心。论证与写作由 OpenAI Codex（GPT-6）协助完成，尚待作者进行数学验证；不宣称已完成独立验证或同行评议。",
+        "ja": "著者は研究課題と解析的な方針を選び、任意の中心への拡張を提案しました。論証と記述は OpenAI Codex（GPT-6）の支援で作成されました。著者による数学的検証は未完了であり、独立した検証や査読を経たとは主張していません。"
+      },
+      "updated": "2026-09-17",
+      "review_status": "pending"
+    },
+    {
       "id": "demailly-pham-equality",
       "group": "valuations",
       "title": "Ideals attaining equality in the Demailly–Pham inequality",
