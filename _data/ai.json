@@ -9,8 +9,8 @@
       "id": "indefinite-theta-hessians",
       "group": "theta",
       "title": "Indefinite theta Hessians at Green-function parameters",
-      "pdf": "/assets/papers/indefinite-theta-hessians.pdf?v=31a66d50",
-      "pages": 22,
+      "pdf": "/assets/papers/indefinite-theta-hessians.pdf?v=8febe086",
+      "pages": 20,
       "models": "OpenAI Codex · GPT-6",
       "summary": {
         "en": "Constructs triply connected circle domains for which the logarithmic theta Hessian at the Green-function parameter has one positive and one negative eigenvalue, disproving Saitoh's negative-definiteness conjecture in Yamada's theta-function formulation. The proof computes both leading eigenvalue coefficients using harmonic measures and a second-order theta expansion.",
@@ -18,11 +18,11 @@
         "ja": "Green 関数のパラメータにおけるテータ関数の対数のヘッセ行列が正と負の固有値を一つずつ持つ三重連結円領域を構成し、山田によるテータ関数の定式化で述べられた齋藤の負定値性予想を否定します。調和測度とテータ関数の二次展開により、両固有値の主要項の係数を計算します。"
       },
       "ai_usage": {
-        "en": "The author selected the problem and counterexample direction and supplied a related construction. The new mathematics, computations, exposition, and figures were developed with OpenAI Codex (GPT-6). The author has completed a self-review.",
-        "zh": "作者选题、建议寻找反例并提供相关构造；新的数学论证、计算、写作与配图由 OpenAI Codex（GPT-6）参与完成。作者已完成自我验证。",
-        "ja": "著者は問題と反例を探す方針を選び、関連する構成を提供しました。新しい論証、計算、記述と図は OpenAI Codex（GPT-6）の支援で作成しました。著者による自己検証は完了しています。"
+        "en": "OpenAI Codex (GPT-6) assisted with the mathematical development, exposition, and figures. The authors have reviewed the mathematical arguments and take full responsibility for the content of this article.",
+        "zh": "OpenAI Codex（GPT-6）协助完成数学论证、写作与配图。全体作者已审阅数学论证，并对本文内容承担全部责任。",
+        "ja": "OpenAI Codex（GPT-6）は数学的議論の展開、記述および図の作成を支援しました。著者全員が数学的議論を確認し、本論文の内容に全責任を負います。"
       },
-      "updated": "2026-09-15",
+      "updated": "2026-10-17",
       "review_status": "self_reviewed"
     },
     {
