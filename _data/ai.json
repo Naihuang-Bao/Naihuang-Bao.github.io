@@ -6,6 +6,26 @@
   },
   "papers": [
     {
+      "id": "azukawa-pseudometric-counterexamples",
+      "group": "theta",
+      "title": "A counterexample to plurisubharmonic variation of the Azukawa pseudometric",
+      "pdf": "/assets/papers/azukawa-pseudometric-counterexamples.pdf?v=0b67acbe",
+      "pages": 6,
+      "models": "OpenAI Codex · GPT-6",
+      "summary": {
+        "en": "Constructs a bounded pseudoconvex family with real-analytic strongly convex fibers for which the logarithmic Azukawa pseudometric has strictly negative Levi form in a fixed tangent direction. Explicit Green-function and pseudometric formulas disprove the pseudometric assertion in Hosono's variation conjecture. The separate indicatrix-volume assertion holds for this family, and the construction extends to every fiber dimension at least two.",
+        "zh": "构造具有实解析强凸纤维的有界伪凸族，使固定切向量方向的对数 Azukawa 度量具有严格负的 Levi 形式。通过显式计算 Green 函数和度量公式，否定 Hosono 变动猜想中的度量断言。本例的指标体体积断言仍成立，构造可推广至所有至少二维的纤维。",
+        "ja": "実解析的な強凸境界を持つファイバーからなる有界擬凸族を構成し、固定した接ベクトル方向で対数 Azukawa 擬計量の Levi 形式が厳密に負となることを示します。Green 関数と擬計量の明示公式により、Hosono の変動予想の擬計量に関する主張を否定します。この族では指標体の体積に関する主張は成立し、構成は複素次元が二以上のすべてのファイバーに拡張できます。"
+      },
+      "ai_usage": {
+        "en": "The research question and proposed strategy were supplied by Shijie Bao. OpenAI Codex (GPT-6) assisted with the construction, calculations, and exposition. This version has not undergone independent mathematical review.",
+        "zh": "研究问题与构造思路由 Shijie Bao 提出。OpenAI Codex（GPT-6）协助完成构造、计算与写作。本版本尚未经过独立数学审查。",
+        "ja": "研究課題と構成の方針は Shijie Bao が提案しました。OpenAI Codex（GPT-6）は構成、計算および記述を支援しました。本版は独立した数学的検証を経ていません。"
+      },
+      "updated": "2026-10-19",
+      "review_status": "pending"
+    },
+    {
       "id": "indefinite-theta-hessians",
       "group": "theta",
       "title": "Indefinite theta Hessians at Green-function parameters",
