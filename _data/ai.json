@@ -168,20 +168,21 @@
       "id": "xi-reduction",
       "group": "bergman",
       "title": "Counterexamples to ξ-reduction and minimal-integral duality below one",
-      "pdf": "/assets/papers/xi-reduction-and-Lp-duality.pdf",
-      "pages": 10,
-      "models": "DeepSeek V4",
+      "pdf": "/assets/papers/xi-reduction-and-Lp-duality.pdf?v=6acfd200",
+      "pages": 9,
+      "models": "DeepSeek V4 · OpenAI Codex",
       "summary": {
-        "en": "Shows that both identities fail for 0 < p < 2(√2 − 1), while proving minimal-integral duality for every p ≥ 1.",
-        "zh": "证明当 0 < p < 2(√2 − 1) 时两种恒等式均失效，同时证明对所有 p ≥ 1，极小积分对偶成立。",
-        "ja": "0 < p < 2(√2 − 1) で二つの恒等式がともに破れることを示し、すべての p ≥ 1 で極小積分双対性を証明します。"
+        "en": "Increasing the derivative order on the unit disk yields counterexamples to ξ-reduction and minimal-integral duality for every 0 < p < 1. The paper also proves minimal-integral duality on arbitrary pseudoconvex domains for p ≥ 1.",
+        "zh": "通过提高单位圆盘上核的阶数，为每个 0 < p < 1 构造 ξ-reduction 与极小积分对偶的反例；同时证明 p ≥ 1 时任意伪凸域上的极小积分对偶成立。",
+        "ja": "単位円板上で微分の次数を上げることで、すべての 0 < p < 1 に対して ξ-reduction と極小積分双対性の反例を構成します。また、p ≥ 1 では任意の擬凸領域上で極小積分双対性が成立することを証明します。"
       },
       "ai_usage": {
-        "en": "The counterexamples and proofs were obtained with DeepSeek V4 Flash and Pro.",
-        "zh": "文中的反例和证明由 DeepSeek V4 Flash 和 Pro 得到。",
-        "ja": "反例と証明は DeepSeek V4 Flash および Pro で得られました。"
+        "en": "The first-order examples in the original version were obtained with DeepSeek V4 Flash and Pro. The higher-order extension to every 0 < p < 1 and the revised proofs were developed with OpenAI Codex.",
+        "zh": "原版的一阶反例由 DeepSeek V4 Flash 和 Pro 得到。推广到每个 0 < p < 1 的高阶构造及修订后的证明由 OpenAI Codex 协助完成。",
+        "ja": "原版の一階の反例は DeepSeek V4 Flash および Pro で得られました。すべての 0 < p < 1 への高階の拡張と証明の改訂は OpenAI Codex の支援を受けて行われました。"
       },
-      "review_status": "self_reviewed"
+      "review_status": "self_reviewed",
+      "updated": "2026-10-21"
     },
     {
       "id": "fiberwise-bergman",
