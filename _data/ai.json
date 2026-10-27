@@ -29,7 +29,7 @@
       "id": "indefinite-theta-hessians",
       "group": "theta",
       "title": "Indefinite theta Hessians at Green-function parameters",
-      "pdf": "/assets/papers/indefinite-theta-hessians.pdf?v=38538fb9",
+      "pdf": "/assets/papers/indefinite-theta-hessians.pdf?v=7c115074",
       "pages": 20,
       "models": "OpenAI Codex · GPT-6",
       "summary": {
@@ -42,7 +42,7 @@
         "zh": "OpenAI Codex（GPT-6）协助完成数学论证、写作与配图。全体作者已审阅数学论证，并对本文内容承担全部责任。",
         "ja": "OpenAI Codex（GPT-6）は数学的議論の展開、記述および図の作成を支援しました。著者全員が数学的議論を確認し、本論文の内容に全責任を負います。"
       },
-      "updated": "2026-10-26",
+      "updated": "2026-10-27",
       "review_status": "self_reviewed"
     },
     {
