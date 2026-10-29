@@ -89,8 +89,8 @@
       "id": "zhou-weights-flat",
       "group": "valuations",
       "title": "Flat tame weights and valuative separation",
-      "pdf": "/assets/papers/flat-tame-weights-and-valuative-separation.pdf?v=a3405626",
-      "pages": 16,
+      "pdf": "/assets/papers/flat-tame-weights-and-valuative-separation.pdf?v=19f43acd",
+      "pages": 17,
       "models": "GPT-6 Astra · GPT-5.6-sol (high)",
       "summary": {
         "en": "We prove that a tame maximal weight is flat if and only if its holomorphic relative types define a centered real valuation. We obtain a bijection between flat tame maximal weights modulo bounded functions and centered real valuations of finite log discrepancy. Zhou weights are flat as a consequence. Applying the criterion to the quasi-monomial weights constructed by Boucksom–Favre–Jonsson proves the remaining implication (4) ⇒ (1) in their Theorem A.",
