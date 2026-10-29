@@ -89,7 +89,7 @@
       "id": "zhou-weights-flat",
       "group": "valuations",
       "title": "Flat tame weights and valuative separation",
-      "pdf": "/assets/papers/flat-tame-weights-and-valuative-separation.pdf?v=bfe28498",
+      "pdf": "/assets/papers/flat-tame-weights-and-valuative-separation.pdf?v=b2240cd2",
       "pages": 16,
       "models": "GPT-6 Astra · GPT-5.6-sol (high)",
       "summary": {
@@ -102,7 +102,7 @@
         "zh": "作者提出研究问题。GPT-6 Astra 和 GPT-5.6-sol（high）协助完成数学论证与写作。作者已审阅数学论证，并对本文内容承担全部责任。",
         "ja": "研究課題は著者が提案しました。GPT-6 Astra および GPT-5.6-sol (high) は数学的議論の展開と記述を支援しました。著者は数学的議論を確認し、本論文の内容に全責任を負います。"
       },
-      "updated": "2026-10-28",
+      "updated": "2026-10-29",
       "review_status": "self_reviewed"
     },
     {
