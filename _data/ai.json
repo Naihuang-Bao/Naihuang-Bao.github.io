@@ -46,6 +46,26 @@
       "review_status": "self_reviewed"
     },
     {
+      "id": "equisingular-analytic-approximation",
+      "group": "valuations",
+      "title": "Critical divisorial detectors and equisingular analytic approximation",
+      "pdf": "/assets/papers/critical-divisorial-detectors-and-equisingular-analytic-approximation.pdf?v=b94c81dc",
+      "pages": 16,
+      "models": "OpenAI Codex",
+      "summary": {
+        "en": "Characterizes decreasing equisingular analytic approximation for log canonical plurisubharmonic germs in arbitrary dimension and for germs with finite-colength multiplier ideals on smooth surfaces. For toric weights, an analytic sandwich construction removes the toric-approximant restriction from the An–Seo criterion and recovers Guan’s diagonal theorem.",
+        "zh": "以除子检测条件刻画任意维数 log canonical 多重次调和函数芽，以及光滑曲面上乘子理想余长度有限的函数芽的递减等齐解析逼近。对 toric 权，构造解析夹逼权，去除 An–Seo 判据中逼近项也须 toric 的限制，并恢复 Guan 的对角型定理。",
+        "ja": "任意次元の log canonical な多重劣調和関数の芽、および滑らかな曲面上で乗数イデアルの余長が有限な芽について、解析的特異点を持つ関数による減少等特異近似を因子的な判定条件で特徴づけます。トーリックなウェイトについては、解析的な挟み込みの構成により An–Seo の判定法における近似項のトーリック性の仮定を除き、Guan の対角型定理を導きます。"
+      },
+      "ai_usage": {
+        "en": "The author proposed the research problem and guided the direction and revisions. OpenAI Codex contributed substantially to the mathematical constructions, arguments, and proof development, as well as literature comparisons and manuscript preparation.",
+        "zh": "作者提出研究问题并指导研究方向与修订。OpenAI Codex 实质性参与了数学构造、论证与证明发展，以及文献比较和论文写作。",
+        "ja": "著者は研究課題を提案し、研究の方向と改訂を指導しました。OpenAI Codex は数学的構成、論証および証明の展開に加え、文献の比較と原稿作成に実質的に貢献しました。"
+      },
+      "updated": "2026-11-02",
+      "review_status": "pending"
+    },
+    {
       "id": "analytic-dp-equality",
       "group": "valuations",
       "title": "Equality in the Demailly–Pham inequality and monomial valuations",
@@ -103,26 +123,6 @@
         "ja": "著者全員が研究課題を提案し、数学的議論を確認しました。GPT-6 Astra および GPT-5.6-sol (high) は数学的議論の展開と記述を支援しました。これらのモデルと DeepSeek 4.1 Flash 1017 は、言語表現の推敲と原稿の構成にも協力しました。著者全員が本文を確認・修正し、本論文の内容に全責任を負います。"
       },
       "updated": "2026-11-02",
-      "review_status": "self_reviewed"
-    },
-    {
-      "id": "log-discrepancy",
-      "group": "valuations",
-      "title": "Log discrepancy from jumping numbers",
-      "pdf": "/assets/papers/log-discrepancy.pdf?v=fae31c37",
-      "pages": 3,
-      "models": "GPT (Astra)",
-      "summary": {
-        "en": "A short note showing that the Bao–Guan–Yuan invariant equals log discrepancy for every nontrivial real valuation on an excellent regular local domain containing the rational numbers, including infinite discrepancy. The proof uses compactness and a finite product of separating functions; principal auxiliary ideals suffice.",
-        "zh": "一篇短文：证明对含有理数域的优秀正则局部整环上的每个非平凡实赋值，Bao–Guan–Yuan 引入的不变量均等于 log discrepancy，包括无穷 discrepancy 的情形。证明只需紧性与有限个分离函数的乘积，辅助理想取主理想即可。",
-        "ja": "有理数体を含む優秀正則局所整域上のすべての非自明な実付値について、Bao–Guan–Yuan の不変量が log discrepancy と一致することを示す短報です。無限大の場合も含みます。証明はコンパクト性と有限個の分離関数の積を用い、補助イデアルは単項イデアルだけで十分です。"
-      },
-      "ai_usage": {
-        "en": "The research question and idea originated with Shijie Bao, motivated by the work of Bao–Guan–Yuan and Bao–Guan–Zhou; the proof and exposition were developed with GPT (Astra).",
-        "zh": "研究问题及想法由 Shijie Bao 提出，受到 Bao–Guan–Yuan 和 Bao–Guan–Zhou 工作的启发；证明与论述由 GPT（Astra）协助完成。",
-        "ja": "研究課題とアイデアは、Bao–Guan–Yuan および Bao–Guan–Zhou の研究を踏まえて Shijie Bao が提案しました。証明と記述は GPT（Astra）の支援で作成しました。"
-      },
-      "updated": "2026-09-07",
       "review_status": "self_reviewed"
     },
     {
