@@ -50,8 +50,8 @@
       "id": "equisingular-analytic-approximation",
       "group": "valuations",
       "title": "Critical divisorial detectors and equisingular analytic approximation",
-      "pdf": "/assets/papers/critical-divisorial-detectors-and-equisingular-analytic-approximation.pdf?v=b94c81dc",
-      "pages": 16,
+      "pdf": "/assets/papers/critical-divisorial-detectors-and-equisingular-analytic-approximation.pdf?v=51063425",
+      "pages": 18,
       "models": "OpenAI Codex",
       "summary": {
         "en": "Characterizes decreasing equisingular analytic approximation for log canonical plurisubharmonic germs in arbitrary dimension and for germs with finite-colength multiplier ideals on smooth surfaces. For toric weights, an analytic sandwich construction removes the toric-approximant restriction from the An–Seo criterion and recovers Guan’s diagonal theorem.",
