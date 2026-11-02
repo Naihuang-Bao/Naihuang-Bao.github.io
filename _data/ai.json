@@ -27,6 +27,7 @@
     },
     {
       "id": "indefinite-theta-hessians",
+      "featured": true,
       "group": "theta",
       "title": "Indefinite theta Hessians at Green-function parameters",
       "pdf": "/assets/papers/indefinite-theta-hessians.pdf?v=7c115074",
@@ -67,6 +68,7 @@
     },
     {
       "id": "analytic-dp-equality",
+      "featured": true,
       "group": "valuations",
       "title": "Equality in the Demailly–Pham inequality and monomial valuations",
       "pdf": "/assets/papers/analytic-dp-equality.pdf?v=3ea682b3",
@@ -107,6 +109,7 @@
     },
     {
       "id": "zhou-weights-flat",
+      "featured": true,
       "group": "valuations",
       "title": "Flat tame weights and valuative separation",
       "pdf": "/assets/papers/flat-tame-weights-and-valuative-separation.pdf?v=6583ae94",
@@ -225,6 +228,7 @@
     },
     {
       "id": "xi-concavity",
+      "featured": true,
       "group": "bergman",
       "title": "A ξ-Bergman kernel proof of the concavity of minimal L² integrals",
       "pdf": "/assets/papers/xi-Bergman-concavity.pdf",

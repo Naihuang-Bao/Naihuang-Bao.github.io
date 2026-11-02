@@ -28,7 +28,7 @@
       </header>
       <div class="ai-paper-list">
         {% for paper in group_papers %}
-        <article class="ai-paper" id="{{ paper.id }}" aria-labelledby="{{ paper.id }}-title">
+        <article class="ai-paper{% if paper.featured %} ai-paper--featured{% endif %}" id="{{ paper.id }}" aria-labelledby="{{ paper.id }}-title">
           <h3 id="{{ paper.id }}-title" lang="en">{{ paper.title | escape }}</h3>
           <ul class="ai-meta" aria-label="{{ paper.title | escape }}">
             {% if paper.review_status == 'self_reviewed' %}

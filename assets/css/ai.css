@@ -121,6 +121,10 @@
   overflow-wrap: anywhere;
 }
 
+.ai-paper--featured {
+  background: rgba(212, 175, 55, 0.08);
+}
+
 .ai-paper + .ai-paper {
   border-top: 1px solid var(--line);
 }
