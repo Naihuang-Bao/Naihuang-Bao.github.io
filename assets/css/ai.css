@@ -122,7 +122,17 @@
 }
 
 .ai-paper--featured {
-  background: rgba(212, 175, 55, 0.08);
+  position: relative;
+  isolation: isolate;
+}
+
+.ai-paper--featured::before {
+  content: "";
+  position: absolute;
+  inset: 0 -0.75rem;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(212, 175, 55, 0.12), rgba(212, 175, 55, 0.025));
 }
 
 .ai-paper + .ai-paper {
