@@ -89,13 +89,13 @@
       "id": "zhou-weights-flat",
       "group": "valuations",
       "title": "Flat tame weights and valuative separation",
-      "pdf": "/assets/papers/flat-tame-weights-and-valuative-separation.pdf?v=075fb09a",
+      "pdf": "/assets/papers/flat-tame-weights-and-valuative-separation.pdf?v=6583ae94",
       "pages": 17,
       "models": "GPT-6 Astra · GPT-5.6-sol (high) · DeepSeek 4.1 Flash 1017",
       "summary": {
-        "en": "We prove that a tame maximal weight is flat if and only if its holomorphic relative types define a centered real valuation. Combining this criterion with valuative interpolation and a jumping-number formula for log discrepancy, we obtain a bijection between flat tame maximal weights modulo bounded functions and centered real valuations of finite log discrepancy. Zhou weights are flat as a consequence. Applying the criterion to the quasi-monomial weights constructed by Boucksom–Favre–Jonsson proves the remaining implication (4) ⇒ (1) in their Theorem A.",
-        "zh": "证明 tame maximal weight 是 flat 当且仅当其全纯 relative type 定义一个 centered 实赋值。结合这一判别、valuative interpolation 和 log discrepancy 的 jumping-number 公式，建立 flat tame maximal weights（模有界函数）与有限 log discrepancy 的 centered 实赋值之间的一一对应。由此推出 Zhou weights 是 flat。将该判别应用于 Boucksom–Favre–Jonsson 构造的 quasi-monomial weights，证明其 Theorem A 中剩余的蕴涵 (4) ⇒ (1)。",
-        "ja": "tame maximal weight が flat であることと、その正則関数上の相対型が中心付き実付値を定めることの同値性を示します。この判定法を付値的補間および跳躍数による log discrepancy の公式と組み合わせることで、有界関数の差を除いた flat tame maximal weights と、有限の log discrepancy を持つ中心付き実付値との全単射を得ます。その系として Zhou weights が flat であることを示します。Boucksom–Favre–Jonsson が構成した準単項ウェイトに判定法を適用し、Theorem A の残された含意 (4) ⇒ (1) を証明します。"
+        "en": "We prove that a tame maximal weight is flat if and only if its holomorphic relative types define a centered real valuation. This yields a bijection between flat tame maximal weights modulo bounded functions and centered real valuations of finite log discrepancy. Zhou weights are flat as a consequence. Applying the criterion to the quasi-monomial weights constructed by Boucksom–Favre–Jonsson proves the remaining implication (4) ⇒ (1) in their Theorem A.",
+        "zh": "证明 tame maximal weight 是 flat 当且仅当其全纯 relative type 定义一个 centered 实赋值。由此建立 flat tame maximal weights（模有界函数）与有限 log discrepancy 的 centered 实赋值之间的一一对应。由此推出 Zhou weights 是 flat。将该判别应用于 Boucksom–Favre–Jonsson 构造的 quasi-monomial weights，证明其 Theorem A 中剩余的蕴涵 (4) ⇒ (1)。",
+        "ja": "tame maximal weight が flat であることと、その正則関数上の相対型が中心付き実付値を定めることの同値性を示します。これにより、有界関数の差を除いた flat tame maximal weights と、有限の log discrepancy を持つ中心付き実付値との全単射を得ます。その系として Zhou weights が flat であることを示します。Boucksom–Favre–Jonsson が構成した準単項ウェイトに判定法を適用し、Theorem A の残された含意 (4) ⇒ (1) を証明します。"
       },
       "ai_usage": {
         "en": "The authors proposed the research questions and reviewed the mathematical arguments. GPT-6 Astra and GPT-5.6-sol (high) assisted with the mathematical development and exposition. These models and DeepSeek 4.1 Flash 1017 also assisted with language editing and manuscript organization. The authors reviewed and edited the text and take full responsibility for the content of this article.",
