@@ -89,7 +89,7 @@
       "id": "zhou-weights-flat",
       "group": "valuations",
       "title": "Flat tame weights and valuative separation",
-      "pdf": "/assets/papers/flat-tame-weights-and-valuative-separation.pdf?v=38003897",
+      "pdf": "/assets/papers/flat-tame-weights-and-valuative-separation.pdf?v=3e1f6b04",
       "pages": 17,
       "models": "GPT-6 Astra · GPT-5.6-sol (high)",
       "summary": {
@@ -98,11 +98,11 @@
         "ja": "tame maximal weight が flat であることと、その正則関数上の相対型が中心付き実付値を定めることの同値性を示します。有界関数の差を除いた flat tame maximal weights と、有限の log discrepancy を持つ中心付き実付値との全単射を得ます。その系として Zhou weights が flat であることを示します。Boucksom–Favre–Jonsson が構成した準単項ウェイトに判定法を適用し、Theorem A の残された含意 (4) ⇒ (1) を証明します。"
       },
       "ai_usage": {
-        "en": "The author proposed the research questions. GPT-6 Astra and GPT-5.6-sol (high) assisted with the mathematical development and exposition. The author has reviewed the mathematical arguments and takes full responsibility for the content of this article.",
-        "zh": "作者提出研究问题。GPT-6 Astra 和 GPT-5.6-sol（high）协助完成数学论证与写作。作者已审阅数学论证，并对本文内容承担全部责任。",
-        "ja": "研究課題は著者が提案しました。GPT-6 Astra および GPT-5.6-sol (high) は数学的議論の展開と記述を支援しました。著者は数学的議論を確認し、本論文の内容に全責任を負います。"
+        "en": "Shijie Bao proposed the research questions and reviewed the mathematical arguments. GPT-6 Astra and GPT-5.6-sol (high) assisted with the mathematical development and exposition. The authors take full responsibility for the content of this article.",
+        "zh": "Shijie Bao 提出研究问题并审阅数学论证。GPT-6 Astra 和 GPT-5.6-sol（high）协助完成数学论证与写作。全体作者对本文内容承担全部责任。",
+        "ja": "研究課題の提案と数学的議論の確認は Shijie Bao が行いました。GPT-6 Astra および GPT-5.6-sol (high) は数学的議論の展開と記述を支援しました。著者全員が本論文の内容に全責任を負います。"
       },
-      "updated": "2026-10-29",
+      "updated": "2026-11-02",
       "review_status": "self_reviewed"
     },
     {
