@@ -21,7 +21,7 @@ page_class: resume-page
     
     <!-- 专业附件区 -->
     <div class="attachments">
-      <a href="{{ site.baseurl }}/assets/resume/CV_Shijie_Bao.pdf" class="btn" download>
+      <a href="{{ site.baseurl }}/assets/resume/CV_Shijie_Bao.pdf?v=20261104" class="btn" download>
          CV
       </a>
     </div>
@@ -95,7 +95,7 @@ page_class: resume-page
   
   <!-- 更新时间戳 -->
   <div class="last-updated">
-    Last updated: <time datetime="2026-09-01">September 1, 2026</time>
+    Last updated: <time datetime="2026-11-04">November 4, 2026</time>
   </div>
 </div>
 
