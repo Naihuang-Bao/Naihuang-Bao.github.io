@@ -21,7 +21,7 @@ page_class: resume-page
     
     <!-- 专业附件区 -->
     <div class="attachments">
-      <a href="{{ site.baseurl }}/assets/resume/CV_Shijie_Bao.pdf?v=20261104-2" class="btn" download>
+      <a href="{{ site.baseurl }}/assets/resume/CV_Shijie_Bao.pdf?v=20261104-3" class="btn" download>
          CV
       </a>
     </div>
