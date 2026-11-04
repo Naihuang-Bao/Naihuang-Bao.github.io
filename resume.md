@@ -21,7 +21,7 @@ page_class: resume-page
     
     <!-- 专业附件区 -->
     <div class="attachments">
-      <a href="{{ site.baseurl }}/assets/resume/CV_Shijie_Bao.pdf?v=20261104" class="btn" download>
+      <a href="{{ site.baseurl }}/assets/resume/CV_Shijie_Bao.pdf?v=20261104-2" class="btn" download>
          CV
       </a>
     </div>
@@ -41,7 +41,7 @@ page_class: resume-page
 
   <!-- 学术任职 -->
   <section class="current-position">
-    <h2>Academic Positions</h2>
+    <h2>Academic appointments</h2>
 
     <div class="timeline-item experience-item">
       <span class="institution-logo institution-logo-omu" aria-hidden="true">

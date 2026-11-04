@@ -18,7 +18,7 @@ page_class: resume-page
       <p><a href="https://orcid.org/0000-0002-6781-2316">ORCID</a> | <a href="https://scholar.google.com/citations?user=FKbOyUAAAAAJ">Google Scholar</a> | <a href="https://www.researchgate.net/profile/Shijie-Bao-3">ResearchGate</a> | <a href="https://mathscinet.ams.org/mathscinet/author?authorId=1534515">MathSciNet</a></p>
     </div>
     <div class="attachments">
-      <a href="{{ site.baseurl }}/assets/resume/CV_Shijie_Bao.pdf?v=20261104" class="btn" download>英語版 CV</a>
+      <a href="{{ site.baseurl }}/assets/resume/CV_Shijie_Bao.pdf?v=20261104-2" class="btn" download>英語版 CV</a>
     </div>
   </header>
 
